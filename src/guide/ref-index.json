@@ -1,0 +1,2194 @@
+[
+ {
+  "id": 0,
+  "title": "Référentiel d’origines du MJ",
+  "text": "RÉFÉRENTIEL D’ORIGINE DU PERSONNAGE Espèces, historiques, maîtrises, dons d’origine et alignements · D&D 5e 2024 Document complémentaire à Jdr Helper. Il sert à comprendre l'effet des choix d'origine avant de construire la fiche dans le bot. Clarification du vocabulaire 2024 : le terme de règles anglais est species, généralement rendu ici par « espèce » ; beaucoup de joueurs disent encore « race ». Le choix qui représente le passé, l'éducation et le métier avant l'aventure est l'historique (background). C'est principalement lui qui fournit des maîtrises de compétences, une maîtrise d'outil, un don d'origine et des options de caractéristiques. Ton exemple : il s'agit très probablement de l'historique Criminel ou du Voyageur (Wayfarer), selon la version et l'effet recherché. En 2024, Criminel donne bien la maîtrise en Escamotage et Discrétion, ainsi que les outils de voleur. Voyageur donne Perspicacité et Discrétion, et les outils de voleur. « Vivre dans une ville souterraine » peut être le récit du personnage, mais ce n'est pas en soi une option mécanique du Manuel 2024.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 1,
+  "kind": "section"
+ },
+ {
+  "id": 1,
+  "title": "Aasimar",
+  "text": "Orientation générale (résumé, non exhaustif) : Héritage céleste ; manifestations lumineuses ou surnaturelles et capacités associées à une ascendance céleste.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "espèce"
+ },
+ {
+  "id": 2,
+  "title": "Dragonide",
+  "text": "Orientation générale (résumé, non exhaustif) : Héritage draconique ; souffle, résistance liée à l'ascendance et autres traits draconiques.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "espèce"
+ },
+ {
+  "id": 3,
+  "title": "Nain",
+  "text": "Orientation générale (résumé, non exhaustif) : Robustesse et traits liés à l'héritage nain, notamment des capacités sensorielles ou de résistance.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "espèce"
+ },
+ {
+  "id": 4,
+  "title": "Elfe",
+  "text": "Orientation générale (résumé, non exhaustif) : Héritage féerique, sens et traits liés à la lignée elfique choisie.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "espèce"
+ },
+ {
+  "id": 5,
+  "title": "Gnome",
+  "text": "Orientation générale (résumé, non exhaustif) : Ruse et héritage magique, avec traits liés à la lignée gnome.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "espèce"
+ },
+ {
+  "id": 6,
+  "title": "Goliath",
+  "text": "Orientation générale (résumé, non exhaustif) : Héritage des géants et capacités associées à une ascendance géante choisie.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "espèce"
+ },
+ {
+  "id": 7,
+  "title": "Halfelin",
+  "text": "Orientation générale (résumé, non exhaustif) : Chance, discrétion ou mobilité selon les traits de l'espèce.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "espèce"
+ },
+ {
+  "id": 8,
+  "title": "Humain",
+  "text": "Orientation générale (résumé, non exhaustif) : Polyvalence et talent supplémentaire, dont un don d'origine supplémentaire selon les règles de l'espèce.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "espèce"
+ },
+ {
+  "id": 9,
+  "title": "Orc",
+  "text": "Orientation générale (résumé, non exhaustif) : Endurance et capacité à continuer à agir face aux blessures, selon ses traits.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "espèce"
+ },
+ {
+  "id": 10,
+  "title": "Tieffelin",
+  "text": "Orientation générale (résumé, non exhaustif) : Héritage fiélon ou extraplanaire, résistance et magie liées à la lignée choisie.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "espèce"
+ },
+ {
+  "id": 11,
+  "title": "Acolyte",
+  "text": "Caractéristiques possibles : Intelligence, Sagesse, Charisme · Compétences maîtrisées : Perspicacité, Religion · Outil : Matériel de calligraphie · Don d'origine : Initiation à la magie (Clerc)",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "historique"
+ },
+ {
+  "id": 12,
+  "title": "Artisan",
+  "text": "Caractéristiques possibles : Force, Dextérité, Intelligence · Compétences maîtrisées : Investigation, Persuasion · Outil : Outils d'artisan au choix · Don d'origine : Fabricant",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "historique"
+ },
+ {
+  "id": 13,
+  "title": "Charlatan",
+  "text": "Caractéristiques possibles : Dextérité, Constitution, Charisme · Compétences maîtrisées : Tromperie, Escamotage · Outil : Kit de déguisement · Don d'origine : Doué",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "historique"
+ },
+ {
+  "id": 14,
+  "title": "Criminel",
+  "text": "Caractéristiques possibles : Dextérité, Constitution, Intelligence · Compétences maîtrisées : Escamotage, Discrétion · Outil : Outils de voleur · Don d'origine : Alerte",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "historique"
+ },
+ {
+  "id": 15,
+  "title": "Artiste",
+  "text": "Caractéristiques possibles : Force, Dextérité, Charisme · Compétences maîtrisées : Acrobaties, Représentation · Outil : Instrument de musique au choix · Don d'origine : Musicien",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "historique"
+ },
+ {
+  "id": 16,
+  "title": "Garde",
+  "text": "Caractéristiques possibles : Force, Intelligence, Sagesse · Compétences maîtrisées : Athlétisme, Perception · Outil : Ensemble de jeu au choix · Don d'origine : Alerte",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "historique"
+ },
+ {
+  "id": 17,
+  "title": "Fermier",
+  "text": "Caractéristiques possibles : Force, Constitution, Sagesse · Compétences maîtrisées : Dressage, Nature · Outil : Outils de menuisier · Don d'origine : Robuste",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "historique"
+ },
+ {
+  "id": 18,
+  "title": "Guide",
+  "text": "Caractéristiques possibles : Dextérité, Constitution, Sagesse · Compétences maîtrisées : Discrétion, Survie · Outil : Outils de cartographe · Don d'origine : Initiation à la magie (Druide)",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "historique"
+ },
+ {
+  "id": 19,
+  "title": "Ermite",
+  "text": "Caractéristiques possibles : Constitution, Sagesse, Charisme · Compétences maîtrisées : Médecine, Religion · Outil : Kit d'herboriste · Don d'origine : Guérisseur",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "historique"
+ },
+ {
+  "id": 20,
+  "title": "Marchand",
+  "text": "Caractéristiques possibles : Constitution, Intelligence, Charisme · Compétences maîtrisées : Dressage, Persuasion · Outil : Outils de navigateur · Don d'origine : Chanceux",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "historique"
+ },
+ {
+  "id": 21,
+  "title": "Noble",
+  "text": "Caractéristiques possibles : Force, Intelligence, Charisme · Compétences maîtrisées : Histoire, Persuasion · Outil : Ensemble de jeu au choix · Don d'origine : Doué",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "historique"
+ },
+ {
+  "id": 22,
+  "title": "Sage",
+  "text": "Caractéristiques possibles : Constitution, Intelligence, Sagesse · Compétences maîtrisées : Arcanes, Histoire · Outil : Matériel de calligraphie · Don d'origine : Initiation à la magie (Magicien)",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "historique"
+ },
+ {
+  "id": 23,
+  "title": "Marin",
+  "text": "Caractéristiques possibles : Force, Dextérité, Sagesse · Compétences maîtrisées : Acrobaties, Perception · Outil : Outils de navigateur · Don d'origine : Bagarreur de taverne",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "historique"
+ },
+ {
+  "id": 24,
+  "title": "Scribe",
+  "text": "Caractéristiques possibles : Dextérité, Intelligence, Sagesse · Compétences maîtrisées : Investigation, Perception · Outil : Matériel de calligraphie · Don d'origine : Doué",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "historique"
+ },
+ {
+  "id": 25,
+  "title": "Soldat",
+  "text": "Caractéristiques possibles : Force, Dextérité, Constitution · Compétences maîtrisées : Athlétisme, Intimidation · Outil : Ensemble de jeu au choix · Don d'origine : Attaquant sauvage",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "historique"
+ },
+ {
+  "id": 26,
+  "title": "Voyageur",
+  "text": "Caractéristiques possibles : Dextérité, Sagesse, Charisme · Compétences maîtrisées : Perspicacité, Discrétion · Outil : Outils de voleur · Don d'origine : Chanceux",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "historique"
+ },
+ {
+  "id": 27,
+  "title": "Les 10 espèces du Manuel des joueurs 2024",
+  "text": "L'espèce décrit l'héritage et les traits physiologiques ou surnaturels du personnage. En 2024, elle ne fournit pas les augmentations de caractéristiques : celles-ci viennent de l'historique. Les espèces donnent surtout des traits spéciaux, ainsi que type de créature, taille et vitesse. Espèce Orientation générale (résumé, non exhaustif) Aasimar Héritage céleste ; manifestations lumineuses ou surnaturelles et capacités associées à une ascendance céleste. Dragonide Héritage draconique ; souffle, résistance liée à l'ascendance et autres traits draconiques. Nain Robustesse et traits liés à l'héritage nain, notamment des capacités sensorielles ou de résistance. Elfe Héritage féerique, sens et traits liés à la lignée elfique choisie. Gnome Ruse et héritage magique, avec traits liés à la lignée gnome. Goliath Héritage des géants et capacités associées à une ascendance géante choisie. Halfelin Chance, discrétion ou mobilité selon les traits de l'espèce. Humain Polyvalence et talent supplémentaire, dont un don d'origine supplémentaire selon les règles de l'espèce. Orc Endurance et capacité à continuer à agir face aux blessures, selon ses traits. Tieffelin Héritage fiélon ou extraplanaire, résistance et magie liées à la lignée choisie. À vérifier dans la fiche de l'espèce Type de créature · taille · vitesse · vision · résistances · sorts ou pouvoirs innés · choix de lignée · fréquence d'utilisation · actions requises. Ce tableau sert à comparer les thèmes ; il ne remplace pas les traits complets.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "section"
+ },
+ {
+  "id": 28,
+  "title": "Historiques : le choix qui influence les maîtrises",
+  "text": "Chaque historique du Manuel 2024 définit : trois caractéristiques possibles pour les ajustements (+2/+1 ou +1/+1/+1), un don d'origine spécifique, deux maîtrises de compétences, une maîtrise d'outil et un équipement de départ ou une somme d'or. Les choix de caractéristiques ne peuvent pas dépasser 20. Historique Caractéristiques Compétences Outil Don d'origine possibles maîtrisées Acolyte Intelligence, Sagesse, Perspicacité, Religion Matériel de calligraphie Initiation à la magie (Clerc) Charisme Artisan Force, Dextérité, Investigation, Persuasion Outils d'artisan au Fabricant Intelligence choix Charlatan Dextérité, Constitution, Tromperie, Escamotage Kit de déguisement Doué Charisme Criminel Dextérité, Constitution, Escamotage, Discrétion Outils de voleur Alerte Intelligence Artiste Force, Dextérité, Charisme Acrobaties, Instrument de musique Musicien Représentation au choix Garde Force, Intelligence, Athlétisme, Perception Ensemble de jeu au Alerte Sagesse choix Fermier Force, Constitution, Dressage, Nature Outils de menuisier Robuste Sagesse Guide Dextérité, Constitution, Discrétion, Survie Outils de cartographe Initiation à la magie (Druide) Sagesse Ermite Constitution, Sagesse, Médecine, Religion Kit d'herboriste Guérisseur Charisme Marchand Constitution, Intelligence, Dressage, Persuasion Outils de navigateur Chanceux Charisme Noble Force, Intelligence, Histoire, Persuasion Ensemble de jeu au Doué Charisme choix Sage Constitution, Intelligence, Arcanes, Histoire Matériel de calligraphie Initiation à la magie (Magicien) Sagesse Marin Force, Dextérité, Sagesse Acrobaties, Perception Outils de navigateur Bagarreur de taverne Scribe Dextérité, Intelligence, Investigation, Perception Matériel de calligraphie Doué Sagesse Soldat Force, Dextérité, Athlétisme, Intimidation Ensemble de jeu au Attaquant sauvage Constitution choix Voyageur Dextérité, Sagesse, Perspicacité, Discrétion Outils de voleur Chanceux Charisme Remarque de traduction : certains noms français peuvent varier selon l'édition localisée. Les noms de dons ci-dessus traduisent les intitulés anglais usuels de 2024 ; le bot devrait conserver un identifiant interne stable et afficher le nom français de sa base de règles.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 2,
+  "kind": "section"
+ },
+ {
+  "id": 29,
+  "title": "Voleur, pickpocket, cambrioleur",
+  "text": "Historique à regarder : Criminel · Maîtrises et bénéfices principaux : Escamotage + Discrétion ; outils de voleur ; don Alerte.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 3,
+  "kind": "concept du passé"
+ },
+ {
+  "id": 30,
+  "title": "Enfant des rues, débrouillard urbain",
+  "text": "Historique à regarder : Voyageur (Wayfarer) · Maîtrises et bénéfices principaux : Perspicacité + Discrétion ; outils de voleur ; don Chanceux.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 3,
+  "kind": "concept du passé"
+ },
+ {
+  "id": 31,
+  "title": "Faussaire, manipulateur, imposteur",
+  "text": "Historique à regarder : Charlatan · Maîtrises et bénéfices principaux : Tromperie + Escamotage ; kit de déguisement ; don Doué.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 3,
+  "kind": "concept du passé"
+ },
+ {
+  "id": 32,
+  "title": "Éclaireur de nature, pisteur",
+  "text": "Historique à regarder : Guide · Maîtrises et bénéfices principaux : Discrétion + Survie ; outils de cartographe ; Initiation à la magie (Druide).",
+  "source": "Référentiel d’origines du MJ",
+  "page": 3,
+  "kind": "concept du passé"
+ },
+ {
+  "id": 33,
+  "title": "Garde de ville ou sentinelle",
+  "text": "Historique à regarder : Garde · Maîtrises et bénéfices principaux : Athlétisme + Perception ; ensemble de jeu ; don Alerte.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 3,
+  "kind": "concept du passé"
+ },
+ {
+  "id": 34,
+  "title": "Loyal bon",
+  "text": "Lecture indicative : Cherche à faire le bien en s'appuyant sur des règles, des devoirs ou des institutions.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 3,
+  "kind": "alignement"
+ },
+ {
+  "id": 35,
+  "title": "Neutre bon",
+  "text": "Lecture indicative : Veut aider et protéger, sans être attaché à l'ordre ou à la rébellion.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 3,
+  "kind": "alignement"
+ },
+ {
+  "id": 36,
+  "title": "Chaotique bon",
+  "text": "Lecture indicative : Défend la liberté et le bien, quitte à contourner les règles injustes.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 3,
+  "kind": "alignement"
+ },
+ {
+  "id": 37,
+  "title": "Loyal neutre",
+  "text": "Lecture indicative : Privilégie le devoir, l'ordre, la tradition ou un code cohérent.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 3,
+  "kind": "alignement"
+ },
+ {
+  "id": 38,
+  "title": "Neutre",
+  "text": "Lecture indicative : Cherche l'équilibre ou décide au cas par cas, sans principe dominant constant.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 3,
+  "kind": "alignement"
+ },
+ {
+  "id": 39,
+  "title": "Chaotique neutre",
+  "text": "Lecture indicative : Privilégie l'autonomie, l'imprévisibilité et la liberté personnelle.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 3,
+  "kind": "alignement"
+ },
+ {
+  "id": 40,
+  "title": "Loyal mauvais",
+  "text": "Lecture indicative : Exploite les règles, les hiérarchies ou les contrats pour servir ses intérêts.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 3,
+  "kind": "alignement"
+ },
+ {
+  "id": 41,
+  "title": "Neutre mauvais",
+  "text": "Lecture indicative : Poursuit ses objectifs sans scrupules particuliers, sans préférence pour l'ordre ou le chaos.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 3,
+  "kind": "alignement"
+ },
+ {
+  "id": 42,
+  "title": "Chaotique mauvais",
+  "text": "Lecture indicative : Privilégie ses désirs et la destruction des contraintes, au mépris des autres.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 3,
+  "kind": "alignement"
+ },
+ {
+  "id": 43,
+  "title": "Ton exemple : quelle option choisir ?",
+  "text": "Concept du passé Historique à Maîtrises et bénéfices principaux regarder Voleur, pickpocket, cambrioleur Criminel Escamotage + Discrétion ; outils de voleur ; don Alerte. Enfant des rues, débrouillard Voyageur (Wayfarer) Perspicacité + Discrétion ; outils de voleur ; don Chanceux. urbain Faussaire, manipulateur, Charlatan Tromperie + Escamotage ; kit de déguisement ; don Doué. imposteur Éclaireur de nature, pisteur Guide Discrétion + Survie ; outils de cartographe ; Initiation à la magie (Druide). Garde de ville ou sentinelle Garde Athlétisme + Perception ; ensemble de jeu ; don Alerte. La distinction importante Une maîtrise de compétence permet d'ajouter le bonus de maîtrise aux tests correspondants. Elle ne donne pas automatiquement l'expertise, qui double ce bonus lorsqu'une aptitude le précise. Le lieu d'origine narratif (par exemple une cité souterraine) n'accorde pas de maîtrise à lui seul dans les règles de base : il faut que l'historique, la classe, l'espèce, un don ou une autre règle l'accorde.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 3,
+  "kind": "section"
+ },
+ {
+  "id": 44,
+  "title": "Alignements : les neuf orientations",
+  "text": "L'alignement est une boussole narrative décrivant les tendances morales et le rapport aux règles. Il ne remplace ni la personnalité ni les motivations. Il ne donne pas, à lui seul, de maîtrise ou de bonus chiffré de création dans les règles 2024. Alignement Lecture indicative Loyal bon Cherche à faire le bien en s'appuyant sur des règles, des devoirs ou des institutions. Neutre bon Veut aider et protéger, sans être attaché à l'ordre ou à la rébellion. Chaotique bon Défend la liberté et le bien, quitte à contourner les règles injustes. Loyal neutre Privilégie le devoir, l'ordre, la tradition ou un code cohérent. Neutre Cherche l'équilibre ou décide au cas par cas, sans principe dominant constant. Chaotique neutre Privilégie l'autonomie, l'imprévisibilité et la liberté personnelle. Loyal mauvais Exploite les règles, les hiérarchies ou les contrats pour servir ses intérêts. Neutre mauvais Poursuit ses objectifs sans scrupules particuliers, sans préférence pour l'ordre ou le chaos. Chaotique mauvais Privilégie ses désirs et la destruction des contraintes, au mépris des autres. Pour choisir un alignement Demande-toi : quelle limite le personnage refuse-t-il de franchir ? Que fait-il lorsqu'une loi est injuste ? Sacrifie-t-il son intérêt pour aider quelqu'un ? Suit-il un code, même lorsqu'il y perd ? Ces réponses sont souvent plus utiles que l'étiquette seule. Les personnages mauvais peuvent nécessiter l'accord du maître du donjon et du groupe, car leur comportement doit rester compatible avec une aventure collective.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 3,
+  "kind": "section"
+ },
+ {
+  "id": 45,
+  "title": "Classe",
+  "text": "Ce qu'il définit : Ce que le personnage apprend en tant qu'aventurier. · Impact mécanique principal : Aptitudes, points de vie, maîtrises de classe, progression et magie.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 4,
+  "kind": "choix"
+ },
+ {
+  "id": 46,
+  "title": "Espèce",
+  "text": "Ce qu'il définit : Son héritage biologique ou surnaturel. · Impact mécanique principal : Traits spéciaux, type, taille, vitesse et pouvoirs d'espèce.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 4,
+  "kind": "choix"
+ },
+ {
+  "id": 47,
+  "title": "Historique",
+  "text": "Ce qu'il définit : Son passé formateur, son éducation ou son métier avant l'aventure. · Impact mécanique principal : Trois caractéristiques candidates, deux compétences, un outil, un don d'origine et équipement.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 4,
+  "kind": "choix"
+ },
+ {
+  "id": 48,
+  "title": "Alignement",
+  "text": "Ce qu'il définit : Ses tendances morales et son rapport à l'ordre et à la liberté. · Impact mécanique principal : Repère narratif ; aucun bonus universel de compétence.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 4,
+  "kind": "choix"
+ },
+ {
+  "id": 49,
+  "title": "Origine narrative précise",
+  "text": "Ce qu'il définit : Ville, région, peuple, milieu familial ou événement de vie. · Impact mécanique principal : Pas de bonus automatique, sauf si le maître du donjon ajoute une règle ou si une option mécanique le prévoit.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 4,
+  "kind": "choix"
+ },
+ {
+  "id": 50,
+  "title": "Comment ces choix se combinent",
+  "text": "Choix Ce qu'il définit Impact mécanique principal Classe Ce que le personnage apprend en tant Aptitudes, points de vie, maîtrises de classe, progression et qu'aventurier. magie. Espèce Son héritage biologique ou surnaturel. Traits spéciaux, type, taille, vitesse et pouvoirs d'espèce. Historique Son passé formateur, son éducation ou son Trois caractéristiques candidates, deux compétences, un outil, métier avant l'aventure. un don d'origine et équipement. Alignement Ses tendances morales et son rapport à Repère narratif ; aucun bonus universel de compétence. l'ordre et à la liberté. Origine narrative Ville, région, peuple, milieu familial ou Pas de bonus automatique, sauf si le maître du donjon ajoute précise événement de vie. une règle ou si une option mécanique le prévoit. Ordre pratique pour Jdr Helper",
+  "source": "Référentiel d’origines du MJ",
+  "page": 4,
+  "kind": "section"
+ },
+ {
+  "id": 51,
+  "title": "Références vérifiables",
+  "text": "D&D Beyond, “Character Origins”, Basic Rules 2024 : description officielle du rôle de l'historique et de l'espèce, ainsi que des éléments mécaniques d'un historique. https://www.dndbeyond.com/sources/dnd/br-2024/character-origins Riley Silverman, D&D Beyond, “The Backgrounds and Origin Feats in the 2024 Player’s Handbook”, 25 juillet 2024, mis à jour le 13 août 2024 : liste des 16 historiques, leurs fonctions, les dons d'origine et les règles d'ajustement des caractéristiques. https://www.dndbeyond.com/posts/1785-the-backgrounds-and-origin-feats-in-the-2024 Riley Silverman, D&D Beyond, “The 10 Species in the 2024 Player’s Handbook”, 20 juillet 2024, mise à jour le 13 août 2024 : présentation des espèces et séparation entre espèce et ajustements de caractéristiques. https://www.dndbeyond.com/posts/1783-the-10-species-in-the-2024-players-handbook Riley Silverman, D&D Beyond, “Breaking Down Alignment in D&D”, 9 décembre 2024 : présentation des neuf alignements et de leur rôle narratif. https://www.dndbeyond.com/posts/1869-breaking-down-alignment-in-d-d Limites : les descriptions d'espèces et d'alignements sont des résumés originaux. Les historiques sont synthétisés pour la sélection et non pour remplacer leurs entrées complètes. Vérifier la terminologie de l'édition française et les textes officiels avant de programmer des calculs dans le bot.",
+  "source": "Référentiel d’origines du MJ",
+  "page": 4,
+  "kind": "section"
+ },
+ {
+  "id": 52,
+  "title": "Guide d’orientation du MJ",
+  "text": "D&D 5e · ÉDITION 2024 Guide d’orientation de personnage Comprendre les classes, comparer les styles et anticiper une évolution jusqu’au niveau 20 Document complémentaire à Jdr Helper. Ce guide ne sert pas à remplir une fiche ni à remplacer l'assistant Discord. Il donne une vue d'ensemble des trajectoires possibles afin que le joueur choisisse un concept et comprenne ses perspectives d'évolution. Périmètre : Manuel des joueurs 2024 uniquement. Résumés originaux, sans reproduction intégrale des descriptions officielles.",
+  "source": "Guide d’orientation du MJ",
+  "page": 1,
+  "kind": "section"
+ },
+ {
+  "id": 53,
+  "title": "Présente les rôles, les forces et les limites des classes.",
+  "text": "Bot Jdr Helper : Pose des questions et recueille les choix du joueur.",
+  "source": "Guide d’orientation du MJ",
+  "page": 2,
+  "kind": "guide pdf"
+ },
+ {
+  "id": 54,
+  "title": "Compare les styles de sous-classes et leur identité générale.",
+  "text": "Bot Jdr Helper : Vérifie les choix autorisés à un niveau donné.",
+  "source": "Guide d’orientation du MJ",
+  "page": 2,
+  "kind": "guide pdf"
+ },
+ {
+  "id": 55,
+  "title": "Montre les grandes étapes d'évolution et les paliers importants.",
+  "text": "Bot Jdr Helper : Calcule les caractéristiques, bonus, ressources, sorts et valeurs de fiche.",
+  "source": "Guide d’orientation du MJ",
+  "page": 2,
+  "kind": "guide pdf"
+ },
+ {
+  "id": 56,
+  "title": "Aide à formuler un concept de personnage cohérent.",
+  "text": "Bot Jdr Helper : Accompagne les décisions de création et de passage de niveau.",
+  "source": "Guide d’orientation du MJ",
+  "page": 2,
+  "kind": "guide pdf"
+ },
+ {
+  "id": 57,
+  "title": "Renvoie vers les références officielles.",
+  "text": "Bot Jdr Helper : Fournit les détails mécaniques nécessaires au choix en cours.",
+  "source": "Guide d’orientation du MJ",
+  "page": 2,
+  "kind": "guide pdf"
+ },
+ {
+  "id": 58,
+  "title": "Niveaux 1–4 · Début",
+  "text": "Ce que le joueur cherche à comprendre : Le concept fonctionne-t-il dès la création ? La classe a-t-elle déjà ses outils essentiels ? · Question à se poser : Est-ce que j'aime les actions que je répète à chaque tour ?",
+  "source": "Guide d’orientation du MJ",
+  "page": 2,
+  "kind": "étape"
+ },
+ {
+  "id": 59,
+  "title": "Niveaux 5–10 · Spécialisation",
+  "text": "Ce que le joueur cherche à comprendre : Les capacités de classe deviennent plus marquées ; de nombreuses classes gagnent un palier majeur d'efficacité. La sous-classe définit davantage le style. · Question à se poser : Est-ce que le personnage évolue vers le rôle que j'imaginais ?",
+  "source": "Guide d’orientation du MJ",
+  "page": 2,
+  "kind": "étape"
+ },
+ {
+  "id": 60,
+  "title": "Niveaux 11–16 · Maîtrise",
+  "text": "Ce que le joueur cherche à comprendre : Les aptitudes avancées renforcent le rôle, les options tactiques et les ressources. · Question à se poser : Est-ce que la complexité supplémentaire me plaît ?",
+  "source": "Guide d’orientation du MJ",
+  "page": 2,
+  "kind": "étape"
+ },
+ {
+  "id": 61,
+  "title": "Niveaux 17–20 · Apogée",
+  "text": "Ce que le joueur cherche à comprendre : Les capacités de fin de progression donnent une expression puissante et spécialisée au concept. · Question à se poser : Est-ce que le résultat final correspond à mon fantasme de personnage ?",
+  "source": "Guide d’orientation du MJ",
+  "page": 2,
+  "kind": "étape"
+ },
+ {
+  "id": 62,
+  "title": "Comment utiliser ce guide",
+  "text": "Ce document répond à trois questions : quel style de jeu offre chaque classe ? Quelles options changent profondément ce style ? À quoi ressemble généralement la progression à bas, moyen et haut niveau ? Il ne donne pas une construction optimale universelle : la meilleure progression dépend du concept, de la campagne, du groupe et des préférences du joueur. Répartition des responsabilités Guide PDF Bot Jdr Helper Présente les rôles, les forces et les limites des classes. Pose des questions et recueille les choix du joueur. Compare les styles de sous-classes et leur identité Vérifie les choix autorisés à un niveau donné. générale. Montre les grandes étapes d'évolution et les paliers Calcule les caractéristiques, bonus, ressources, sorts et valeurs importants. de fiche. Aide à formuler un concept de personnage cohérent. Accompagne les décisions de création et de passage de niveau. Renvoie vers les références officielles. Fournit les détails mécaniques nécessaires au choix en cours.",
+  "source": "Guide d’orientation du MJ",
+  "page": 2,
+  "kind": "section"
+ },
+ {
+  "id": 63,
+  "title": "Les grands paliers de progression",
+  "text": "Étape Ce que le joueur cherche à comprendre Question à se poser Niveaux 1–4 · Début Le concept fonctionne-t-il dès la création ? La classe Est-ce que j'aime les actions que je répète à a-t-elle déjà ses outils essentiels ? chaque tour ? Niveaux 5–10 · Les capacités de classe deviennent plus marquées ; Est-ce que le personnage évolue vers le rôle Spécialisation de nombreuses classes gagnent un palier majeur que j'imaginais ? d'efficacité. La sous-classe définit davantage le style. Niveaux 11–16 · Les aptitudes avancées renforcent le rôle, les Est-ce que la complexité supplémentaire me Maîtrise options tactiques et les ressources. plaît ? Niveaux 17–20 · Les capacités de fin de progression donnent une Est-ce que le résultat final correspond à mon Apogée expression puissante et spécialisée au concept. fantasme de personnage ? Ces étapes sont des repères de lecture, pas des niveaux identiques pour toutes les capacités. Les paliers exacts doivent être lus dans la table de la classe concernée.",
+  "source": "Guide d’orientation du MJ",
+  "page": 2,
+  "kind": "section"
+ },
+ {
+  "id": 64,
+  "title": "Barbare",
+  "text": "Style général : Combattant de première ligne, robuste, dégâts physiques et Rage. · Atouts : Résistance, simplicité relative, présence au corps à corps. · À considérer : Peu orienté vers la magie et les compétences sociales ou savantes. · Évolution typique : Puissance physique, endurance, contrôle de proximité.",
+  "source": "Guide d’orientation du MJ",
+  "page": 3,
+  "kind": "classe"
+ },
+ {
+  "id": 65,
+  "title": "Barde",
+  "text": "Style général : Soutien, compétences, influence sociale et magie polyvalente. · Atouts : Grande polyvalence et soutien du groupe. · À considérer : Demande de choisir des outils adaptés à plusieurs situations. · Évolution typique : Soutien spécialisé, magie plus large, expertise.",
+  "source": "Guide d’orientation du MJ",
+  "page": 3,
+  "kind": "classe"
+ },
+ {
+  "id": 66,
+  "title": "Clerc",
+  "text": "Style général : Magie divine, soutien, protection et dégâts. · Atouts : Accès à des outils défensifs et offensifs variés. · À considérer : Gestion des sorts et choix tactiques selon la situation. · Évolution typique : Domaine divin affirmé et capacités puissantes de soutien ou de combat.",
+  "source": "Guide d’orientation du MJ",
+  "page": 3,
+  "kind": "classe"
+ },
+ {
+  "id": 67,
+  "title": "Druide",
+  "text": "Style général : Magie naturelle, contrôle du terrain, soin et transformations. · Atouts : Adaptation à des situations variées. · À considérer : Plusieurs modes de jeu et règles à surveiller. · Évolution typique : Contrôle, magie naturelle et spécialisation de la sous-classe.",
+  "source": "Guide d’orientation du MJ",
+  "page": 3,
+  "kind": "classe"
+ },
+ {
+  "id": 68,
+  "title": "Guerrier",
+  "text": "Style général : Maîtrise des armes, fiabilité et flexibilité martiale. · Atouts : Nombreux styles d'équipement et rythme de combat clair. · À considérer : Le style dépend fortement des armes, dons et capacités retenus. · Évolution typique : Maîtrise martiale et techniques ou magie selon la sous-classe.",
+  "source": "Guide d’orientation du MJ",
+  "page": 3,
+  "kind": "classe"
+ },
+ {
+  "id": 69,
+  "title": "Moine",
+  "text": "Style général : Mobilité, frappes multiples et discipline martiale. · Atouts : Déplacement, enchaînements et contrôle ciblé. · À considérer : Gestion des ressources et positionnement importants. · Évolution typique : Mobilité et techniques spécialisées plus développées.",
+  "source": "Guide d’orientation du MJ",
+  "page": 3,
+  "kind": "classe"
+ },
+ {
+  "id": 70,
+  "title": "Paladin",
+  "text": "Style général : Combattant sacré, protection et châtiments. · Atouts : Bonne présence en première ligne et soutien du groupe. · À considérer : Arbitrage entre combat, protection et ressources magiques. · Évolution typique : Aura, serment et capacités de fin de progression.",
+  "source": "Guide d’orientation du MJ",
+  "page": 3,
+  "kind": "classe"
+ },
+ {
+  "id": 71,
+  "title": "Rôdeur",
+  "text": "Style général : Traque, exploration, combat à distance ou rapproché. · Atouts : Compétences d'extérieur et spécialisation de cible. · À considérer : Le style dépend du terrain, des sorts et du choix de sous-classe. · Évolution typique : Traque spécialisée, compagnon ou techniques de chasse.",
+  "source": "Guide d’orientation du MJ",
+  "page": 3,
+  "kind": "classe"
+ },
+ {
+  "id": 72,
+  "title": "Roublard",
+  "text": "Style général : Compétences, discrétion, précision et opportunisme. · Atouts : Expertise, flexibilité hors combat et dégâts ciblés. · À considérer : Positionnement et conditions d'Attaque sournoise à maîtriser. · Évolution typique : Fiabilité des compétences et techniques avancées de ruse.",
+  "source": "Guide d’orientation du MJ",
+  "page": 3,
+  "kind": "classe"
+ },
+ {
+  "id": 73,
+  "title": "Ensorceleur",
+  "text": "Style général : Magie innée modulée par la Métamagie. · Atouts : Personnalisation de sorts et forte identité magique. · À considérer : Sélection de sorts plus délicate ; ressources limitées à gérer. · Évolution typique : Métamagie et origine magique plus affirmées.",
+  "source": "Guide d’orientation du MJ",
+  "page": 3,
+  "kind": "classe"
+ },
+ {
+  "id": 74,
+  "title": "Occultiste",
+  "text": "Style général : Magie de pacte, invocations et identité surnaturelle. · Atouts : Personnalisation importante grâce aux invocations. · À considérer : Fonctionnement des emplacements différent de nombreuses autres classes. · Évolution typique : Invocations et pouvoirs du patron structurent le style.",
+  "source": "Guide d’orientation du MJ",
+  "page": 3,
+  "kind": "classe"
+ },
+ {
+  "id": 75,
+  "title": "Magicien",
+  "text": "Style général : Étude arcanique, répertoire de sorts et préparation tactique. · Atouts : Grande variété de solutions magiques. · À considérer : Demande d'anticiper les sorts utiles et leur préparation. · Évolution typique : Large éventail de magie et spécialisation arcanique.",
+  "source": "Guide d’orientation du MJ",
+  "page": 3,
+  "kind": "classe"
+ },
+ {
+  "id": 76,
+  "title": "Comparer les 12 classes",
+  "text": "Classe Style général Atouts À considérer Évolution typique Barbare Combattant de Résistance, Peu orienté vers la Puissance physique, endurance, première ligne, simplicité relative, magie et les contrôle de proximité. robuste, dégâts présence au corps à compétences sociales physiques et Rage. corps. ou savantes. Barde Soutien, compétences, Grande polyvalence Demande de choisir Soutien spécialisé, magie plus influence sociale et et soutien du des outils adaptés à large, expertise. magie polyvalente. groupe. plusieurs situations. Clerc Magie divine, soutien, Accès à des outils Gestion des sorts et Domaine divin affirmé et protection et dégâts. défensifs et offensifs choix tactiques selon la capacités puissantes de soutien variés. situation. ou de combat. Druide Magie naturelle, Adaptation à des Plusieurs modes de jeu Contrôle, magie naturelle et contrôle du terrain, situations variées. et règles à surveiller. spécialisation de la sous-classe. soin et transformations. Guerrier Maîtrise des armes, Nombreux styles Le style dépend Maîtrise martiale et techniques fiabilité et flexibilité d'équipement et fortement des armes, ou magie selon la sous-classe. martiale. rythme de combat dons et capacités clair. retenus. Moine Mobilité, frappes Déplacement, Gestion des ressources Mobilité et techniques multiples et discipline enchaînements et et positionnement spécialisées plus développées. martiale. contrôle ciblé. importants. Paladin Combattant sacré, Bonne présence en Arbitrage entre Aura, serment et capacités de fin protection et première ligne et combat, protection et de progression. châtiments. soutien du groupe. ressources magiques. Rôdeur Traque, exploration, Compétences Le style dépend du Traque spécialisée, compagnon combat à distance ou d'extérieur et terrain, des sorts et du ou techniques de chasse. rapproché. spécialisation de choix de sous-classe. cible. Roublard Compétences, Expertise, flexibilité Positionnement et Fiabilité des compétences et discrétion, précision et hors combat et conditions d'Attaque techniques avancées de ruse. opportunisme. dégâts ciblés. sournoise à maîtriser. Ensorceleur Magie innée modulée Personnalisation de Sélection de sorts plus Métamagie et origine magique par la Métamagie. sorts et forte identité délicate ; ressources plus affirmées. magique. limitées à gérer. Occultiste Magie de pacte, Personnalisation Fonctionnement des Invocations et pouvoirs du patron invocations et identité importante grâce emplacements structurent le style. surnaturelle. aux invocations. différent de nombreuses autres classes. Magicien Étude arcanique, Grande variété de Demande d'anticiper Large éventail de magie et répertoire de sorts et solutions magiques. les sorts utiles et leur spécialisation arcanique. préparation tactique. préparation. Ce tableau compare des orientations générales, pas une note de puissance. Les résultats réels dépendent de la sous-classe, des choix et des rencontres de la campagne.",
+  "source": "Guide d’orientation du MJ",
+  "page": 3,
+  "kind": "section"
+ },
+ {
+  "id": 77,
+  "title": "Berserker (Barbare)",
+  "text": "Sous-classe : Berserker · Orientation générale : Accentue la violence et l'efficacité pendant la Rage.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 78,
+  "title": "Cœur sauvage (Barbare)",
+  "text": "Sous-classe : Cœur sauvage · Orientation générale : Apporte des choix inspirés des animaux et une adaptation du style de combat.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 79,
+  "title": "Arbre-Monde (Barbare)",
+  "text": "Sous-classe : Arbre-Monde · Orientation générale : Ajoute des effets surnaturels liés à l'Arbre-Monde, à la mobilité et au soutien.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 80,
+  "title": "Zélote (Barbare)",
+  "text": "Sous-classe : Zélote · Orientation générale : Associe la Rage à une ferveur surnaturelle et à la persistance au combat.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 81,
+  "title": "Danse (Barde)",
+  "text": "Sous-classe : Danse · Orientation générale : Fait de la mobilité et du mouvement une partie du combat et du soutien.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 82,
+  "title": "Glamour (Barde)",
+  "text": "Sous-classe : Glamour · Orientation générale : Met l'accent sur le charme, l'influence et les effets féeriques.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 83,
+  "title": "Savoir (Barde)",
+  "text": "Sous-classe : Savoir · Orientation générale : Renforce la polyvalence, les connaissances et les options magiques.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 84,
+  "title": "Vaillance (Barde)",
+  "text": "Sous-classe : Vaillance · Orientation générale : Associe soutien bardique et présence martiale.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 85,
+  "title": "Vie (Clerc)",
+  "text": "Sous-classe : Vie · Orientation générale : Renforce les soins et la capacité à maintenir les alliés en vie.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 86,
+  "title": "Lumière (Clerc)",
+  "text": "Sous-classe : Lumière · Orientation générale : Accentue la lumière divine et les effets offensifs contre les ennemis.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 87,
+  "title": "Tromperie (Clerc)",
+  "text": "Sous-classe : Tromperie · Orientation générale : Privilégie la ruse, les illusions et la manipulation.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 88,
+  "title": "Guerre (Clerc)",
+  "text": "Sous-classe : Guerre · Orientation générale : Oriente le personnage vers le combat et les bénédictions martiales.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 89,
+  "title": "Terre (Druide)",
+  "text": "Sous-classe : Terre · Orientation générale : Approfondit la magie naturelle associée aux environnements.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 90,
+  "title": "Lune (Druide)",
+  "text": "Sous-classe : Lune · Orientation générale : Met la Forme sauvage au centre du combat.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 91,
+  "title": "Mer (Druide)",
+  "text": "Sous-classe : Mer · Orientation générale : Associe les pouvoirs druidiques aux forces marines et aux tempêtes.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 92,
+  "title": "Étoiles (Druide)",
+  "text": "Sous-classe : Étoiles · Orientation générale : Utilise les constellations comme formes de soutien, de protection ou d'attaque.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 93,
+  "title": "Champion (Guerrier)",
+  "text": "Sous-classe : Champion · Orientation générale : Renforce la performance physique directe et la fiabilité martiale.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 94,
+  "title": "Maître de bataille (Guerrier)",
+  "text": "Sous-classe : Maître de bataille · Orientation générale : Utilise des manœuvres tactiques pour modifier les échanges.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 95,
+  "title": "Chevalier occulte (Guerrier)",
+  "text": "Sous-classe : Chevalier occulte · Orientation générale : Combine combat armé et magie arcanique.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 96,
+  "title": "Guerrier psi (Guerrier)",
+  "text": "Sous-classe : Guerrier psi · Orientation générale : Ajoute des capacités fondées sur la force mentale et l'énergie psychique.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 97,
+  "title": "Main ouverte (Moine)",
+  "text": "Sous-classe : Main ouverte · Orientation générale : Spécialise les frappes dans le contrôle de l'adversaire.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 98,
+  "title": "Ombre (Moine)",
+  "text": "Sous-classe : Ombre · Orientation générale : Mise sur la discrétion, les ténèbres et les déplacements.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 99,
+  "title": "Éléments (Moine)",
+  "text": "Sous-classe : Éléments · Orientation générale : Étend les techniques martiales avec des effets élémentaires.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 100,
+  "title": "Miséricorde (Moine)",
+  "text": "Sous-classe : Miséricorde · Orientation générale : Combine des effets de soin et des attaques ciblant la vitalité.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 101,
+  "title": "Dévotion (Paladin)",
+  "text": "Sous-classe : Dévotion · Orientation générale : Met en avant la protection, la droiture et le combat sacré.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 102,
+  "title": "Gloire (Paladin)",
+  "text": "Sous-classe : Gloire · Orientation générale : Valorise les exploits, la performance physique et l'inspiration héroïque.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 103,
+  "title": "Anciens (Paladin)",
+  "text": "Sous-classe : Anciens · Orientation générale : Défend la vie et la lumière par des pouvoirs liés à la nature.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 104,
+  "title": "Vengeance (Paladin)",
+  "text": "Sous-classe : Vengeance · Orientation générale : Se concentre sur la poursuite et la punition d'ennemis ciblés.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 105,
+  "title": "Chasseur (Rôdeur)",
+  "text": "Sous-classe : Chasseur · Orientation générale : Offre des techniques pour faire face à différents types de menaces.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 106,
+  "title": "Maître des bêtes (Rôdeur)",
+  "text": "Sous-classe : Maître des bêtes · Orientation générale : Construit le style de jeu autour d'un compagnon animal.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 107,
+  "title": "Traqueur des ténèbres (Rôdeur)",
+  "text": "Sous-classe : Traqueur des ténèbres · Orientation générale : Favorise la chasse dans l'obscurité et les ouvertures de combat.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 108,
+  "title": "Vagabond féerique (Rôdeur)",
+  "text": "Sous-classe : Vagabond féerique · Orientation générale : Ajoute une dimension féerique, mobile et sociale.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 109,
+  "title": "Assassin (Roublard)",
+  "text": "Sous-classe : Assassin · Orientation générale : Favorise l'infiltration et les ouvertures offensives.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 110,
+  "title": "Filou arcanique (Roublard)",
+  "text": "Sous-classe : Filou arcanique · Orientation générale : Combine discrétion et magie d'illusion ou d'enchantement.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 111,
+  "title": "Lame d'âme (Roublard)",
+  "text": "Sous-classe : Lame d'âme · Orientation générale : Ajoute des outils psychiques aux compétences de roublard.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 112,
+  "title": "Voleur (Roublard)",
+  "text": "Sous-classe : Voleur · Orientation générale : Met l'accent sur l'agilité, les objets et l'action opportuniste.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 113,
+  "title": "Aberrante (Ensorceleur)",
+  "text": "Sous-classe : Aberrante · Orientation générale : Associe la magie innée à des pouvoirs étranges ou psychiques.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 114,
+  "title": "Mécanique (Ensorceleur)",
+  "text": "Sous-classe : Mécanique · Orientation générale : Oriente la magie vers l'ordre, la régularité et la protection.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 115,
+  "title": "Draconique (Ensorceleur)",
+  "text": "Sous-classe : Draconique · Orientation générale : Fait porter l'identité magique par un héritage draconique.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "classe"
+ },
+ {
+  "id": 116,
+  "title": "Ce que change une sous-classe",
+  "text": "La sous-classe donne une identité mécanique plus précise à la classe. Elle ne doit pas être choisie uniquement sur son nom ou son thème : les capacités arrivent à des niveaux déterminés et peuvent modifier les actions disponibles, les ressources ou la manière de jouer. Classe Sous-classe Orientation générale Barbare Berserker Accentue la violence et l'efficacité pendant la Rage. Barbare Cœur sauvage Apporte des choix inspirés des animaux et une adaptation du style de combat. Barbare Arbre-Monde Ajoute des effets surnaturels liés à l'Arbre-Monde, à la mobilité et au soutien. Barbare Zélote Associe la Rage à une ferveur surnaturelle et à la persistance au combat. Barde Danse Fait de la mobilité et du mouvement une partie du combat et du soutien. Barde Glamour Met l'accent sur le charme, l'influence et les effets féeriques. Barde Savoir Renforce la polyvalence, les connaissances et les options magiques. Barde Vaillance Associe soutien bardique et présence martiale. Clerc Vie Renforce les soins et la capacité à maintenir les alliés en vie. Clerc Lumière Accentue la lumière divine et les effets offensifs contre les ennemis. Clerc Tromperie Privilégie la ruse, les illusions et la manipulation. Clerc Guerre Oriente le personnage vers le combat et les bénédictions martiales. Druide Terre Approfondit la magie naturelle associée aux environnements. Druide Lune Met la Forme sauvage au centre du combat. Druide Mer Associe les pouvoirs druidiques aux forces marines et aux tempêtes. Druide Étoiles Utilise les constellations comme formes de soutien, de protection ou d'attaque. Guerrier Champion Renforce la performance physique directe et la fiabilité martiale. Guerrier Maître de bataille Utilise des manœuvres tactiques pour modifier les échanges. Guerrier Chevalier occulte Combine combat armé et magie arcanique. Guerrier Guerrier psi Ajoute des capacités fondées sur la force mentale et l'énergie psychique. Moine Main ouverte Spécialise les frappes dans le contrôle de l'adversaire. Moine Ombre Mise sur la discrétion, les ténèbres et les déplacements. Moine Éléments Étend les techniques martiales avec des effets élémentaires. Moine Miséricorde Combine des effets de soin et des attaques ciblant la vitalité. Paladin Dévotion Met en avant la protection, la droiture et le combat sacré. Paladin Gloire Valorise les exploits, la performance physique et l'inspiration héroïque. Paladin Anciens Défend la vie et la lumière par des pouvoirs liés à la nature. Paladin Vengeance Se concentre sur la poursuite et la punition d'ennemis ciblés. Rôdeur Chasseur Offre des techniques pour faire face à différents types de menaces. Rôdeur Maître des bêtes Construit le style de jeu autour d'un compagnon animal. Rôdeur Traqueur des ténèbres Favorise la chasse dans l'obscurité et les ouvertures de combat. Rôdeur Vagabond féerique Ajoute une dimension féerique, mobile et sociale. Roublard Assassin Favorise l'infiltration et les ouvertures offensives. Roublard Filou arcanique Combine discrétion et magie d'illusion ou d'enchantement. Roublard Lame d'âme Ajoute des outils psychiques aux compétences de roublard. Roublard Voleur Met l'accent sur l'agilité, les objets et l'action opportuniste. Ensorceleur Aberrante Associe la magie innée à des pouvoirs étranges ou psychiques. Ensorceleur Mécanique Oriente la magie vers l'ordre, la régularité et la protection. Ensorceleur Draconique Fait porter l'identité magique par un héritage draconique.",
+  "source": "Guide d’orientation du MJ",
+  "page": 4,
+  "kind": "section"
+ },
+ {
+  "id": 117,
+  "title": "Sauvage (Ensorceleur)",
+  "text": "Sous-classe : Sauvage · Orientation générale : Intègre une magie imprévisible et ses conséquences.",
+  "source": "Guide d’orientation du MJ",
+  "page": 5,
+  "kind": "classe"
+ },
+ {
+  "id": 118,
+  "title": "Archifée (Occultiste)",
+  "text": "Sous-classe : Archifée · Orientation générale : Favorise les effets féeriques, l'illusion et la mobilité.",
+  "source": "Guide d’orientation du MJ",
+  "page": 5,
+  "kind": "classe"
+ },
+ {
+  "id": 119,
+  "title": "Céleste (Occultiste)",
+  "text": "Sous-classe : Céleste · Orientation générale : Ajoute des outils de lumière et de soutien.",
+  "source": "Guide d’orientation du MJ",
+  "page": 5,
+  "kind": "classe"
+ },
+ {
+  "id": 120,
+  "title": "Fiélon (Occultiste)",
+  "text": "Sous-classe : Fiélon · Orientation générale : Oriente les pouvoirs vers la destruction et la survie.",
+  "source": "Guide d’orientation du MJ",
+  "page": 5,
+  "kind": "classe"
+ },
+ {
+  "id": 121,
+  "title": "Grand Ancien (Occultiste)",
+  "text": "Sous-classe : Grand Ancien · Orientation générale : Privilégie les pouvoirs mentaux et l'étrangeté cosmique.",
+  "source": "Guide d’orientation du MJ",
+  "page": 5,
+  "kind": "classe"
+ },
+ {
+  "id": 122,
+  "title": "Abjurateur (Magicien)",
+  "text": "Sous-classe : Abjurateur · Orientation générale : Spécialise la protection et la défense magique.",
+  "source": "Guide d’orientation du MJ",
+  "page": 5,
+  "kind": "classe"
+ },
+ {
+  "id": 123,
+  "title": "Devin (Magicien)",
+  "text": "Sous-classe : Devin · Orientation générale : Utilise présages et manipulation des probabilités.",
+  "source": "Guide d’orientation du MJ",
+  "page": 5,
+  "kind": "classe"
+ },
+ {
+  "id": 124,
+  "title": "Évocateur (Magicien)",
+  "text": "Sous-classe : Évocateur · Orientation générale : Se concentre sur la magie offensive et le contrôle de ses effets.",
+  "source": "Guide d’orientation du MJ",
+  "page": 5,
+  "kind": "classe"
+ },
+ {
+  "id": 125,
+  "title": "Illusionniste (Magicien)",
+  "text": "Sous-classe : Illusionniste · Orientation générale : Fait des illusions un outil central.",
+  "source": "Guide d’orientation du MJ",
+  "page": 5,
+  "kind": "classe"
+ },
+ {
+  "id": 126,
+  "title": "Guide d’orientation du MJ",
+  "text": "Classe Sous-classe Orientation générale Ensorceleur Sauvage Intègre une magie imprévisible et ses conséquences. Occultiste Archifée Favorise les effets féeriques, l'illusion et la mobilité. Occultiste Céleste Ajoute des outils de lumière et de soutien. Occultiste Fiélon Oriente les pouvoirs vers la destruction et la survie. Occultiste Grand Ancien Privilégie les pouvoirs mentaux et l'étrangeté cosmique. Magicien Abjurateur Spécialise la protection et la défense magique. Magicien Devin Utilise présages et manipulation des probabilités. Magicien Évocateur Se concentre sur la magie offensive et le contrôle de ses effets. Magicien Illusionniste Fait des illusions un outil central.",
+  "source": "Guide d’orientation du MJ",
+  "page": 5,
+  "kind": "section"
+ },
+ {
+  "id": 127,
+  "title": "Niveau 1",
+  "text": "Ce que le guide doit aider à prévoir : Le concept de départ et les actions disponibles dès la première séance. · Ce que le bot devra confirmer : Équipement, compétences, caractéristiques, capacités initiales.",
+  "source": "Guide d’orientation du MJ",
+  "page": 6,
+  "kind": "jalon"
+ },
+ {
+  "id": 128,
+  "title": "Premier palier de sous-classe",
+  "text": "Ce que le guide doit aider à prévoir : La direction de spécialisation et la nouvelle manière de jouer. · Ce que le bot devra confirmer : Niveau exact, prérequis et capacités de la sous-classe.",
+  "source": "Guide d’orientation du MJ",
+  "page": 6,
+  "kind": "jalon"
+ },
+ {
+  "id": 129,
+  "title": "Niveau 5 environ",
+  "text": "Ce que le guide doit aider à prévoir : Le moment où de nombreuses classes gagnent un outil majeur d'efficacité. · Ce que le bot devra confirmer : Capacités précises, sorts et éventuelles attaques supplémentaires.",
+  "source": "Guide d’orientation du MJ",
+  "page": 6,
+  "kind": "jalon"
+ },
+ {
+  "id": 130,
+  "title": "Niveaux 6–10",
+  "text": "Ce que le guide doit aider à prévoir : Les traits qui définissent davantage la spécialisation. · Ce que le bot devra confirmer : Choix exacts, ressources, dons ou améliorations de caractéristiques.",
+  "source": "Guide d’orientation du MJ",
+  "page": 6,
+  "kind": "jalon"
+ },
+ {
+  "id": 131,
+  "title": "Niveaux 11–16",
+  "text": "Ce que le guide doit aider à prévoir : La profondeur tactique et les capacités avancées. · Ce que le bot devra confirmer : Conditions, usages, interactions et mise à jour de la fiche.",
+  "source": "Guide d’orientation du MJ",
+  "page": 6,
+  "kind": "jalon"
+ },
+ {
+  "id": 132,
+  "title": "Niveaux 17–20",
+  "text": "Ce que le guide doit aider à prévoir : Le sommet de la progression et l'identité finale du personnage. · Ce que le bot devra confirmer : Capacités exactes de haut niveau, bienfait épique et choix finaux.",
+  "source": "Guide d’orientation du MJ",
+  "page": 6,
+  "kind": "jalon"
+ },
+ {
+  "id": 133,
+  "title": "Découvrir",
+  "text": "PDF : Présente les styles et les trajectoires possibles. · Jdr Helper : Pose des questions de préférence et propose une sélection.",
+  "source": "Guide d’orientation du MJ",
+  "page": 6,
+  "kind": "étape utilisateur"
+ },
+ {
+  "id": 134,
+  "title": "Comparer",
+  "text": "PDF : Explique les différences générales entre classes et sous-classes. · Jdr Helper : Compare les choix disponibles au niveau et selon les règles 2024.",
+  "source": "Guide d’orientation du MJ",
+  "page": 6,
+  "kind": "étape utilisateur"
+ },
+ {
+  "id": 135,
+  "title": "Se projeter",
+  "text": "PDF : Montre les grandes étapes jusqu'au niveau 20. · Jdr Helper : Affiche les capacités exactes qui seront obtenues et les choix à prendre.",
+  "source": "Guide d’orientation du MJ",
+  "page": 6,
+  "kind": "étape utilisateur"
+ },
+ {
+  "id": 136,
+  "title": "Construire",
+  "text": "PDF : N'entre pas dans le détail de la fiche. · Jdr Helper : Guide les choix de caractéristiques, dons, sorts et équipement.",
+  "source": "Guide d’orientation du MJ",
+  "page": 6,
+  "kind": "étape utilisateur"
+ },
+ {
+  "id": 137,
+  "title": "Évoluer",
+  "text": "PDF : Explique les grands jalons et la direction du build. · Jdr Helper : Vérifie le niveau gagné, applique les règles et met à jour la fiche.",
+  "source": "Guide d’orientation du MJ",
+  "page": 6,
+  "kind": "étape utilisateur"
+ },
+ {
+  "id": 138,
+  "title": "Cartographier l'évolution sans figer un build",
+  "text": "Le but de ce guide est de rendre visibles les trajectoires possibles, pas de dicter une combinaison de dons et de sorts. Pour chaque classe présélectionnée, Jdr Helper pourra ensuite vérifier les détails mécaniques au moment où le joueur fait son choix. Jalon Ce que le guide doit aider à prévoir Ce que le bot devra confirmer Niveau 1 Le concept de départ et les actions disponibles dès Équipement, compétences, caractéristiques, la première séance. capacités initiales. Premier palier de La direction de spécialisation et la nouvelle Niveau exact, prérequis et capacités de la sous-classe manière de jouer. sous-classe. Niveau 5 environ Le moment où de nombreuses classes gagnent un Capacités précises, sorts et éventuelles attaques outil majeur d'efficacité. supplémentaires. Niveaux 6–10 Les traits qui définissent davantage la Choix exacts, ressources, dons ou améliorations spécialisation. de caractéristiques. Niveaux 11–16 La profondeur tactique et les capacités avancées. Conditions, usages, interactions et mise à jour de la fiche. Niveaux 17–20 Le sommet de la progression et l'identité finale du Capacités exactes de haut niveau, bienfait personnage. épique et choix finaux.",
+  "source": "Guide d’orientation du MJ",
+  "page": 6,
+  "kind": "section"
+ },
+ {
+  "id": 139,
+  "title": "Questions pour trouver le bon concept",
+  "text": "• Veux-tu surtout infliger des dégâts, protéger, contrôler, soutenir, explorer ou résoudre des problèmes hors combat ? • Préfères-tu agir avec des armes, avec la magie, ou en combinant les deux ? • Veux-tu un tour de jeu simple et répétable, ou beaucoup d'options tactiques ? • Le personnage doit-il être efficace dès le niveau 1, ou son concept peut-il se développer progressivement ? • Veux-tu un compagnon, une transformation, des pouvoirs psychiques, un pacte, un serment, une origine magique ou une spécialisation tactique ? • Est-ce important que le personnage soit utile en social et en exploration autant qu'en combat ? • Préfères-tu une ressource qui se renouvelle souvent ou des capacités puissantes mais limitées ?",
+  "source": "Guide d’orientation du MJ",
+  "page": 6,
+  "kind": "section"
+ },
+ {
+  "id": 140,
+  "title": "Comment le bot et le PDF doivent fonctionner ensemble",
+  "text": "Étape utilisateur PDF Jdr Helper Découvrir Présente les styles et les trajectoires possibles. Pose des questions de préférence et propose une sélection. Comparer Explique les différences générales entre classes Compare les choix disponibles au niveau et selon et sous-classes. les règles 2024. Se projeter Montre les grandes étapes jusqu'au niveau 20. Affiche les capacités exactes qui seront obtenues et les choix à prendre. Construire N'entre pas dans le détail de la fiche. Guide les choix de caractéristiques, dons, sorts et équipement. Évoluer Explique les grands jalons et la direction du build. Vérifie le niveau gagné, applique les règles et met à jour la fiche.",
+  "source": "Guide d’orientation du MJ",
+  "page": 6,
+  "kind": "section"
+ },
+ {
+  "id": 141,
+  "title": "Sources et limites",
+  "text": "Source principale : Wizards of the Coast / D&D Beyond, Player’s Handbook (2024), sections officielles sur la création de personnage et les classes. https://www.dndbeyond.com/sources/dnd/phb-2024 Référence complémentaire : D&D Beyond Staff, “Updates in the Player’s Handbook (2024)”, 3 septembre 2024. https://www.dndbeyond.com/posts/1810-updates-in-the-players-handbook-2024 Les descriptions sont des résumés d'orientation, pas des règles complètes. Le niveau exact de chaque capacité, les sorts et leurs effets doivent être vérifiés dans le Manuel des joueurs 2024 et les errata officiels. Ce document n'est pas officiel ni approuvé par Wizards of the Coast.",
+  "source": "Guide d’orientation du MJ",
+  "page": 6,
+  "kind": "section"
+ },
+ {
+  "id": 142,
+  "title": "Berserker (Barbare)",
+  "text": "Orientation : Rage agressive et dégâts élevés",
+  "source": "Trajectoires des classes du MJ",
+  "page": 1,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 143,
+  "title": "Cœur sauvage (Barbare)",
+  "text": "Orientation : Adaptation inspirée des animaux",
+  "source": "Trajectoires des classes du MJ",
+  "page": 1,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 144,
+  "title": "Arbre-Monde (Barbare)",
+  "text": "Orientation : Mobilité, protection et effets primordiaux",
+  "source": "Trajectoires des classes du MJ",
+  "page": 1,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 145,
+  "title": "Zélote (Barbare)",
+  "text": "Orientation : Ferveur surnaturelle et persistance",
+  "source": "Trajectoires des classes du MJ",
+  "page": 1,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 146,
+  "title": "Barbare : niveau 1",
+  "text": "Ce qui change : Rage et maîtrise d'armes · Ce que cela signifie pour le concept : Le concept de combattant puissant est déjà actif. Choisir les armes dont les maîtrises correspondent au style voulu.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 1,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 147,
+  "title": "Barbare : niveau 3",
+  "text": "Ce qui change : Connaissance primordiale et sous-classe · Ce que cela signifie pour le concept : Le personnage commence à se distinguer : dégâts, soutien/mobilité, endurance ou ferveur selon la voie.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 1,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 148,
+  "title": "Barbare : niveau 5",
+  "text": "Ce qui change : Attaques supplémentaires et déplacement amélioré · Ce que cela signifie pour le concept : Palier martial important : le personnage devient plus fiable au corps à corps.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 1,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 149,
+  "title": "Barbare : niveau 10",
+  "text": "Ce qui change : Capacités de voie et progression de Rage · Ce que cela signifie pour le concept : La sous-classe précise le rôle ; vérifier les capacités exactes à ce niveau dans sa table.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 1,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 150,
+  "title": "Barbare : niveau 15",
+  "text": "Ce qui change : Rage persistante · Ce que cela signifie pour le concept : La Rage devient plus fiable sur les combats prolongés ; le plan de jeu repose de plus en plus sur sa disponibilité.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 1,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 151,
+  "title": "Barbare : niveau 20",
+  "text": "Ce qui change : Puissance physique maximale et capstone de classe · Ce que cela signifie pour le concept : Le barbare atteint son apogée physique. Prévoir le choix de bienfait épique du niveau 19.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 1,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 152,
+  "title": "Trajectoire : Barbare",
+  "text": "BARBARE Fiche de trajectoire · D&D 5e 2024 · Manuel des joueurs uniquement Rôle : Combattant de première ligne qui s'appuie sur la Rage, la robustesse et la pression au corps à corps. Axes de construction : Force, Constitution, armes maîtrisées. Choisir tôt entre dégâts directs, contrôle de terrain ou résistance. Sous-classes : ce qu'elles changent Sous-classe Orientation Berserker Rage agressive et dégâts élevés Cœur sauvage Adaptation inspirée des animaux Arbre-Monde Mobilité, protection et effets primordiaux Zélote Ferveur surnaturelle et persistance Trajectoire indicative jusqu'au niveau 20 Les jalons ci-dessous servent à visualiser la direction du personnage, pas à remplacer la table de classe. Les niveaux exacts de chaque aptitude sont indiqués dans les références officielles. Les capacités listées sont des résumés originaux. Niveau Ce qui change Ce que cela signifie pour le concept repère 1 Rage et maîtrise d'armes Le concept de combattant puissant est déjà actif. Choisir les armes dont les maîtrises correspondent au style voulu. 3 Connaissance primordiale et sous-classe Le personnage commence à se distinguer : dégâts, soutien/mobilité, endurance ou ferveur selon la voie. 5 Attaques supplémentaires et déplacement Palier martial important : le personnage devient plus fiable au corps à amélioré corps. 10 Capacités de voie et progression de Rage La sous-classe précise le rôle ; vérifier les capacités exactes à ce niveau dans sa table. 15 Rage persistante La Rage devient plus fiable sur les combats prolongés ; le plan de jeu repose de plus en plus sur sa disponibilité. 20 Puissance physique maximale et capstone Le barbare atteint son apogée physique. Prévoir le choix de bienfait de classe épique du niveau 19. Repères mécaniques publiés pour l'édition 2024 1 : Rage ; 2 : Sens du danger, Attaque téméraire ; 3 : Connaissance primordiale + voie ; 5 : Attaque supplémentaire ; 7 : Instinct féroce et bond instinctif ; 9 : Frappe brutale ; 11 : Rage implacable ; 13/17 : améliorations de Frappe brutale ; 15 : Rage persistante ; 18 : Puissance indomptable ; 19 : Bienfait épique ; 20 : champion primordial. Comment planifier les choix Construire autour de la Rage, de l'arme et de la fonction voulue en mêlée. À chaque amélioration de caractéristiques/don, vérifier si la Force principale doit être augmentée ou si un don apporte une vraie option tactique. La Constitution soutient la survie. Référence officielle : D&D Beyond, “Updates in the Player’s Handbook (2024)”, 3 septembre 2024. Cet article récapitule les capacités de classe nouvelles ou révisées et les changements de sous-classes. Pour les tables complètes et les effets exacts, consulter le Manuel des joueurs 2024 : dndbeyond.com/sources/dnd/phb-2024 · Article : dndbeyond.com/posts/1810-updates-in-the-players-handbook-2024. Limite volontaire : cette fiche aide à se projeter. Elle ne recommande pas un build unique, ne liste pas chaque sort ou don, et ne remplace pas les calculs que Jdr Helper doit effectuer. Jdr Helper · fiche d'orientation · D&D 5e 2024 Barbare · page 1",
+  "source": "Trajectoires des classes du MJ",
+  "page": 1,
+  "kind": "trajectoire"
+ },
+ {
+  "id": 153,
+  "title": "Danse (Barde)",
+  "text": "Orientation : Mouvement, présence physique et soutien en combat",
+  "source": "Trajectoires des classes du MJ",
+  "page": 2,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 154,
+  "title": "Glamour (Barde)",
+  "text": "Orientation : Charme et influence féerique",
+  "source": "Trajectoires des classes du MJ",
+  "page": 2,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 155,
+  "title": "Savoir (Barde)",
+  "text": "Orientation : Compétences et polyvalence magique",
+  "source": "Trajectoires des classes du MJ",
+  "page": 2,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 156,
+  "title": "Vaillance (Barde)",
+  "text": "Orientation : Soutien combiné au combat martial",
+  "source": "Trajectoires des classes du MJ",
+  "page": 2,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 157,
+  "title": "Barde : niveau 1",
+  "text": "Ce qui change : Inspiration bardique et Incantation · Ce que cela signifie pour le concept : Le barde est utile dès le départ en soutien et hors combat.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 2,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 158,
+  "title": "Barde : niveau 3",
+  "text": "Ce qui change : Collège bardique · Ce que cela signifie pour le concept : La sous-classe choisit l'orientation : expertise, influence, mobilité ou combat.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 2,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 159,
+  "title": "Barde : niveau 5",
+  "text": "Ce qui change : Source d'inspiration · Ce que cela signifie pour le concept : L'Inspiration bardique revient plus facilement ; le soutien peut être utilisé plus régulièrement.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 2,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 160,
+  "title": "Barde : niveau 10",
+  "text": "Ce qui change : Secrets magiques · Ce que cela signifie pour le concept : La palette de magie s'élargit fortement ; préparer le rôle futur du barde dans le groupe.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 2,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 161,
+  "title": "Barde : niveau 15",
+  "text": "Ce qui change : Capacités avancées du collège · Ce que cela signifie pour le concept : La sous-classe prend une place importante dans le style final ; consulter ses paliers exacts.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 2,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 162,
+  "title": "Barde : niveau 20",
+  "text": "Ce qui change : Mots de création · Ce que cela signifie pour le concept : Le barde atteint son identité de maître du soutien et de la magie polyvalente.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 2,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 163,
+  "title": "Trajectoire : Barde",
+  "text": "BARDE Fiche de trajectoire · D&D 5e 2024 · Manuel des joueurs uniquement Rôle : Lanceur polyvalent qui combine soutien, compétences, influence sociale et magie. Axes de construction : Charisme en priorité ; Dextérité et Constitution sont généralement utiles. Choisir une identité de soutien, d'expert, de combattant mobile ou de polyvalent magique. Sous-classes : ce qu'elles changent Sous-classe Orientation Danse Mouvement, présence physique et soutien en combat Glamour Charme et influence féerique Savoir Compétences et polyvalence magique Vaillance Soutien combiné au combat martial Trajectoire indicative jusqu'au niveau 20 Les jalons ci-dessous servent à visualiser la direction du personnage, pas à remplacer la table de classe. Les niveaux exacts de chaque aptitude sont indiqués dans les références officielles. Les capacités listées sont des résumés originaux. Niveau Ce qui change Ce que cela signifie pour le concept repère 1 Inspiration bardique et Incantation Le barde est utile dès le départ en soutien et hors combat. 3 Collège bardique La sous-classe choisit l'orientation : expertise, influence, mobilité ou combat. 5 Source d'inspiration L'Inspiration bardique revient plus facilement ; le soutien peut être utilisé plus régulièrement. 10 Secrets magiques La palette de magie s'élargit fortement ; préparer le rôle futur du barde dans le groupe. 15 Capacités avancées du collège La sous-classe prend une place importante dans le style final ; consulter ses paliers exacts. 20 Mots de création Le barde atteint son identité de maître du soutien et de la magie polyvalente. Repères mécaniques publiés pour l'édition 2024 1 : Inspiration bardique et Incantation ; 2 : Expertise ; 3 : collège ; 5 : Source d'inspiration ; 7 : Contre-charme ; 10 : Secrets magiques ; 18 : Inspiration supérieure ; 19 : Bienfait épique ; 20 : Mots de création. Comment planifier les choix Choisir un mélange souhaité entre contrôle, soutien, exploration et interaction sociale. Les sorts sont le principal levier de personnalisation ; le bot devra vérifier les options disponibles et la préparation/remplacement permis à chaque palier. Référence officielle : D&D Beyond, “Updates in the Player’s Handbook (2024)”, 3 septembre 2024. Cet article récapitule les capacités de classe nouvelles ou révisées et les changements de sous-classes. Pour les tables complètes et les effets exacts, consulter le Manuel des joueurs 2024 : dndbeyond.com/sources/dnd/phb-2024 · Article : dndbeyond.com/posts/1810-updates-in-the-players-handbook-2024. Limite volontaire : cette fiche aide à se projeter. Elle ne recommande pas un build unique, ne liste pas chaque sort ou don, et ne remplace pas les calculs que Jdr Helper doit effectuer. Jdr Helper · fiche d'orientation · D&D 5e 2024 Barde · page 1",
+  "source": "Trajectoires des classes du MJ",
+  "page": 2,
+  "kind": "trajectoire"
+ },
+ {
+  "id": 164,
+  "title": "Vie (Clerc)",
+  "text": "Orientation : Soins et maintien en vie",
+  "source": "Trajectoires des classes du MJ",
+  "page": 3,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 165,
+  "title": "Lumière (Clerc)",
+  "text": "Orientation : Radiance et magie offensive",
+  "source": "Trajectoires des classes du MJ",
+  "page": 3,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 166,
+  "title": "Tromperie (Clerc)",
+  "text": "Orientation : Ruse, illusion et infiltration",
+  "source": "Trajectoires des classes du MJ",
+  "page": 3,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 167,
+  "title": "Guerre (Clerc)",
+  "text": "Orientation : Combat et bénédictions martiales",
+  "source": "Trajectoires des classes du MJ",
+  "page": 3,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 168,
+  "title": "Clerc : niveau 1",
+  "text": "Ce qui change : Ordre divin et Incantation · Ce que cela signifie pour le concept : Le joueur choisit déjà une orientation générale de clerc et accède à la magie divine.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 3,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 169,
+  "title": "Clerc : niveau 3",
+  "text": "Ce qui change : Domaine divin · Ce que cela signifie pour le concept : Le domaine devient la signature du personnage et oriente ses sorts et capacités.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 3,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 170,
+  "title": "Clerc : niveau 5",
+  "text": "Ce qui change : Destruction des morts-vivants · Ce que cela signifie pour le concept : Le clerc gagne une réponse plus marquée contre les morts-vivants.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 3,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 171,
+  "title": "Clerc : niveau 10",
+  "text": "Ce qui change : Intervention divine · Ce que cela signifie pour le concept : Le personnage obtient une capacité divine majeure ; planifier son usage avec le reste du groupe.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 3,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 172,
+  "title": "Clerc : niveau 15",
+  "text": "Ce qui change : Progression avancée du domaine et des sorts · Ce que cela signifie pour le concept : Le domaine et les sorts de haut niveau définissent davantage le rôle.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 3,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 173,
+  "title": "Clerc : niveau 20",
+  "text": "Ce qui change : Intervention divine supérieure · Ce que cela signifie pour le concept : Apogée de l'identité divine ; bienfait épique au niveau 19.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 3,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 174,
+  "title": "Trajectoire : Clerc",
+  "text": "CLERC Fiche de trajectoire · D&D 5e 2024 · Manuel des joueurs uniquement Rôle : Magie divine au service du soin, de la protection, du combat ou de la perturbation des ennemis. Axes de construction : Sagesse ; Constitution utile pour la concentration, puis caractéristiques liées au style martial si pertinent. Sous-classes : ce qu'elles changent Sous-classe Orientation Vie Soins et maintien en vie Lumière Radiance et magie offensive Tromperie Ruse, illusion et infiltration Guerre Combat et bénédictions martiales Trajectoire indicative jusqu'au niveau 20 Les jalons ci-dessous servent à visualiser la direction du personnage, pas à remplacer la table de classe. Les niveaux exacts de chaque aptitude sont indiqués dans les références officielles. Les capacités listées sont des résumés originaux. Niveau Ce qui change Ce que cela signifie pour le concept repère 1 Ordre divin et Incantation Le joueur choisit déjà une orientation générale de clerc et accède à la magie divine. 3 Domaine divin Le domaine devient la signature du personnage et oriente ses sorts et capacités. 5 Destruction des morts-vivants Le clerc gagne une réponse plus marquée contre les morts-vivants. 10 Intervention divine Le personnage obtient une capacité divine majeure ; planifier son usage avec le reste du groupe. 15 Progression avancée du domaine et des Le domaine et les sorts de haut niveau définissent davantage le rôle. sorts 20 Intervention divine supérieure Apogée de l'identité divine ; bienfait épique au niveau 19. Repères mécaniques publiés pour l'édition 2024 1 : Ordre divin et Incantation ; 2 : Canalisation divine ; 3 : domaine ; 5 : Destruction des morts-vivants ; 7 : Frappes bénies ; 10 : Intervention divine ; 14 : Frappes bénies améliorées ; 19 : Bienfait épique ; 20 : Intervention divine supérieure. Comment planifier les choix Décider si le clerc privilégie soin/protection, dégâts, contrôle ou présence martiale. Sagesse et concentration sont centrales. Le domaine peut accorder des options qui changent les priorités de sorts. Référence officielle : D&D Beyond, “Updates in the Player’s Handbook (2024)”, 3 septembre 2024. Cet article récapitule les capacités de classe nouvelles ou révisées et les changements de sous-classes. Pour les tables complètes et les effets exacts, consulter le Manuel des joueurs 2024 : dndbeyond.com/sources/dnd/phb-2024 · Article : dndbeyond.com/posts/1810-updates-in-the-players-handbook-2024. Limite volontaire : cette fiche aide à se projeter. Elle ne recommande pas un build unique, ne liste pas chaque sort ou don, et ne remplace pas les calculs que Jdr Helper doit effectuer. Jdr Helper · fiche d'orientation · D&D 5e 2024 Clerc · page 1",
+  "source": "Trajectoires des classes du MJ",
+  "page": 3,
+  "kind": "trajectoire"
+ },
+ {
+  "id": 175,
+  "title": "Terre (Druide)",
+  "text": "Orientation : Magie liée aux environnements",
+  "source": "Trajectoires des classes du MJ",
+  "page": 4,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 176,
+  "title": "Lune (Druide)",
+  "text": "Orientation : Forme sauvage et combat transformé",
+  "source": "Trajectoires des classes du MJ",
+  "page": 4,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 177,
+  "title": "Mer (Druide)",
+  "text": "Orientation : Puissances océaniques et tempêtes",
+  "source": "Trajectoires des classes du MJ",
+  "page": 4,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 178,
+  "title": "Étoiles (Druide)",
+  "text": "Orientation : Constellations et formes de soutien/offense",
+  "source": "Trajectoires des classes du MJ",
+  "page": 4,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 179,
+  "title": "Druide : niveau 1",
+  "text": "Ce qui change : Druidique, Ordre primordial et Incantation · Ce que cela signifie pour le concept : Choisir si l'on veut davantage de compétence naturelle ou une orientation magique différente.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 4,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 180,
+  "title": "Druide : niveau 3",
+  "text": "Ce qui change : Cercle druidique · Ce que cela signifie pour le concept : La sous-classe précise la place de la Forme sauvage, du terrain ou des constellations/éléments.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 4,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 181,
+  "title": "Druide : niveau 5",
+  "text": "Ce qui change : Résurgence sauvage · Ce que cela signifie pour le concept : Meilleure articulation entre ressources druidiques et formes/pouvoirs.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 4,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 182,
+  "title": "Druide : niveau 10",
+  "text": "Ce qui change : Capacités du cercle et magie plus avancée · Ce que cela signifie pour le concept : Le style choisi devient plus visible ; la concentration et le positionnement comptent.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 4,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 183,
+  "title": "Druide : niveau 15",
+  "text": "Ce qui change : Fureur élémentaire améliorée · Ce que cela signifie pour le concept : La capacité de classe renforce la voie choisie et l'efficacité des pouvoirs concernés.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 4,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 184,
+  "title": "Druide : niveau 20",
+  "text": "Ce qui change : Archidruide · Ce que cela signifie pour le concept : Apogée de la polyvalence naturelle et des capacités druidiques.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 4,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 185,
+  "title": "Trajectoire : Druide",
+  "text": "DRUIDE Fiche de trajectoire · D&D 5e 2024 · Manuel des joueurs uniquement Rôle : Magie primordiale, contrôle du terrain, soutien et transformation en forme animale. Axes de construction : Sagesse ; Constitution pour la concentration. La sous-classe détermine si la transformation, la magie ou les effets élémentaires sont au centre. Sous-classes : ce qu'elles changent Sous-classe Orientation Terre Magie liée aux environnements Lune Forme sauvage et combat transformé Mer Puissances océaniques et tempêtes Étoiles Constellations et formes de soutien/offense Trajectoire indicative jusqu'au niveau 20 Les jalons ci-dessous servent à visualiser la direction du personnage, pas à remplacer la table de classe. Les niveaux exacts de chaque aptitude sont indiqués dans les références officielles. Les capacités listées sont des résumés originaux. Niveau Ce qui change Ce que cela signifie pour le concept repère 1 Druidique, Ordre primordial et Incantation Choisir si l'on veut davantage de compétence naturelle ou une orientation magique différente. 3 Cercle druidique La sous-classe précise la place de la Forme sauvage, du terrain ou des constellations/éléments. 5 Résurgence sauvage Meilleure articulation entre ressources druidiques et formes/pouvoirs. 10 Capacités du cercle et magie plus avancée Le style choisi devient plus visible ; la concentration et le positionnement comptent. 15 Fureur élémentaire améliorée La capacité de classe renforce la voie choisie et l'efficacité des pouvoirs concernés. 20 Archidruide Apogée de la polyvalence naturelle et des capacités druidiques. Repères mécaniques publiés pour l'édition 2024 1 : Druidique, Ordre primordial, Incantation ; 2 : Compagnon sauvage et Forme sauvage ; 3 : cercle ; 5 : Résurgence sauvage ; 7 : Fureur élémentaire ; 15 : Fureur élémentaire améliorée ; 18 : Sorts bestiaux ; 19 : Bienfait épique ; 20 : Archidruide. Comment planifier les choix Décider si le personnage veut résoudre les situations par les sorts, les transformations ou le contrôle de zone. La sous-classe change fortement l'utilisation des ressources et les caractéristiques utiles en situation de combat. Référence officielle : D&D Beyond, “Updates in the Player’s Handbook (2024)”, 3 septembre 2024. Cet article récapitule les capacités de classe nouvelles ou révisées et les changements de sous-classes. Pour les tables complètes et les effets exacts, consulter le Manuel des joueurs 2024 : dndbeyond.com/sources/dnd/phb-2024 · Article : dndbeyond.com/posts/1810-updates-in-the-players-handbook-2024. Limite volontaire : cette fiche aide à se projeter. Elle ne recommande pas un build unique, ne liste pas chaque sort ou don, et ne remplace pas les calculs que Jdr Helper doit effectuer. Jdr Helper · fiche d'orientation · D&D 5e 2024 Druide · page 1",
+  "source": "Trajectoires des classes du MJ",
+  "page": 4,
+  "kind": "trajectoire"
+ },
+ {
+  "id": 186,
+  "title": "Champion (Guerrier)",
+  "text": "Orientation : Efficacité physique directe",
+  "source": "Trajectoires des classes du MJ",
+  "page": 5,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 187,
+  "title": "Maître de bataille (Guerrier)",
+  "text": "Orientation : Manœuvres et contrôle tactique",
+  "source": "Trajectoires des classes du MJ",
+  "page": 5,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 188,
+  "title": "Chevalier occulte (Guerrier)",
+  "text": "Orientation : Combat et magie arcanique",
+  "source": "Trajectoires des classes du MJ",
+  "page": 5,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 189,
+  "title": "Guerrier psi (Guerrier)",
+  "text": "Orientation : Protection et techniques psychiques",
+  "source": "Trajectoires des classes du MJ",
+  "page": 5,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 190,
+  "title": "Guerrier : niveau 1",
+  "text": "Ce qui change : Style de combat, Second souffle et maîtrise d'armes · Ce que cela signifie pour le concept : Le guerrier est déjà un spécialiste d'équipement ; choisir une famille d'armes et ses maîtrises.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 5,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 191,
+  "title": "Guerrier : niveau 3",
+  "text": "Ce qui change : Archétype martial · Ce que cela signifie pour le concept : La sous-classe choisit entre efficacité directe, manœuvres, magie ou capacités psychiques.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 5,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 192,
+  "title": "Guerrier : niveau 5",
+  "text": "Ce qui change : Attaque supplémentaire et Déplacement tactique · Ce que cela signifie pour le concept : Palier majeur de combat : le choix d'arme et les options par attaque deviennent très importants.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 5,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 193,
+  "title": "Guerrier : niveau 10",
+  "text": "Ce qui change : Progression de l'archétype et flexibilité tactique · Ce que cela signifie pour le concept : La sous-classe enrichit la boucle de combat ; gérer actions, ressources et réactions.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 5,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 194,
+  "title": "Guerrier : niveau 15",
+  "text": "Ce qui change : Capacités martiales avancées · Ce que cela signifie pour le concept : Le guerrier devient plus constant et spécialisé selon l'archétype.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 5,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 195,
+  "title": "Guerrier : niveau 20",
+  "text": "Ce qui change : Maîtrise martiale maximale · Ce que cela signifie pour le concept : Les améliorations de haut niveau consolident le rôle choisi ; bienfait épique au niveau 19.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 5,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 196,
+  "title": "Trajectoire : Guerrier",
+  "text": "GUERRIER Fiche de trajectoire · D&D 5e 2024 · Manuel des joueurs uniquement Rôle : Spécialiste martial adaptable, capable de se construire autour de nombreuses armes et tactiques. Axes de construction : Force ou Dextérité selon les armes ; Constitution pour la robustesse. Les dons et maîtrises d'armes façonnent fortement le style. Sous-classes : ce qu'elles changent Sous-classe Orientation Champion Efficacité physique directe Maître de bataille Manœuvres et contrôle tactique Chevalier occulte Combat et magie arcanique Guerrier psi Protection et techniques psychiques Trajectoire indicative jusqu'au niveau 20 Les jalons ci-dessous servent à visualiser la direction du personnage, pas à remplacer la table de classe. Les niveaux exacts de chaque aptitude sont indiqués dans les références officielles. Les capacités listées sont des résumés originaux. Niveau Ce qui change Ce que cela signifie pour le concept repère 1 Style de combat, Second souffle et maîtrise Le guerrier est déjà un spécialiste d'équipement ; choisir une famille d'armes d'armes et ses maîtrises. 3 Archétype martial La sous-classe choisit entre efficacité directe, manœuvres, magie ou capacités psychiques. 5 Attaque supplémentaire et Déplacement Palier majeur de combat : le choix d'arme et les options par attaque tactique deviennent très importants. 10 Progression de l'archétype et flexibilité La sous-classe enrichit la boucle de combat ; gérer actions, ressources tactique et réactions. 15 Capacités martiales avancées Le guerrier devient plus constant et spécialisé selon l'archétype. 20 Maîtrise martiale maximale Les améliorations de haut niveau consolident le rôle choisi ; bienfait épique au niveau 19. Repères mécaniques publiés pour l'édition 2024 1 : Style de combat, Second souffle, maîtrise d'armes ; 2 : Esprit tactique ; 3 : sous-classe ; 5 : Déplacement tactique et Attaque supplémentaire ; 9 : Indomptable et Maître tactique ; 13 : Attaques étudiées ; 19 : Bienfait épique. Les attaques supplémentaires progressent encore aux niveaux prévus par la table de classe. Comment planifier les choix Le premier choix structurant est l'arme et la manière de l'utiliser. Le Champion privilégie une boucle directe, le Maître de bataille des options tactiques, le Chevalier occulte la magie et le Guerrier psi des capacités psychiques. Vérifier les dons et propriétés de maîtrise avec le bot. Référence officielle : D&D Beyond, “Updates in the Player’s Handbook (2024)”, 3 septembre 2024. Cet article récapitule les capacités de classe nouvelles ou révisées et les changements de sous-classes. Pour les tables complètes et les effets exacts, consulter le Manuel des joueurs 2024 : dndbeyond.com/sources/dnd/phb-2024 · Article : dndbeyond.com/posts/1810-updates-in-the-players-handbook-2024. Limite volontaire : cette fiche aide à se projeter. Elle ne recommande pas un build unique, ne liste pas chaque sort ou don, et ne remplace pas les calculs que Jdr Helper doit effectuer. Jdr Helper · fiche d'orientation · D&D 5e 2024 Guerrier · page 1",
+  "source": "Trajectoires des classes du MJ",
+  "page": 5,
+  "kind": "trajectoire"
+ },
+ {
+  "id": 197,
+  "title": "Main ouverte (Moine)",
+  "text": "Orientation : Contrôle par les frappes",
+  "source": "Trajectoires des classes du MJ",
+  "page": 6,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 198,
+  "title": "Ombre (Moine)",
+  "text": "Orientation : Discrétion et ténèbres",
+  "source": "Trajectoires des classes du MJ",
+  "page": 6,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 199,
+  "title": "Éléments (Moine)",
+  "text": "Orientation : Portée et effets élémentaires",
+  "source": "Trajectoires des classes du MJ",
+  "page": 6,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 200,
+  "title": "Miséricorde (Moine)",
+  "text": "Orientation : Soins et atteintes vitales",
+  "source": "Trajectoires des classes du MJ",
+  "page": 6,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 201,
+  "title": "Moine : niveau 1",
+  "text": "Ce qui change : Arts martiaux · Ce que cela signifie pour le concept : Le personnage repose sur la mobilité et les attaques non conventionnelles.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 6,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 202,
+  "title": "Moine : niveau 3",
+  "text": "Ce qui change : Voie martiale et Déviation des attaques · Ce que cela signifie pour le concept : La sous-classe façonne le rôle et le moine gagne un outil défensif important.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 6,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 203,
+  "title": "Moine : niveau 5",
+  "text": "Ce qui change : Frappe étourdissante · Ce que cela signifie pour le concept : Le moine gagne une option de contrôle marquante.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 6,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 204,
+  "title": "Moine : niveau 10",
+  "text": "Ce qui change : Focalisation accrue et Auto-restauration · Ce que cela signifie pour le concept : Le personnage gère mieux ses ressources et certains états nuisibles.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 6,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 205,
+  "title": "Moine : niveau 15",
+  "text": "Ce qui change : Focalisation parfaite · Ce que cela signifie pour le concept : Les ressources sont plus fiables à haut niveau.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 6,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 206,
+  "title": "Moine : niveau 20",
+  "text": "Ce qui change : Corps et esprit · Ce que cela signifie pour le concept : Apogée de la discipline et de la défense ; bienfait épique au niveau 19.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 6,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 207,
+  "title": "Trajectoire : Moine",
+  "text": "MOINE Fiche de trajectoire · D&D 5e 2024 · Manuel des joueurs uniquement Rôle : Combattant mobile utilisant arts martiaux, focalisation et contrôle de l'adversaire. Axes de construction : Dextérité et Sagesse ; Constitution peut aider la survie. Le positionnement et la gestion de la focalisation sont essentiels. Sous-classes : ce qu'elles changent Sous-classe Orientation Main ouverte Contrôle par les frappes Ombre Discrétion et ténèbres Éléments Portée et effets élémentaires Miséricorde Soins et atteintes vitales Trajectoire indicative jusqu'au niveau 20 Les jalons ci-dessous servent à visualiser la direction du personnage, pas à remplacer la table de classe. Les niveaux exacts de chaque aptitude sont indiqués dans les références officielles. Les capacités listées sont des résumés originaux. Niveau Ce qui change Ce que cela signifie pour le concept repère 1 Arts martiaux Le personnage repose sur la mobilité et les attaques non conventionnelles. 3 Voie martiale et Déviation des attaques La sous-classe façonne le rôle et le moine gagne un outil défensif important. 5 Frappe étourdissante Le moine gagne une option de contrôle marquante. 10 Focalisation accrue et Auto-restauration Le personnage gère mieux ses ressources et certains états nuisibles. 15 Focalisation parfaite Les ressources sont plus fiables à haut niveau. 20 Corps et esprit Apogée de la discipline et de la défense ; bienfait épique au niveau 19. Repères mécaniques publiés pour l'édition 2024 1 : Arts martiaux ; 2 : Focalisation du moine et Métabolisme surnaturel ; 3 : sous-classe et Déviation des attaques ; 5 : Frappe étourdissante ; 6 : Frappes renforcées ; 7 : Évasion ; 10 : Focalisation accrue et Auto-restauration ; 13 : Déviation de l'énergie ; 15 : Focalisation parfaite ; 18 : Défense supérieure ; 19 : Bienfait épique ; 20 : Corps et esprit. Comment planifier les choix Construire autour de la mobilité et d'une utilisation disciplinée des points de focalisation. La sous-classe définit si les frappes contrôlent, se dissimulent, s'étendent ou soutiennent. Vérifier le coût des capacités et l'ordre des actions. Référence officielle : D&D Beyond, “Updates in the Player’s Handbook (2024)”, 3 septembre 2024. Cet article récapitule les capacités de classe nouvelles ou révisées et les changements de sous-classes. Pour les tables complètes et les effets exacts, consulter le Manuel des joueurs 2024 : dndbeyond.com/sources/dnd/phb-2024 · Article : dndbeyond.com/posts/1810-updates-in-the-players-handbook-2024. Limite volontaire : cette fiche aide à se projeter. Elle ne recommande pas un build unique, ne liste pas chaque sort ou don, et ne remplace pas les calculs que Jdr Helper doit effectuer. Jdr Helper · fiche d'orientation · D&D 5e 2024 Moine · page 1",
+  "source": "Trajectoires des classes du MJ",
+  "page": 6,
+  "kind": "trajectoire"
+ },
+ {
+  "id": 208,
+  "title": "Dévotion (Paladin)",
+  "text": "Orientation : Protection et idéal chevaleresque",
+  "source": "Trajectoires des classes du MJ",
+  "page": 7,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 209,
+  "title": "Gloire (Paladin)",
+  "text": "Orientation : Exploits héroïques",
+  "source": "Trajectoires des classes du MJ",
+  "page": 7,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 210,
+  "title": "Anciens (Paladin)",
+  "text": "Orientation : Vie, lumière et nature",
+  "source": "Trajectoires des classes du MJ",
+  "page": 7,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 211,
+  "title": "Vengeance (Paladin)",
+  "text": "Orientation : Poursuite et punition de cibles",
+  "source": "Trajectoires des classes du MJ",
+  "page": 7,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 212,
+  "title": "Paladin : niveau 1",
+  "text": "Ce qui change : Imposition des mains, Incantation et maîtrise d'armes · Ce que cela signifie pour le concept : Le paladin peut soutenir et combattre dès la création.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 7,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 213,
+  "title": "Paladin : niveau 3",
+  "text": "Ce qui change : Serment sacré et Canalisation divine · Ce que cela signifie pour le concept : La sous-classe donne son identité morale et mécanique.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 7,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 214,
+  "title": "Paladin : niveau 5",
+  "text": "Ce qui change : Destrier fidèle et progression martiale · Ce que cela signifie pour le concept : Le paladin développe ses options de mobilité et de combat.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 7,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 215,
+  "title": "Paladin : niveau 10",
+  "text": "Ce qui change : Aura de courage · Ce que cela signifie pour le concept : Le paladin renforce sa contribution défensive à proximité des alliés.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 7,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 216,
+  "title": "Paladin : niveau 15",
+  "text": "Ce qui change : Capacités avancées du serment et Toucher restaurateur · Ce que cela signifie pour le concept : La sous-classe et le soutien du groupe deviennent plus développés.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 7,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 217,
+  "title": "Paladin : niveau 20",
+  "text": "Ce qui change : Apogée du serment · Ce que cela signifie pour le concept : Le paladin atteint le sommet de son rôle sacré ; bienfait épique au niveau 19.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 7,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 218,
+  "title": "Trajectoire : Paladin",
+  "text": "PALADIN Fiche de trajectoire · D&D 5e 2024 · Manuel des joueurs uniquement Rôle : Combattant sacré qui protège les alliés, combat au contact et utilise la magie divine. Axes de construction : Force et Charisme ; Constitution utile. Il faut arbitrer entre dégâts, défense, soutien et ressources magiques. Sous-classes : ce qu'elles changent Sous-classe Orientation Dévotion Protection et idéal chevaleresque Gloire Exploits héroïques Anciens Vie, lumière et nature Vengeance Poursuite et punition de cibles Trajectoire indicative jusqu'au niveau 20 Les jalons ci-dessous servent à visualiser la direction du personnage, pas à remplacer la table de classe. Les niveaux exacts de chaque aptitude sont indiqués dans les références officielles. Les capacités listées sont des résumés originaux. Niveau Ce qui change Ce que cela signifie pour le concept repère 1 Imposition des mains, Incantation et Le paladin peut soutenir et combattre dès la création. maîtrise d'armes 3 Serment sacré et Canalisation divine La sous-classe donne son identité morale et mécanique. 5 Destrier fidèle et progression martiale Le paladin développe ses options de mobilité et de combat. 10 Aura de courage Le paladin renforce sa contribution défensive à proximité des alliés. 15 Capacités avancées du serment et Toucher La sous-classe et le soutien du groupe deviennent plus développés. restaurateur 20 Apogée du serment Le paladin atteint le sommet de son rôle sacré ; bienfait épique au niveau 19. Repères mécaniques publiés pour l'édition 2024 1 : Imposition des mains, Incantation, maîtrise d'armes ; 2 : Style de combat et Châtiment du paladin ; 3 : Canalisation divine et serment ; 5 : Destrier fidèle ; 6 : Aura de protection ; 9 : Répudier les ennemis ; 10 : Aura de courage ; 14 : Toucher restaurateur ; 19 : Bienfait épique. Comment planifier les choix Définir le rôle principal : rempart, combattant offensif ou soutien hybride. Le Charisme contribue aux capacités et à l'aura ; Force/Dextérité dépend du style de combat. Le bot doit aider à arbitrer les sorts et ressources plutôt que d'optimiser uniquement les dégâts. Référence officielle : D&D Beyond, “Updates in the Player’s Handbook (2024)”, 3 septembre 2024. Cet article récapitule les capacités de classe nouvelles ou révisées et les changements de sous-classes. Pour les tables complètes et les effets exacts, consulter le Manuel des joueurs 2024 : dndbeyond.com/sources/dnd/phb-2024 · Article : dndbeyond.com/posts/1810-updates-in-the-players-handbook-2024. Limite volontaire : cette fiche aide à se projeter. Elle ne recommande pas un build unique, ne liste pas chaque sort ou don, et ne remplace pas les calculs que Jdr Helper doit effectuer. Jdr Helper · fiche d'orientation · D&D 5e 2024 Paladin · page 1",
+  "source": "Trajectoires des classes du MJ",
+  "page": 7,
+  "kind": "trajectoire"
+ },
+ {
+  "id": 219,
+  "title": "Chasseur (Rôdeur)",
+  "text": "Orientation : Réponses tactiques à différents ennemis",
+  "source": "Trajectoires des classes du MJ",
+  "page": 8,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 220,
+  "title": "Maître des bêtes (Rôdeur)",
+  "text": "Orientation : Compagnon animal",
+  "source": "Trajectoires des classes du MJ",
+  "page": 8,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 221,
+  "title": "Traqueur des ténèbres (Rôdeur)",
+  "text": "Orientation : Chasse dans l'obscurité",
+  "source": "Trajectoires des classes du MJ",
+  "page": 8,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 222,
+  "title": "Vagabond féerique (Rôdeur)",
+  "text": "Orientation : Magie féerique et influence",
+  "source": "Trajectoires des classes du MJ",
+  "page": 8,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 223,
+  "title": "Rôdeur : niveau 1",
+  "text": "Ce qui change : Ennemi juré, Incantation et maîtrise d'armes · Ce que cela signifie pour le concept : Le rôdeur commence comme traqueur polyvalent, avec magie et options martiales.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 8,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 224,
+  "title": "Rôdeur : niveau 3",
+  "text": "Ce qui change : Archétype de rôdeur · Ce que cela signifie pour le concept : Choisir entre compagnon, chasse spécialisée, obscurité ou influence féerique.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 8,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 225,
+  "title": "Rôdeur : niveau 5",
+  "text": "Ce qui change : Progression martiale et sorts de niveau supérieur · Ce que cela signifie pour le concept : Le rôle au combat s'affirme ; l'économie d'action et la concentration deviennent importantes.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 8,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 226,
+  "title": "Rôdeur : niveau 10",
+  "text": "Ce qui change : Infatigable · Ce que cela signifie pour le concept : La résistance à l'usure s'améliore, utile dans les aventures prolongées.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 8,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 227,
+  "title": "Rôdeur : niveau 15",
+  "text": "Ce qui change : Capacités avancées de la sous-classe · Ce que cela signifie pour le concept : Le rôdeur est plus spécialisé dans sa manière de traquer ou d'aider le groupe.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 8,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 228,
+  "title": "Rôdeur : niveau 20",
+  "text": "Ce qui change : Pourfendeur d'ennemis · Ce que cela signifie pour le concept : La classe atteint son apogée dans la chasse et la spécialisation.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 8,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 229,
+  "title": "Trajectoire : Rôdeur",
+  "text": "RÔDEUR Fiche de trajectoire · D&D 5e 2024 · Manuel des joueurs uniquement Rôle : Traqueur et explorateur, combattant à distance ou au contact avec une magie de soutien. Axes de construction : Dextérité et Sagesse ; Constitution utile. Les compétences et la sous-classe déterminent l'approche de l'exploration et du combat. Sous-classes : ce qu'elles changent Sous-classe Orientation Chasseur Réponses tactiques à différents ennemis Maître des bêtes Compagnon animal Traqueur des ténèbres Chasse dans l'obscurité Vagabond féerique Magie féerique et influence Trajectoire indicative jusqu'au niveau 20 Les jalons ci-dessous servent à visualiser la direction du personnage, pas à remplacer la table de classe. Les niveaux exacts de chaque aptitude sont indiqués dans les références officielles. Les capacités listées sont des résumés originaux. Niveau Ce qui change Ce que cela signifie pour le concept repère 1 Ennemi juré, Incantation et maîtrise Le rôdeur commence comme traqueur polyvalent, avec magie et d'armes options martiales. 3 Archétype de rôdeur Choisir entre compagnon, chasse spécialisée, obscurité ou influence féerique. 5 Progression martiale et sorts de niveau Le rôle au combat s'affirme ; l'économie d'action et la concentration supérieur deviennent importantes. 10 Infatigable La résistance à l'usure s'améliore, utile dans les aventures prolongées. 15 Capacités avancées de la sous-classe Le rôdeur est plus spécialisé dans sa manière de traquer ou d'aider le groupe. 20 Pourfendeur d'ennemis La classe atteint son apogée dans la chasse et la spécialisation. Repères mécaniques publiés pour l'édition 2024 1 : Ennemi juré, Incantation, maîtrise d'armes ; 2 : Explorateur habile et Style de combat ; 3 : sous-classe ; 6 : Itinérance ; 9 : Expertise ; 10 : Infatigable ; 13 : Chasseur implacable ; 14 : Voile de la nature ; 17 : Chasseur précis ; 18 : Sens féroces ; 19 : Bienfait épique ; 20 : Pourfendeur d'ennemis. Comment planifier les choix Choisir la distance de combat, la place des sorts et le degré de dépendance au compagnon. La Dextérité est généralement centrale ; Sagesse soutient les sorts et certaines compétences. Prévoir un plan de concentration et des options quand le terrain ne favorise pas la traque. Référence officielle : D&D Beyond, “Updates in the Player’s Handbook (2024)”, 3 septembre 2024. Cet article récapitule les capacités de classe nouvelles ou révisées et les changements de sous-classes. Pour les tables complètes et les effets exacts, consulter le Manuel des joueurs 2024 : dndbeyond.com/sources/dnd/phb-2024 · Article : dndbeyond.com/posts/1810-updates-in-the-players-handbook-2024. Limite volontaire : cette fiche aide à se projeter. Elle ne recommande pas un build unique, ne liste pas chaque sort ou don, et ne remplace pas les calculs que Jdr Helper doit effectuer. Jdr Helper · fiche d'orientation · D&D 5e 2024 Rôdeur · page 1",
+  "source": "Trajectoires des classes du MJ",
+  "page": 8,
+  "kind": "trajectoire"
+ },
+ {
+  "id": 230,
+  "title": "Assassin (Roublard)",
+  "text": "Orientation : Infiltration et ouvertures offensives",
+  "source": "Trajectoires des classes du MJ",
+  "page": 9,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 231,
+  "title": "Filou arcanique (Roublard)",
+  "text": "Orientation : Discrétion et magie",
+  "source": "Trajectoires des classes du MJ",
+  "page": 9,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 232,
+  "title": "Lame d'âme (Roublard)",
+  "text": "Orientation : Outils psychiques",
+  "source": "Trajectoires des classes du MJ",
+  "page": 9,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 233,
+  "title": "Voleur (Roublard)",
+  "text": "Orientation : Agilité et utilisation d'objets",
+  "source": "Trajectoires des classes du MJ",
+  "page": 9,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 234,
+  "title": "Roublard : niveau 1",
+  "text": "Ce qui change : Expertise, Attaque sournoise et maîtrise d'armes · Ce que cela signifie pour le concept : Le roublard a déjà une identité claire hors combat et au combat.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 9,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 235,
+  "title": "Roublard : niveau 3",
+  "text": "Ce qui change : Archétype et Visée stable · Ce que cela signifie pour le concept : La sous-classe précise l'approche ; Visée stable renforce le choix du positionnement.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 9,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 236,
+  "title": "Roublard : niveau 5",
+  "text": "Ce qui change : Frappe rusée · Ce que cela signifie pour le concept : Les dégâts peuvent s'accompagner d'effets tactiques au prix prévu par la règle.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 9,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 237,
+  "title": "Roublard : niveau 10",
+  "text": "Ce qui change : Progression de sous-classe et expertise · Ce que cela signifie pour le concept : Le personnage devient plus fiable en compétences et plus spécialisé.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 9,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 238,
+  "title": "Roublard : niveau 15",
+  "text": "Ce qui change : Esprit fuyant · Ce que cela signifie pour le concept : La défense contre certaines menaces mentales progresse ; les capacités de sous-classe sont plus avancées.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 9,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 239,
+  "title": "Roublard : niveau 20",
+  "text": "Ce qui change : Coup de chance · Ce que cela signifie pour le concept : Le roublard atteint une grande fiabilité sur un jet crucial.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 9,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 240,
+  "title": "Trajectoire : Roublard",
+  "text": "ROUBLARD Fiche de trajectoire · D&D 5e 2024 · Manuel des joueurs uniquement Rôle : Expert de compétences, de discrétion et de dégâts ciblés par Attaque sournoise. Axes de construction : Dextérité ; choisir ensuite entre compétences sociales, exploration, magie ou capacités psychiques selon la sous-classe. Sous-classes : ce qu'elles changent Sous-classe Orientation Assassin Infiltration et ouvertures offensives Filou arcanique Discrétion et magie Lame d'âme Outils psychiques Voleur Agilité et utilisation d'objets Trajectoire indicative jusqu'au niveau 20 Les jalons ci-dessous servent à visualiser la direction du personnage, pas à remplacer la table de classe. Les niveaux exacts de chaque aptitude sont indiqués dans les références officielles. Les capacités listées sont des résumés originaux. Niveau Ce qui change Ce que cela signifie pour le concept repère 1 Expertise, Attaque sournoise et maîtrise Le roublard a déjà une identité claire hors combat et au combat. d'armes 3 Archétype et Visée stable La sous-classe précise l'approche ; Visée stable renforce le choix du positionnement. 5 Frappe rusée Les dégâts peuvent s'accompagner d'effets tactiques au prix prévu par la règle. 10 Progression de sous-classe et expertise Le personnage devient plus fiable en compétences et plus spécialisé. 15 Esprit fuyant La défense contre certaines menaces mentales progresse ; les capacités de sous-classe sont plus avancées. 20 Coup de chance Le roublard atteint une grande fiabilité sur un jet crucial. Repères mécaniques publiés pour l'édition 2024 1 : Argot des voleurs et maîtrise d'armes, plus Attaque sournoise ; 3 : Visée stable et sous-classe ; 5 : Frappe rusée ; 7 : Évasion et Talent fiable ; 11 : Frappe rusée améliorée ; 14 : Frappes déloyales ; 15 : Esprit fuyant ; 19 : Bienfait épique ; 20 : Coup de chance. Comment planifier les choix Le joueur doit aimer gérer positionnement, compétence et opportunité. La sous-classe peut ajouter magie, outils psychiques ou spécialisation d'infiltration. Vérifier avec le bot les conditions de l'Attaque sournoise et les choix de Frappe rusée. Référence officielle : D&D Beyond, “Updates in the Player’s Handbook (2024)”, 3 septembre 2024. Cet article récapitule les capacités de classe nouvelles ou révisées et les changements de sous-classes. Pour les tables complètes et les effets exacts, consulter le Manuel des joueurs 2024 : dndbeyond.com/sources/dnd/phb-2024 · Article : dndbeyond.com/posts/1810-updates-in-the-players-handbook-2024. Limite volontaire : cette fiche aide à se projeter. Elle ne recommande pas un build unique, ne liste pas chaque sort ou don, et ne remplace pas les calculs que Jdr Helper doit effectuer. Jdr Helper · fiche d'orientation · D&D 5e 2024 Roublard · page 1",
+  "source": "Trajectoires des classes du MJ",
+  "page": 9,
+  "kind": "trajectoire"
+ },
+ {
+  "id": 241,
+  "title": "Aberrante (Ensorceleur)",
+  "text": "Orientation : Pouvoirs étranges et mentaux",
+  "source": "Trajectoires des classes du MJ",
+  "page": 10,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 242,
+  "title": "Mécanique (Ensorceleur)",
+  "text": "Orientation : Ordre, stabilité et protection",
+  "source": "Trajectoires des classes du MJ",
+  "page": 10,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 243,
+  "title": "Draconique (Ensorceleur)",
+  "text": "Orientation : Héritage draconique",
+  "source": "Trajectoires des classes du MJ",
+  "page": 10,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 244,
+  "title": "Sauvage (Ensorceleur)",
+  "text": "Orientation : Magie imprévisible",
+  "source": "Trajectoires des classes du MJ",
+  "page": 10,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 245,
+  "title": "Ensorceleur : niveau 1",
+  "text": "Ce qui change : Sorcellerie innée et Incantation · Ce que cela signifie pour le concept : Le personnage exprime immédiatement son origine magique.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 10,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 246,
+  "title": "Ensorceleur : niveau 3",
+  "text": "Ce qui change : Origine ensorceleuse et Métamagie · Ce que cela signifie pour le concept : La sous-classe et les modifications de sorts commencent à définir le build.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 10,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 247,
+  "title": "Ensorceleur : niveau 5",
+  "text": "Ce qui change : Restauration sorcière · Ce que cela signifie pour le concept : Le personnage récupère mieux certaines ressources et gagne des sorts plus puissants.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 10,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 248,
+  "title": "Ensorceleur : niveau 10",
+  "text": "Ce qui change : Progression de Métamagie et de l'origine · Ce que cela signifie pour le concept : Le style magique devient plus distinct ; les choix de sorts sont déterminants.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 10,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 249,
+  "title": "Ensorceleur : niveau 15",
+  "text": "Ce qui change : Options avancées de magie innée · Ce que cela signifie pour le concept : Les capacités de l'origine renforcent le thème et le rôle choisi.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 10,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 250,
+  "title": "Ensorceleur : niveau 20",
+  "text": "Ce qui change : Apothéose arcanique · Ce que cela signifie pour le concept : Le personnage atteint l'apogée de sa magie innée.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 10,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 251,
+  "title": "Trajectoire : Ensorceleur",
+  "text": "ENSORCELEUR Fiche de trajectoire · D&D 5e 2024 · Manuel des joueurs uniquement Rôle : Lanceur de sorts inné qui modifie ses sorts avec la Métamagie. Axes de construction : Charisme ; Constitution utile pour concentration et survie. Le choix des sorts façonne fortement le personnage. Sous-classes : ce qu'elles changent Sous-classe Orientation Aberrante Pouvoirs étranges et mentaux Mécanique Ordre, stabilité et protection Draconique Héritage draconique Sauvage Magie imprévisible Trajectoire indicative jusqu'au niveau 20 Les jalons ci-dessous servent à visualiser la direction du personnage, pas à remplacer la table de classe. Les niveaux exacts de chaque aptitude sont indiqués dans les références officielles. Les capacités listées sont des résumés originaux. Niveau Ce qui change Ce que cela signifie pour le concept repère 1 Sorcellerie innée et Incantation Le personnage exprime immédiatement son origine magique. 3 Origine ensorceleuse et Métamagie La sous-classe et les modifications de sorts commencent à définir le build. 5 Restauration sorcière Le personnage récupère mieux certaines ressources et gagne des sorts plus puissants. 10 Progression de Métamagie et de l'origine Le style magique devient plus distinct ; les choix de sorts sont déterminants. 15 Options avancées de magie innée Les capacités de l'origine renforcent le thème et le rôle choisi. 20 Apothéose arcanique Le personnage atteint l'apogée de sa magie innée. Repères mécaniques publiés pour l'édition 2024 1 : Sorcellerie innée et Incantation ; 2 : Source de magie et Métamagie ; 3 : sous-classe ; 5 : Restauration sorcière ; 7 : Sorcellerie incarnée ; 19 : Bienfait épique ; 20 : Apothéose arcanique. Comment planifier les choix Construire autour d'une petite sélection de sorts cohérente et de métamagies qui servent régulièrement le concept. Charisme est central. Le bot doit contrôler coût en points de sorcellerie, compatibilité des options et remplacement des sorts. Référence officielle : D&D Beyond, “Updates in the Player’s Handbook (2024)”, 3 septembre 2024. Cet article récapitule les capacités de classe nouvelles ou révisées et les changements de sous-classes. Pour les tables complètes et les effets exacts, consulter le Manuel des joueurs 2024 : dndbeyond.com/sources/dnd/phb-2024 · Article : dndbeyond.com/posts/1810-updates-in-the-players-handbook-2024. Limite volontaire : cette fiche aide à se projeter. Elle ne recommande pas un build unique, ne liste pas chaque sort ou don, et ne remplace pas les calculs que Jdr Helper doit effectuer. Jdr Helper · fiche d'orientation · D&D 5e 2024 Ensorceleur · page 1",
+  "source": "Trajectoires des classes du MJ",
+  "page": 10,
+  "kind": "trajectoire"
+ },
+ {
+  "id": 252,
+  "title": "Archifée (Occultiste)",
+  "text": "Orientation : Mobilité et pouvoirs féeriques",
+  "source": "Trajectoires des classes du MJ",
+  "page": 11,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 253,
+  "title": "Céleste (Occultiste)",
+  "text": "Orientation : Soutien et lumière",
+  "source": "Trajectoires des classes du MJ",
+  "page": 11,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 254,
+  "title": "Fiélon (Occultiste)",
+  "text": "Orientation : Destruction et survie",
+  "source": "Trajectoires des classes du MJ",
+  "page": 11,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 255,
+  "title": "Grand Ancien (Occultiste)",
+  "text": "Orientation : Influence mentale et pouvoirs cosmiques",
+  "source": "Trajectoires des classes du MJ",
+  "page": 11,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 256,
+  "title": "Occultiste : niveau 1",
+  "text": "Ce qui change : Invocations occultes et Magie de pacte · Ce que cela signifie pour le concept : Le personnage choisit déjà ses outils surnaturels et sa façon d'agir.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 11,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 257,
+  "title": "Occultiste : niveau 3",
+  "text": "Ce qui change : Patron occulte · Ce que cela signifie pour le concept : La sous-classe donne une direction narrative et mécanique forte.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 11,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 258,
+  "title": "Occultiste : niveau 5",
+  "text": "Ce qui change : Progression des invocations et de la magie de pacte · Ce que cela signifie pour le concept : Le personnage affine sa spécialisation ; les invocations peuvent changer profondément le gameplay.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 11,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 259,
+  "title": "Occultiste : niveau 10",
+  "text": "Ce qui change : Capacités avancées du patron · Ce que cela signifie pour le concept : Le patron et les invocations définissent davantage la manière d'affronter les problèmes.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 11,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 260,
+  "title": "Occultiste : niveau 15",
+  "text": "Ce qui change : Invocations de haut niveau et pouvoirs du patron · Ce que cela signifie pour le concept : La personnalisation devient très poussée ; contrôler les prérequis des invocations.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 11,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 261,
+  "title": "Occultiste : niveau 20",
+  "text": "Ce qui change : Apogée de pacte et de patron · Ce que cela signifie pour le concept : Le personnage atteint le sommet de son style surnaturel ; bienfait épique au niveau 19.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 11,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 262,
+  "title": "Trajectoire : Occultiste",
+  "text": "OCCULTISTE Fiche de trajectoire · D&D 5e 2024 · Manuel des joueurs uniquement Rôle : Lanceur de magie de pacte personnalisable par les invocations et le patron surnaturel. Axes de construction : Charisme ; Dextérité/Constitution selon le style. Le choix des invocations est une composante essentielle de l'identité. Sous-classes : ce qu'elles changent Sous-classe Orientation Archifée Mobilité et pouvoirs féeriques Céleste Soutien et lumière Fiélon Destruction et survie Grand Ancien Influence mentale et pouvoirs cosmiques Trajectoire indicative jusqu'au niveau 20 Les jalons ci-dessous servent à visualiser la direction du personnage, pas à remplacer la table de classe. Les niveaux exacts de chaque aptitude sont indiqués dans les références officielles. Les capacités listées sont des résumés originaux. Niveau Ce qui change Ce que cela signifie pour le concept repère 1 Invocations occultes et Magie de pacte Le personnage choisit déjà ses outils surnaturels et sa façon d'agir. 3 Patron occulte La sous-classe donne une direction narrative et mécanique forte. 5 Progression des invocations et de la magie Le personnage affine sa spécialisation ; les invocations peuvent de pacte changer profondément le gameplay. 10 Capacités avancées du patron Le patron et les invocations définissent davantage la manière d'affronter les problèmes. 15 Invocations de haut niveau et pouvoirs du La personnalisation devient très poussée ; contrôler les prérequis des patron invocations. 20 Apogée de pacte et de patron Le personnage atteint le sommet de son style surnaturel ; bienfait épique au niveau 19. Repères mécaniques publiés pour l'édition 2024 1 : Invocations occultes et Magie de pacte ; 2 : Ruse magique ; 3 : patron ; 9 : Contacter le protecteur ; 11 : Arcanum mystique ; 19 : Bienfait épique. Les choix d'invocations et leur nombre évoluent à d'autres niveaux : consulter la table officielle. Comment planifier les choix Le personnage est défini par son patron, ses invocations et sa façon d'utiliser les emplacements de pacte. Éviter de le construire comme un magicien classique : les ressources et la récupération diffèrent. Vérifier chaque prérequis d'invocation. Référence officielle : D&D Beyond, “Updates in the Player’s Handbook (2024)”, 3 septembre 2024. Cet article récapitule les capacités de classe nouvelles ou révisées et les changements de sous-classes. Pour les tables complètes et les effets exacts, consulter le Manuel des joueurs 2024 : dndbeyond.com/sources/dnd/phb-2024 · Article : dndbeyond.com/posts/1810-updates-in-the-players-handbook-2024. Limite volontaire : cette fiche aide à se projeter. Elle ne recommande pas un build unique, ne liste pas chaque sort ou don, et ne remplace pas les calculs que Jdr Helper doit effectuer. Jdr Helper · fiche d'orientation · D&D 5e 2024 Occultiste · page 1",
+  "source": "Trajectoires des classes du MJ",
+  "page": 11,
+  "kind": "trajectoire"
+ },
+ {
+  "id": 263,
+  "title": "Abjurateur (Magicien)",
+  "text": "Orientation : Protection et contre-magie",
+  "source": "Trajectoires des classes du MJ",
+  "page": 12,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 264,
+  "title": "Devin (Magicien)",
+  "text": "Orientation : Présages et probabilités",
+  "source": "Trajectoires des classes du MJ",
+  "page": 12,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 265,
+  "title": "Évocateur (Magicien)",
+  "text": "Orientation : Magie offensive contrôlée",
+  "source": "Trajectoires des classes du MJ",
+  "page": 12,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 266,
+  "title": "Illusionniste (Magicien)",
+  "text": "Orientation : Illusions et tromperie",
+  "source": "Trajectoires des classes du MJ",
+  "page": 12,
+  "kind": "sous-classe"
+ },
+ {
+  "id": 267,
+  "title": "Magicien : niveau 1",
+  "text": "Ce qui change : Adepte des rituels et Incantation · Ce que cela signifie pour le concept : Le livre de sorts et la préparation sont au centre de la classe.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 12,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 268,
+  "title": "Magicien : niveau 3",
+  "text": "Ce qui change : Tradition arcanique · Ce que cela signifie pour le concept : La sous-classe précise la spécialisation magique.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 12,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 269,
+  "title": "Magicien : niveau 5",
+  "text": "Ce qui change : Mémoriser un sort · Ce que cela signifie pour le concept : La gestion des sorts préparés devient plus flexible.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 12,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 270,
+  "title": "Magicien : niveau 10",
+  "text": "Ce qui change : Progression de la tradition et accès à une magie plus puissante · Ce que cela signifie pour le concept : Le magicien adapte son répertoire au rôle attendu dans la campagne.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 12,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 271,
+  "title": "Magicien : niveau 15",
+  "text": "Ce qui change : Options avancées de la tradition · Ce que cela signifie pour le concept : La spécialisation devient plus marquée ; la préparation et les contre-mesures comptent.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 12,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 272,
+  "title": "Magicien : niveau 20",
+  "text": "Ce qui change : Maîtrise des sorts · Ce que cela signifie pour le concept : Le personnage atteint une grande efficacité sur certains sorts ; bienfait épique au niveau 19.",
+  "source": "Trajectoires des classes du MJ",
+  "page": 12,
+  "kind": "niveau repère"
+ },
+ {
+  "id": 273,
+  "title": "Trajectoire : Magicien",
+  "text": "MAGICIEN Fiche de trajectoire · D&D 5e 2024 · Manuel des joueurs uniquement Rôle : Étudiant de la magie arcanique dont le livre de sorts permet de s'adapter à de nombreuses situations. Axes de construction : Intelligence ; Constitution utile. La préparation, le livre de sorts et les rituels font partie de la stratégie. Sous-classes : ce qu'elles changent Sous-classe Orientation Abjurateur Protection et contre-magie Devin Présages et probabilités Évocateur Magie offensive contrôlée Illusionniste Illusions et tromperie Trajectoire indicative jusqu'au niveau 20 Les jalons ci-dessous servent à visualiser la direction du personnage, pas à remplacer la table de classe. Les niveaux exacts de chaque aptitude sont indiqués dans les références officielles. Les capacités listées sont des résumés originaux. Niveau Ce qui change Ce que cela signifie pour le concept repère 1 Adepte des rituels et Incantation Le livre de sorts et la préparation sont au centre de la classe. 3 Tradition arcanique La sous-classe précise la spécialisation magique. 5 Mémoriser un sort La gestion des sorts préparés devient plus flexible. 10 Progression de la tradition et accès à une Le magicien adapte son répertoire au rôle attendu dans la campagne. magie plus puissante 15 Options avancées de la tradition La spécialisation devient plus marquée ; la préparation et les contre-mesures comptent. 20 Maîtrise des sorts Le personnage atteint une grande efficacité sur certains sorts ; bienfait épique au niveau 19. Repères mécaniques publiés pour l'édition 2024 1 : Adepte des rituels et Incantation ; 2 : Érudit ; 3 : tradition arcanique ; 5 : Mémoriser un sort ; 18 : Maîtrise des sorts ; 19 : Bienfait épique. La progression des sorts et des emplacements suit la table de magicien. Comment planifier les choix Choisir une identité magique mais conserver un répertoire assez souple pour les besoins de campagne. Intelligence est centrale. Le bot doit différencier sorts présents dans le livre, sorts préparés et rituels, et vérifier le coût des composants et la concentration. Référence officielle : D&D Beyond, “Updates in the Player’s Handbook (2024)”, 3 septembre 2024. Cet article récapitule les capacités de classe nouvelles ou révisées et les changements de sous-classes. Pour les tables complètes et les effets exacts, consulter le Manuel des joueurs 2024 : dndbeyond.com/sources/dnd/phb-2024 · Article : dndbeyond.com/posts/1810-updates-in-the-players-handbook-2024. Limite volontaire : cette fiche aide à se projeter. Elle ne recommande pas un build unique, ne liste pas chaque sort ou don, et ne remplace pas les calculs que Jdr Helper doit effectuer. Jdr Helper · fiche d'orientation · D&D 5e 2024 Magicien · page 1",
+  "source": "Trajectoires des classes du MJ",
+  "page": 12,
+  "kind": "trajectoire"
+ }
+]

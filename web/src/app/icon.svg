@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <title>La Table de l'Étoile</title>
+  <rect width="32" height="32" rx="7" fill="#1B140F"/>
+  <g transform="translate(4 4)" fill="none" stroke="#E6A04A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4.5 21C4.5 16 5.5 12.5 7.5 10L2.5 4.5 10 7C13 5.5 17 6.5 19.5 9L21.5 10V12L13.5 13 20 15.5 12.5 17.5C11.5 19 10.5 20 10 21Z"/>
+    <path d="M14 9.5h.01" stroke-width="2.4"/>
+  </g>
+</svg>

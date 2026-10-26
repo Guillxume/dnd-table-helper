@@ -1,0 +1,132 @@
+# jdr-helper sur le serveur : /srv/jdr-helper/compose.yaml (copié par le workflow Deploy).
+# À côté : .env (secrets du bot, chmod 600), data/ (base SQLite), backups/, ref/ (feuille de personnage).
+#
+# Le site (profil « web ») ne démarre que si .env.web existe : update.sh exporte alors
+# COMPOSE_PROFILES=web. Sans .env.web, seul le bot tourne, comme avant.
+name: jdr-helper
+
+x-hardening: &hardening
+  cap_drop: [ALL]
+  security_opt:
+    - no-new-privileges:true
+
+x-web-env: &web-env
+  env_file:
+    - path: .env.web
+      required: false
+
+services:
+  bot:
+    image: ghcr.io/guillxume/dnd-table-helper:${IMAGE_TAG:-latest}
+    restart: unless-stopped
+    # Relaie SIGTERM au bot pour un arrêt propre (base fermée, déconnexion de Discord).
+    init: true
+    stop_grace_period: 20s
+    env_file: .env
+    environment:
+      # Boutons du bot vers le site ; sans effet si le site n'est pas en service.
+      SITE_URL: ${SITE_URL:-}
+    volumes:
+      - ./data:/app/data
+      - ./backups:/app/backups
+      - ./ref:/app/ref:ro
+    # Durcissement : système de fichiers en lecture seule (sauf les volumes et /tmp, cache de tsx), aucun privilège.
+    read_only: true
+    tmpfs:
+      - /tmp
+    <<: *hardening
+    # Le bot utilise environ 300 Mo en génération de PDF (mesuré le 15/10/2026).
+    mem_limit: 768m
+    # Aucun port publié : le bot se connecte lui-même à Discord et à l'API Anthropic.
+
+  # ─── Site (profil « web ») ────────────────────────────────────────────────
+
+  db:
+    image: postgres:17.11-bookworm
+    profiles: [web]
+    restart: unless-stopped
+    <<: *web-env
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    mem_limit: 512m
+
+  storage:
+    image: chrislusf/seaweedfs:4.48
+    profiles: [web]
+    restart: unless-stopped
+    entrypoint: ["/bin/sh", "/start-seaweedfs.sh"]
+    <<: *web-env
+    volumes:
+      - storage-data:/data
+      # Même script qu'en développement (web/docker/storage/), copié par le workflow Deploy.
+      - ./start-seaweedfs.sh:/start-seaweedfs.sh:ro
+    mem_limit: 512m
+
+  # Tâche ponctuelle à chaque mise à jour : migrations, bucket, catégories initiales (si vides).
+  web-migrate:
+    image: ghcr.io/guillxume/dnd-table-helper-web-tools:${IMAGE_TAG:-latest}
+    profiles: [web]
+    <<: *web-env
+    command: ["sh", "-c", "pnpm db:deploy && pnpm storage:init && pnpm db:seed"]
+    depends_on:
+      db: { condition: service_healthy }
+      storage: { condition: service_started }
+    restart: "no"
+
+  web:
+    image: ghcr.io/guillxume/dnd-table-helper-web:${IMAGE_TAG:-latest}
+    profiles: [web]
+    restart: unless-stopped
+    init: true
+    <<: [*web-env, *hardening]
+    volumes:
+      # Base SQLite du bot, partagée : même utilisateur (uid 1000) que le bot.
+      - ./data:/app/data
+      - ./ref:/app/ref:ro
+    read_only: true
+    tmpfs:
+      - /tmp
+      - /app/web/.next/cache
+    depends_on:
+      web-migrate: { condition: service_completed_successfully }
+    mem_limit: 768m
+
+  caddy:
+    image: caddy:2.11.7
+    profiles: [web]
+    restart: unless-stopped
+    # Seul service exposé à Internet : il ne reçoit aucun secret, seulement le domaine
+    # (exporté par update.sh depuis .env.web).
+    environment:
+      SITE_DOMAIN: ${SITE_DOMAIN:-table.example.com}
+    ports:
+      - "${HTTP_PORT:-80}:80"
+      - "${HTTPS_PORT:-443}:443"
+      - "${HTTPS_PORT:-443}:443/udp"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on:
+      - web
+    mem_limit: 128m
+
+  # Outils à la demande (profil « tools »), ex. création du compte du MJ :
+  #   docker compose run --rm web-tools pnpm user:create --email moi@example.com
+  web-tools:
+    image: ghcr.io/guillxume/dnd-table-helper-web-tools:${IMAGE_TAG:-latest}
+    profiles: [tools]
+    <<: *web-env
+    depends_on:
+      db: { condition: service_healthy }
+
+volumes:
+  db-data:
+  storage-data:
+  caddy-data:
+  caddy-config:

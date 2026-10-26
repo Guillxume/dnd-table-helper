@@ -1,0 +1,772 @@
+{
+ "source": "Guides d'orientation fournis par le MJ (résumés, non SRD, non vérifiés par l'assistant)",
+ "overview": {
+  "Barbare": {
+   "style": "Combattant de première ligne, robuste, dégâts physiques et Rage.",
+   "atouts": "Résistance, simplicité relative, présence au corps à corps.",
+   "aConsiderer": "Peu orienté vers la magie et les compétences sociales ou savantes.",
+   "evolution": "Puissance physique, endurance, contrôle de proximité."
+  },
+  "Barde": {
+   "style": "Soutien, compétences, influence sociale et magie polyvalente.",
+   "atouts": "Grande polyvalence et soutien du groupe.",
+   "aConsiderer": "Demande de choisir des outils adaptés à plusieurs situations.",
+   "evolution": "Soutien spécialisé, magie plus large, expertise."
+  },
+  "Clerc": {
+   "style": "Magie divine, soutien, protection et dégâts.",
+   "atouts": "Accès à des outils défensifs et offensifs variés.",
+   "aConsiderer": "Gestion des sorts et choix tactiques selon la situation.",
+   "evolution": "Domaine divin affirmé et capacités puissantes de soutien ou de combat."
+  },
+  "Druide": {
+   "style": "Magie naturelle, contrôle du terrain, soin et transformations.",
+   "atouts": "Adaptation à des situations variées.",
+   "aConsiderer": "Plusieurs modes de jeu et règles à surveiller.",
+   "evolution": "Contrôle, magie naturelle et spécialisation de la sous-classe."
+  },
+  "Guerrier": {
+   "style": "Maîtrise des armes, fiabilité et flexibilité martiale.",
+   "atouts": "Nombreux styles d'équipement et rythme de combat clair.",
+   "aConsiderer": "Le style dépend fortement des armes, dons et capacités retenus.",
+   "evolution": "Maîtrise martiale et techniques ou magie selon la sous-classe."
+  },
+  "Moine": {
+   "style": "Mobilité, frappes multiples et discipline martiale.",
+   "atouts": "Déplacement, enchaînements et contrôle ciblé.",
+   "aConsiderer": "Gestion des ressources et positionnement importants.",
+   "evolution": "Mobilité et techniques spécialisées plus développées."
+  },
+  "Paladin": {
+   "style": "Combattant sacré, protection et châtiments.",
+   "atouts": "Bonne présence en première ligne et soutien du groupe.",
+   "aConsiderer": "Arbitrage entre combat, protection et ressources magiques.",
+   "evolution": "Aura, serment et capacités de fin de progression."
+  },
+  "Rôdeur": {
+   "style": "Traque, exploration, combat à distance ou rapproché.",
+   "atouts": "Compétences d'extérieur et spécialisation de cible.",
+   "aConsiderer": "Le style dépend du terrain, des sorts et du choix de sous-classe.",
+   "evolution": "Traque spécialisée, compagnon ou techniques de chasse."
+  },
+  "Roublard": {
+   "style": "Compétences, discrétion, précision et opportunisme.",
+   "atouts": "Expertise, flexibilité hors combat et dégâts ciblés.",
+   "aConsiderer": "Positionnement et conditions d'Attaque sournoise à maîtriser.",
+   "evolution": "Fiabilité des compétences et techniques avancées de ruse."
+  },
+  "Ensorceleur": {
+   "style": "Magie innée modulée par la Métamagie.",
+   "atouts": "Personnalisation de sorts et forte identité magique.",
+   "aConsiderer": "Sélection de sorts plus délicate ; ressources limitées à gérer.",
+   "evolution": "Métamagie et origine magique plus affirmées."
+  },
+  "Occultiste": {
+   "style": "Magie de pacte, invocations et identité surnaturelle.",
+   "atouts": "Personnalisation importante grâce aux invocations.",
+   "aConsiderer": "Fonctionnement des emplacements différent de nombreuses autres classes.",
+   "evolution": "Invocations et pouvoirs du patron structurent le style."
+  },
+  "Magicien": {
+   "style": "Étude arcanique, répertoire de sorts et préparation tactique.",
+   "atouts": "Grande variété de solutions magiques.",
+   "aConsiderer": "Demande d'anticiper les sorts utiles et leur préparation.",
+   "evolution": "Large éventail de magie et spécialisation arcanique."
+  }
+ },
+ "classes": {
+  "barbare": {
+   "nom": "Barbare",
+   "role": "Combattant de première ligne qui s'appuie sur la Rage, la robustesse et la pression au corps à corps.",
+   "axes": "Force, Constitution, armes maîtrisées. Choisir tôt entre dégâts directs, contrôle de terrain ou résistance.",
+   "sousClasses": [
+    {
+     "nom": "Berserker",
+     "orientation": "Rage agressive et dégâts élevés"
+    },
+    {
+     "nom": "Cœur sauvage",
+     "orientation": "Adaptation inspirée des animaux"
+    },
+    {
+     "nom": "Arbre-Monde",
+     "orientation": "Mobilité, protection et effets primordiaux"
+    },
+    {
+     "nom": "Zélote",
+     "orientation": "Ferveur surnaturelle et persistance"
+    }
+   ],
+   "jalons": [
+    {
+     "niveau": "1",
+     "change": "Rage et maîtrise d'armes",
+     "sens": "Le concept de combattant puissant est déjà actif. Choisir les armes dont les maîtrises correspondent au style voulu."
+    },
+    {
+     "niveau": "3",
+     "change": "Connaissance primordiale et sous-classe",
+     "sens": "Le personnage commence à se distinguer : dégâts, soutien/mobilité, endurance ou ferveur selon la voie."
+    },
+    {
+     "niveau": "5",
+     "change": "Attaques supplémentaires et déplacement amélioré",
+     "sens": "Palier martial important : le personnage devient plus fiable au corps à corps."
+    },
+    {
+     "niveau": "10",
+     "change": "Capacités de voie et progression de Rage",
+     "sens": "La sous-classe précise le rôle ; vérifier les capacités exactes à ce niveau dans sa table."
+    },
+    {
+     "niveau": "15",
+     "change": "Rage persistante",
+     "sens": "La Rage devient plus fiable sur les combats prolongés ; le plan de jeu repose de plus en plus sur sa disponibilité."
+    },
+    {
+     "niveau": "20",
+     "change": "Puissance physique maximale et capstone de classe",
+     "sens": "Le barbare atteint son apogée physique. Prévoir le choix de bienfait épique du niveau 19."
+    }
+   ],
+   "reperes": "1 : Rage ; 2 : Sens du danger, Attaque téméraire ; 3 : Connaissance primordiale + voie ; 5 : Attaque supplémentaire ; 7 : Instinct féroce et bond instinctif ; 9 : Frappe brutale ; 11 : Rage implacable ; 13/17 : améliorations de Frappe brutale ; 15 : Rage persistante ; 18 : Puissance indomptable ; 19 : Bienfait épique ; 20 : champion primordial.",
+   "planifier": "Construire autour de la Rage, de l'arme et de la fonction voulue en mêlée. À chaque amélioration de caractéristiques/don, vérifier si la Force principale doit être augmentée ou si un don apporte une vraie option tactique. La Constitution soutient la survie."
+  },
+  "barde": {
+   "nom": "Barde",
+   "role": "Lanceur polyvalent qui combine soutien, compétences, influence sociale et magie.",
+   "axes": "Charisme en priorité ; Dextérité et Constitution sont généralement utiles. Choisir une identité de soutien, d'expert, de combattant mobile ou de polyvalent magique.",
+   "sousClasses": [
+    {
+     "nom": "Danse",
+     "orientation": "Mouvement, présence physique et soutien en combat"
+    },
+    {
+     "nom": "Glamour",
+     "orientation": "Charme et influence féerique"
+    },
+    {
+     "nom": "Savoir",
+     "orientation": "Compétences et polyvalence magique"
+    },
+    {
+     "nom": "Vaillance",
+     "orientation": "Soutien combiné au combat martial"
+    }
+   ],
+   "jalons": [
+    {
+     "niveau": "1",
+     "change": "Inspiration bardique et Incantation",
+     "sens": "Le barde est utile dès le départ en soutien et hors combat."
+    },
+    {
+     "niveau": "3",
+     "change": "Collège bardique",
+     "sens": "La sous-classe choisit l'orientation : expertise, influence, mobilité ou combat."
+    },
+    {
+     "niveau": "5",
+     "change": "Source d'inspiration",
+     "sens": "L'Inspiration bardique revient plus facilement ; le soutien peut être utilisé plus régulièrement."
+    },
+    {
+     "niveau": "10",
+     "change": "Secrets magiques",
+     "sens": "La palette de magie s'élargit fortement ; préparer le rôle futur du barde dans le groupe."
+    },
+    {
+     "niveau": "15",
+     "change": "Capacités avancées du collège",
+     "sens": "La sous-classe prend une place importante dans le style final ; consulter ses paliers exacts."
+    },
+    {
+     "niveau": "20",
+     "change": "Mots de création",
+     "sens": "Le barde atteint son identité de maître du soutien et de la magie polyvalente."
+    }
+   ],
+   "reperes": "1 : Inspiration bardique et Incantation ; 2 : Expertise ; 3 : collège ; 5 : Source d'inspiration ; 7 : Contre-charme ; 10 : Secrets magiques ; 18 : Inspiration supérieure ; 19 : Bienfait épique ; 20 : Mots de création.",
+   "planifier": "Choisir un mélange souhaité entre contrôle, soutien, exploration et interaction sociale. Les sorts sont le principal levier de personnalisation ; le bot devra vérifier les options disponibles et la préparation/remplacement permis à chaque palier."
+  },
+  "clerc": {
+   "nom": "Clerc",
+   "role": "Magie divine au service du soin, de la protection, du combat ou de la perturbation des ennemis.",
+   "axes": "Sagesse ; Constitution utile pour la concentration, puis caractéristiques liées au style martial si pertinent.",
+   "sousClasses": [
+    {
+     "nom": "Vie",
+     "orientation": "Soins et maintien en vie"
+    },
+    {
+     "nom": "Lumière",
+     "orientation": "Radiance et magie offensive"
+    },
+    {
+     "nom": "Tromperie",
+     "orientation": "Ruse, illusion et infiltration"
+    },
+    {
+     "nom": "Guerre",
+     "orientation": "Combat et bénédictions martiales"
+    }
+   ],
+   "jalons": [
+    {
+     "niveau": "1",
+     "change": "Ordre divin et Incantation",
+     "sens": "Le joueur choisit déjà une orientation générale de clerc et accède à la magie divine."
+    },
+    {
+     "niveau": "3",
+     "change": "Domaine divin",
+     "sens": "Le domaine devient la signature du personnage et oriente ses sorts et capacités."
+    },
+    {
+     "niveau": "5",
+     "change": "Destruction des morts-vivants",
+     "sens": "Le clerc gagne une réponse plus marquée contre les morts-vivants."
+    },
+    {
+     "niveau": "10",
+     "change": "Intervention divine",
+     "sens": "Le personnage obtient une capacité divine majeure ; planifier son usage avec le reste du groupe."
+    },
+    {
+     "niveau": "15",
+     "change": "Progression avancée du domaine et des sorts",
+     "sens": "Le domaine et les sorts de haut niveau définissent davantage le rôle."
+    },
+    {
+     "niveau": "20",
+     "change": "Intervention divine supérieure",
+     "sens": "Apogée de l'identité divine ; bienfait épique au niveau 19."
+    }
+   ],
+   "reperes": "1 : Ordre divin et Incantation ; 2 : Canalisation divine ; 3 : domaine ; 5 : Destruction des morts-vivants ; 7 : Frappes bénies ; 10 : Intervention divine ; 14 : Frappes bénies améliorées ; 19 : Bienfait épique ; 20 : Intervention divine supérieure.",
+   "planifier": "Décider si le clerc privilégie soin/protection, dégâts, contrôle ou présence martiale. Sagesse et concentration sont centrales. Le domaine peut accorder des options qui changent les priorités de sorts."
+  },
+  "druide": {
+   "nom": "Druide",
+   "role": "Magie primordiale, contrôle du terrain, soutien et transformation en forme animale.",
+   "axes": "Sagesse ; Constitution pour la concentration. La sous-classe détermine si la transformation, la magie ou les effets élémentaires sont au centre.",
+   "sousClasses": [
+    {
+     "nom": "Terre",
+     "orientation": "Magie liée aux environnements"
+    },
+    {
+     "nom": "Lune",
+     "orientation": "Forme sauvage et combat transformé"
+    },
+    {
+     "nom": "Mer",
+     "orientation": "Puissances océaniques et tempêtes"
+    },
+    {
+     "nom": "Étoiles",
+     "orientation": "Constellations et formes de soutien/offense"
+    }
+   ],
+   "jalons": [
+    {
+     "niveau": "1",
+     "change": "Druidique, Ordre primordial et Incantation",
+     "sens": "Choisir si l'on veut davantage de compétence naturelle ou une orientation magique différente."
+    },
+    {
+     "niveau": "3",
+     "change": "Cercle druidique",
+     "sens": "La sous-classe précise la place de la Forme sauvage, du terrain ou des constellations/éléments."
+    },
+    {
+     "niveau": "5",
+     "change": "Résurgence sauvage",
+     "sens": "Meilleure articulation entre ressources druidiques et formes/pouvoirs."
+    },
+    {
+     "niveau": "10",
+     "change": "Capacités du cercle et magie plus avancée",
+     "sens": "Le style choisi devient plus visible ; la concentration et le positionnement comptent."
+    },
+    {
+     "niveau": "15",
+     "change": "Fureur élémentaire améliorée",
+     "sens": "La capacité de classe renforce la voie choisie et l'efficacité des pouvoirs concernés."
+    },
+    {
+     "niveau": "20",
+     "change": "Archidruide",
+     "sens": "Apogée de la polyvalence naturelle et des capacités druidiques."
+    }
+   ],
+   "reperes": "1 : Druidique, Ordre primordial, Incantation ; 2 : Compagnon sauvage et Forme sauvage ; 3 : cercle ; 5 : Résurgence sauvage ; 7 : Fureur élémentaire ; 15 : Fureur élémentaire améliorée ; 18 : Sorts bestiaux ; 19 : Bienfait épique ; 20 : Archidruide.",
+   "planifier": "Décider si le personnage veut résoudre les situations par les sorts, les transformations ou le contrôle de zone. La sous-classe change fortement l'utilisation des ressources et les caractéristiques utiles en situation de combat."
+  },
+  "ensorceleur": {
+   "nom": "Ensorceleur",
+   "role": "Lanceur de sorts inné qui modifie ses sorts avec la Métamagie.",
+   "axes": "Charisme ; Constitution utile pour concentration et survie. Le choix des sorts façonne fortement le personnage.",
+   "sousClasses": [
+    {
+     "nom": "Aberrante",
+     "orientation": "Pouvoirs étranges et mentaux"
+    },
+    {
+     "nom": "Mécanique",
+     "orientation": "Ordre, stabilité et protection"
+    },
+    {
+     "nom": "Draconique",
+     "orientation": "Héritage draconique"
+    },
+    {
+     "nom": "Sauvage",
+     "orientation": "Magie imprévisible"
+    }
+   ],
+   "jalons": [
+    {
+     "niveau": "1",
+     "change": "Sorcellerie innée et Incantation",
+     "sens": "Le personnage exprime immédiatement son origine magique."
+    },
+    {
+     "niveau": "3",
+     "change": "Origine ensorceleuse et Métamagie",
+     "sens": "La sous-classe et les modifications de sorts commencent à définir le build."
+    },
+    {
+     "niveau": "5",
+     "change": "Restauration sorcière",
+     "sens": "Le personnage récupère mieux certaines ressources et gagne des sorts plus puissants."
+    },
+    {
+     "niveau": "10",
+     "change": "Progression de Métamagie et de l'origine",
+     "sens": "Le style magique devient plus distinct ; les choix de sorts sont déterminants."
+    },
+    {
+     "niveau": "15",
+     "change": "Options avancées de magie innée",
+     "sens": "Les capacités de l'origine renforcent le thème et le rôle choisi."
+    },
+    {
+     "niveau": "20",
+     "change": "Apothéose arcanique",
+     "sens": "Le personnage atteint l'apogée de sa magie innée."
+    }
+   ],
+   "reperes": "1 : Sorcellerie innée et Incantation ; 2 : Source de magie et Métamagie ; 3 : sous-classe ; 5 : Restauration sorcière ; 7 : Sorcellerie incarnée ; 19 : Bienfait épique ; 20 : Apothéose arcanique.",
+   "planifier": "Construire autour d'une petite sélection de sorts cohérente et de métamagies qui servent régulièrement le concept. Charisme est central. Le bot doit contrôler coût en points de sorcellerie, compatibilité des options et remplacement des sorts."
+  },
+  "guerrier": {
+   "nom": "Guerrier",
+   "role": "Spécialiste martial adaptable, capable de se construire autour de nombreuses armes et tactiques.",
+   "axes": "Force ou Dextérité selon les armes ; Constitution pour la robustesse. Les dons et maîtrises d'armes façonnent fortement le style.",
+   "sousClasses": [
+    {
+     "nom": "Champion",
+     "orientation": "Efficacité physique directe"
+    },
+    {
+     "nom": "Maître de bataille",
+     "orientation": "Manœuvres et contrôle tactique"
+    },
+    {
+     "nom": "Chevalier occulte",
+     "orientation": "Combat et magie arcanique"
+    },
+    {
+     "nom": "Guerrier psi",
+     "orientation": "Protection et techniques psychiques"
+    }
+   ],
+   "jalons": [
+    {
+     "niveau": "1",
+     "change": "Style de combat, Second souffle et maîtrise d'armes",
+     "sens": "Le guerrier est déjà un spécialiste d'équipement ; choisir une famille d'armes et ses maîtrises."
+    },
+    {
+     "niveau": "3",
+     "change": "Archétype martial",
+     "sens": "La sous-classe choisit entre efficacité directe, manœuvres, magie ou capacités psychiques."
+    },
+    {
+     "niveau": "5",
+     "change": "Attaque supplémentaire et Déplacement tactique",
+     "sens": "Palier majeur de combat : le choix d'arme et les options par attaque deviennent très importants."
+    },
+    {
+     "niveau": "10",
+     "change": "Progression de l'archétype et flexibilité tactique",
+     "sens": "La sous-classe enrichit la boucle de combat ; gérer actions, ressources et réactions."
+    },
+    {
+     "niveau": "15",
+     "change": "Capacités martiales avancées",
+     "sens": "Le guerrier devient plus constant et spécialisé selon l'archétype."
+    },
+    {
+     "niveau": "20",
+     "change": "Maîtrise martiale maximale",
+     "sens": "Les améliorations de haut niveau consolident le rôle choisi ; bienfait épique au niveau 19."
+    }
+   ],
+   "reperes": "1 : Style de combat, Second souffle, maîtrise d'armes ; 2 : Esprit tactique ; 3 : sous-classe ; 5 : Déplacement tactique et Attaque supplémentaire ; 9 : Indomptable et Maître tactique ; 13 : Attaques étudiées ; 19 : Bienfait épique. Les attaques supplémentaires progressent encore aux niveaux prévus par la table de classe.",
+   "planifier": "Le premier choix structurant est l'arme et la manière de l'utiliser. Le Champion privilégie une boucle directe, le Maître de bataille des options tactiques, le Chevalier occulte la magie et le Guerrier psi des capacités psychiques. Vérifier les dons et propriétés de maîtrise avec le bot."
+  },
+  "magicien": {
+   "nom": "Magicien",
+   "role": "Étudiant de la magie arcanique dont le livre de sorts permet de s'adapter à de nombreuses situations.",
+   "axes": "Intelligence ; Constitution utile. La préparation, le livre de sorts et les rituels font partie de la stratégie.",
+   "sousClasses": [
+    {
+     "nom": "Abjurateur",
+     "orientation": "Protection et contre-magie"
+    },
+    {
+     "nom": "Devin",
+     "orientation": "Présages et probabilités"
+    },
+    {
+     "nom": "Évocateur",
+     "orientation": "Magie offensive contrôlée"
+    },
+    {
+     "nom": "Illusionniste",
+     "orientation": "Illusions et tromperie"
+    }
+   ],
+   "jalons": [
+    {
+     "niveau": "1",
+     "change": "Adepte des rituels et Incantation",
+     "sens": "Le livre de sorts et la préparation sont au centre de la classe."
+    },
+    {
+     "niveau": "3",
+     "change": "Tradition arcanique",
+     "sens": "La sous-classe précise la spécialisation magique."
+    },
+    {
+     "niveau": "5",
+     "change": "Mémoriser un sort",
+     "sens": "La gestion des sorts préparés devient plus flexible."
+    },
+    {
+     "niveau": "10",
+     "change": "Progression de la tradition et accès à une magie plus puissante",
+     "sens": "Le magicien adapte son répertoire au rôle attendu dans la campagne."
+    },
+    {
+     "niveau": "15",
+     "change": "Options avancées de la tradition",
+     "sens": "La spécialisation devient plus marquée ; la préparation et les contre-mesures comptent."
+    },
+    {
+     "niveau": "20",
+     "change": "Maîtrise des sorts",
+     "sens": "Le personnage atteint une grande efficacité sur certains sorts ; bienfait épique au niveau 19."
+    }
+   ],
+   "reperes": "1 : Adepte des rituels et Incantation ; 2 : Érudit ; 3 : tradition arcanique ; 5 : Mémoriser un sort ; 18 : Maîtrise des sorts ; 19 : Bienfait épique. La progression des sorts et des emplacements suit la table de magicien.",
+   "planifier": "Choisir une identité magique mais conserver un répertoire assez souple pour les besoins de campagne. Intelligence est centrale. Le bot doit différencier sorts présents dans le livre, sorts préparés et rituels, et vérifier le coût des composants et la concentration."
+  },
+  "moine": {
+   "nom": "Moine",
+   "role": "Combattant mobile utilisant arts martiaux, focalisation et contrôle de l'adversaire.",
+   "axes": "Dextérité et Sagesse ; Constitution peut aider la survie. Le positionnement et la gestion de la focalisation sont essentiels.",
+   "sousClasses": [
+    {
+     "nom": "Main ouverte",
+     "orientation": "Contrôle par les frappes"
+    },
+    {
+     "nom": "Ombre",
+     "orientation": "Discrétion et ténèbres"
+    },
+    {
+     "nom": "Éléments",
+     "orientation": "Portée et effets élémentaires"
+    },
+    {
+     "nom": "Miséricorde",
+     "orientation": "Soins et atteintes vitales"
+    }
+   ],
+   "jalons": [
+    {
+     "niveau": "1",
+     "change": "Arts martiaux",
+     "sens": "Le personnage repose sur la mobilité et les attaques non conventionnelles."
+    },
+    {
+     "niveau": "3",
+     "change": "Voie martiale et Déviation des attaques",
+     "sens": "La sous-classe façonne le rôle et le moine gagne un outil défensif important."
+    },
+    {
+     "niveau": "5",
+     "change": "Frappe étourdissante",
+     "sens": "Le moine gagne une option de contrôle marquante."
+    },
+    {
+     "niveau": "10",
+     "change": "Focalisation accrue et Auto-restauration",
+     "sens": "Le personnage gère mieux ses ressources et certains états nuisibles."
+    },
+    {
+     "niveau": "15",
+     "change": "Focalisation parfaite",
+     "sens": "Les ressources sont plus fiables à haut niveau."
+    },
+    {
+     "niveau": "20",
+     "change": "Corps et esprit",
+     "sens": "Apogée de la discipline et de la défense ; bienfait épique au niveau 19."
+    }
+   ],
+   "reperes": "1 : Arts martiaux ; 2 : Focalisation du moine et Métabolisme surnaturel ; 3 : sous-classe et Déviation des attaques ; 5 : Frappe étourdissante ; 6 : Frappes renforcées ; 7 : Évasion ; 10 : Focalisation accrue et Auto-restauration ; 13 : Déviation de l'énergie ; 15 : Focalisation parfaite ; 18 : Défense supérieure ; 19 : Bienfait épique ; 20 : Corps et esprit.",
+   "planifier": "Construire autour de la mobilité et d'une utilisation disciplinée des points de focalisation. La sous-classe définit si les frappes contrôlent, se dissimulent, s'étendent ou soutiennent. Vérifier le coût des capacités et l'ordre des actions."
+  },
+  "occultiste": {
+   "nom": "Occultiste",
+   "role": "Lanceur de magie de pacte personnalisable par les invocations et le patron surnaturel.",
+   "axes": "Charisme ; Dextérité/Constitution selon le style. Le choix des invocations est une composante essentielle de l'identité.",
+   "sousClasses": [
+    {
+     "nom": "Archifée",
+     "orientation": "Mobilité et pouvoirs féeriques"
+    },
+    {
+     "nom": "Céleste",
+     "orientation": "Soutien et lumière"
+    },
+    {
+     "nom": "Fiélon",
+     "orientation": "Destruction et survie"
+    },
+    {
+     "nom": "Grand Ancien",
+     "orientation": "Influence mentale et pouvoirs cosmiques"
+    }
+   ],
+   "jalons": [
+    {
+     "niveau": "1",
+     "change": "Invocations occultes et Magie de pacte",
+     "sens": "Le personnage choisit déjà ses outils surnaturels et sa façon d'agir."
+    },
+    {
+     "niveau": "3",
+     "change": "Patron occulte",
+     "sens": "La sous-classe donne une direction narrative et mécanique forte."
+    },
+    {
+     "niveau": "5",
+     "change": "Progression des invocations et de la magie de pacte",
+     "sens": "Le personnage affine sa spécialisation ; les invocations peuvent changer profondément le gameplay."
+    },
+    {
+     "niveau": "10",
+     "change": "Capacités avancées du patron",
+     "sens": "Le patron et les invocations définissent davantage la manière d'affronter les problèmes."
+    },
+    {
+     "niveau": "15",
+     "change": "Invocations de haut niveau et pouvoirs du patron",
+     "sens": "La personnalisation devient très poussée ; contrôler les prérequis des invocations."
+    },
+    {
+     "niveau": "20",
+     "change": "Apogée de pacte et de patron",
+     "sens": "Le personnage atteint le sommet de son style surnaturel ; bienfait épique au niveau 19."
+    }
+   ],
+   "reperes": "1 : Invocations occultes et Magie de pacte ; 2 : Ruse magique ; 3 : patron ; 9 : Contacter le protecteur ; 11 : Arcanum mystique ; 19 : Bienfait épique. Les choix d'invocations et leur nombre évoluent à d'autres niveaux : consulter la table officielle.",
+   "planifier": "Le personnage est défini par son patron, ses invocations et sa façon d'utiliser les emplacements de pacte. Éviter de le construire comme un magicien classique : les ressources et la récupération diffèrent. Vérifier chaque prérequis d'invocation."
+  },
+  "paladin": {
+   "nom": "Paladin",
+   "role": "Combattant sacré qui protège les alliés, combat au contact et utilise la magie divine.",
+   "axes": "Force et Charisme ; Constitution utile. Il faut arbitrer entre dégâts, défense, soutien et ressources magiques.",
+   "sousClasses": [
+    {
+     "nom": "Dévotion",
+     "orientation": "Protection et idéal chevaleresque"
+    },
+    {
+     "nom": "Gloire",
+     "orientation": "Exploits héroïques"
+    },
+    {
+     "nom": "Anciens",
+     "orientation": "Vie, lumière et nature"
+    },
+    {
+     "nom": "Vengeance",
+     "orientation": "Poursuite et punition de cibles"
+    }
+   ],
+   "jalons": [
+    {
+     "niveau": "1",
+     "change": "Imposition des mains, Incantation et maîtrise d'armes",
+     "sens": "Le paladin peut soutenir et combattre dès la création."
+    },
+    {
+     "niveau": "3",
+     "change": "Serment sacré et Canalisation divine",
+     "sens": "La sous-classe donne son identité morale et mécanique."
+    },
+    {
+     "niveau": "5",
+     "change": "Destrier fidèle et progression martiale",
+     "sens": "Le paladin développe ses options de mobilité et de combat."
+    },
+    {
+     "niveau": "10",
+     "change": "Aura de courage",
+     "sens": "Le paladin renforce sa contribution défensive à proximité des alliés."
+    },
+    {
+     "niveau": "15",
+     "change": "Capacités avancées du serment et Toucher restaurateur",
+     "sens": "La sous-classe et le soutien du groupe deviennent plus développés."
+    },
+    {
+     "niveau": "20",
+     "change": "Apogée du serment",
+     "sens": "Le paladin atteint le sommet de son rôle sacré ; bienfait épique au niveau 19."
+    }
+   ],
+   "reperes": "1 : Imposition des mains, Incantation, maîtrise d'armes ; 2 : Style de combat et Châtiment du paladin ; 3 : Canalisation divine et serment ; 5 : Destrier fidèle ; 6 : Aura de protection ; 9 : Répudier les ennemis ; 10 : Aura de courage ; 14 : Toucher restaurateur ; 19 : Bienfait épique.",
+   "planifier": "Définir le rôle principal : rempart, combattant offensif ou soutien hybride. Le Charisme contribue aux capacités et à l'aura ; Force/Dextérité dépend du style de combat. Le bot doit aider à arbitrer les sorts et ressources plutôt que d'optimiser uniquement les dégâts."
+  },
+  "rodeur": {
+   "nom": "Rôdeur",
+   "role": "Traqueur et explorateur, combattant à distance ou au contact avec une magie de soutien.",
+   "axes": "Dextérité et Sagesse ; Constitution utile. Les compétences et la sous-classe déterminent l'approche de l'exploration et du combat.",
+   "sousClasses": [
+    {
+     "nom": "Chasseur",
+     "orientation": "Réponses tactiques à différents ennemis"
+    },
+    {
+     "nom": "Maître des bêtes",
+     "orientation": "Compagnon animal"
+    },
+    {
+     "nom": "Traqueur des ténèbres",
+     "orientation": "Chasse dans l'obscurité"
+    },
+    {
+     "nom": "Vagabond féerique",
+     "orientation": "Magie féerique et influence"
+    }
+   ],
+   "jalons": [
+    {
+     "niveau": "1",
+     "change": "Ennemi juré, Incantation et maîtrise d'armes",
+     "sens": "Le rôdeur commence comme traqueur polyvalent, avec magie et options martiales."
+    },
+    {
+     "niveau": "3",
+     "change": "Archétype de rôdeur",
+     "sens": "Choisir entre compagnon, chasse spécialisée, obscurité ou influence féerique."
+    },
+    {
+     "niveau": "5",
+     "change": "Progression martiale et sorts de niveau supérieur",
+     "sens": "Le rôle au combat s'affirme ; l'économie d'action et la concentration deviennent importantes."
+    },
+    {
+     "niveau": "10",
+     "change": "Infatigable",
+     "sens": "La résistance à l'usure s'améliore, utile dans les aventures prolongées."
+    },
+    {
+     "niveau": "15",
+     "change": "Capacités avancées de la sous-classe",
+     "sens": "Le rôdeur est plus spécialisé dans sa manière de traquer ou d'aider le groupe."
+    },
+    {
+     "niveau": "20",
+     "change": "Pourfendeur d'ennemis",
+     "sens": "La classe atteint son apogée dans la chasse et la spécialisation."
+    }
+   ],
+   "reperes": "1 : Ennemi juré, Incantation, maîtrise d'armes ; 2 : Explorateur habile et Style de combat ; 3 : sous-classe ; 6 : Itinérance ; 9 : Expertise ; 10 : Infatigable ; 13 : Chasseur implacable ; 14 : Voile de la nature ; 17 : Chasseur précis ; 18 : Sens féroces ; 19 : Bienfait épique ; 20 : Pourfendeur d'ennemis.",
+   "planifier": "Choisir la distance de combat, la place des sorts et le degré de dépendance au compagnon. La Dextérité est généralement centrale ; Sagesse soutient les sorts et certaines compétences. Prévoir un plan de concentration et des options quand le terrain ne favorise pas la traque."
+  },
+  "roublard": {
+   "nom": "Roublard",
+   "role": "Expert de compétences, de discrétion et de dégâts ciblés par Attaque sournoise.",
+   "axes": "Dextérité ; choisir ensuite entre compétences sociales, exploration, magie ou capacités psychiques selon la sous-classe.",
+   "sousClasses": [
+    {
+     "nom": "Assassin",
+     "orientation": "Infiltration et ouvertures offensives"
+    },
+    {
+     "nom": "Filou arcanique",
+     "orientation": "Discrétion et magie"
+    },
+    {
+     "nom": "Lame d'âme",
+     "orientation": "Outils psychiques"
+    },
+    {
+     "nom": "Voleur",
+     "orientation": "Agilité et utilisation d'objets"
+    }
+   ],
+   "jalons": [
+    {
+     "niveau": "1",
+     "change": "Expertise, Attaque sournoise et maîtrise d'armes",
+     "sens": "Le roublard a déjà une identité claire hors combat et au combat."
+    },
+    {
+     "niveau": "3",
+     "change": "Archétype et Visée stable",
+     "sens": "La sous-classe précise l'approche ; Visée stable renforce le choix du positionnement."
+    },
+    {
+     "niveau": "5",
+     "change": "Frappe rusée",
+     "sens": "Les dégâts peuvent s'accompagner d'effets tactiques au prix prévu par la règle."
+    },
+    {
+     "niveau": "10",
+     "change": "Progression de sous-classe et expertise",
+     "sens": "Le personnage devient plus fiable en compétences et plus spécialisé."
+    },
+    {
+     "niveau": "15",
+     "change": "Esprit fuyant",
+     "sens": "La défense contre certaines menaces mentales progresse ; les capacités de sous-classe sont plus avancées."
+    },
+    {
+     "niveau": "20",
+     "change": "Coup de chance",
+     "sens": "Le roublard atteint une grande fiabilité sur un jet crucial."
+    }
+   ],
+   "reperes": "1 : Argot des voleurs et maîtrise d'armes, plus Attaque sournoise ; 3 : Visée stable et sous-classe ; 5 : Frappe rusée ; 7 : Évasion et Talent fiable ; 11 : Frappe rusée améliorée ; 14 : Frappes déloyales ; 15 : Esprit fuyant ; 19 : Bienfait épique ; 20 : Coup de chance.",
+   "planifier": "Le joueur doit aimer gérer positionnement, compétence et opportunité. La sous-classe peut ajouter magie, outils psychiques ou spécialisation d'infiltration. Vérifier avec le bot les conditions de l'Attaque sournoise et les choix de Frappe rusée."
+  }
+ },
+ "questions": [
+  "Veux-tu surtout infliger des dégâts, protéger, contrôler, soutenir, explorer ou résoudre des problèmes hors combat ?",
+  "Préfères-tu agir avec des armes, avec la magie, ou en combinant les deux ?",
+  "Veux-tu un tour de jeu simple et répétable, ou beaucoup d'options tactiques ?",
+  "Le personnage doit-il être efficace dès le niveau 1, ou son concept peut-il se développer progressivement ?",
+  "Veux-tu un compagnon, une transformation, des pouvoirs psychiques, un pacte, un serment, une origine magique ou une spécialisation tactique ?",
+  "Est-ce important que le personnage soit utile en social et en exploration autant qu'en combat ?",
+  "Préfères-tu une ressource qui se renouvelle souvent ou des capacités puissantes mais limitées ?"
+ ]
+}

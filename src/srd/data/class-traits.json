@@ -1,0 +1,131 @@
+{
+ "traits": {
+  "barbare": [
+   [
+    "Rage",
+    "Vous pouvez vous animer d’une force primitive appelée Rage, qui vous investit d’une puissance et d’une résistance accrues. Vous pouvez entrer en Rage, par une action Bonus, si vous ne portez pas d’armure lourde. Vous pouvez entrer en Rage autant de fois par jour qu’indiqué dans la colonne Rages de la table Aptitudes du Barbare, pour votre niveau de Barbare. Vous en regagnez une utilisation lorsque vous terminez un Repos court, et récupérez tout le quota en terminant un Repos long. Tant que votre Rage est active, les règles suivantes s’appliquent. Résistance aux dégâts. Vous bénéficiez de la Résistance aux dégâts contondants, perforants et tranchants. Dégâts de Rage. Lorsque vous effectuez une attaque basée sur la Force, que ce soit avec une arme ou à mains nues, et que vous infligez des dégâts à la cible, vous bénéficiez pour ces dégâts d’un bonus qui augmente lorsque vous gagnez des niveaux de Barbare, comme indiqué à la colonne Dégâts de Rage de la table Aptitudes du Barbare. Avantage en Force. Vous avez l’Avantage aux tests de Force et aux jets de sauvegarde de Force. Ni Concentration ni sorts. Vous ne pouvez pas maintenir votre Concentration ni lancer de sorts. Durée. La Rage persiste jusqu’à la fin de votre tour suivant, mais se termine prématurément si vous enfilez une armure lourde ou subissez l’état Neutralisé. Si votre Rage est encore active lorsque votre tour suivant intervient, vous pouvez la prolonger d’un round par n’importe laquelle des choses suivantes : • Effectuer un jet d’attaque contre un ennemi. • Contraindre un ennemi à effectuer un jet de sauvegarde. • Entreprendre une action Bonus pour prolonger votre Rage. Chaque fois que la Rage est prolongée, elle persiste jusqu’à la fin de votre tour suivant. Vous pouvez maintenir votre Rage pendant un maximum de 10 minutes."
+   ],
+   [
+    "Défense sans armure",
+    "Tant que vous ne portez pas d’armure, votre classe d’armure de base est égale à 10 + vos modificateurs de Dextérité et de Constitution. Vous conservez ce bénéfice si vous vous servez d’un bouclier."
+   ],
+   [
+    "Bottes d’arme",
+    "Votre entraînement martial vous permet de recourir à la botte de deux types d’arme de corps à corps courante ou de guerre de votre choix, par exemple la hache à deux mains et la hachette. Chaque fois que vous terminez un Repos long, vous pouvez accomplir des exercices martiaux pour changer l’un de ces choix."
+   ]
+  ],
+  "barde": [
+   [
+    "Inspiration bardique",
+    "Vous pouvez inspirer autrui, surnaturellement, par vos paroles, votre musique ou vos danses. Cette inspiration est représentée par votre dé d’Inspiration bardique, un d6. Utilisation de l’Inspiration bardique. Par une action Bonus, vous pouvez inspirer une autre créature qui vous voit ou vous entend dans un rayon de 18 m. Cette créature reçoit l’un de vos dés d’Inspiration bardique. Une même créature ne peut pas disposer de plus d’un dé d’Inspiration bardique à la fois. Une fois au cours de l’heure à venir, lorsque la créature rate un Test d20, elle peut lancer le dé d’Inspiration bardique pour en ajouter le résultat au Test d20, ce qui peut convertir l’échec en réussite. Le dé d’Inspiration bardique est dépensé dès qu’il est lancé. Nombre d’utilisations. Vous pouvez conférer l’Inspiration bardique autant de fois que votre modificateur de Charisme (minimum d’une fois) et vous récupérez ce quota en terminant un Repos long."
+   ]
+  ],
+  "clerc": [
+   [
+    "Ordre divin",
+    "Vous consacrez votre existence à l’un des rôles sacrés suivants, au choix. Protecteur. Combattant chevronné, vous recevez la maîtrise des armes de guerre et la formation aux armures lourdes. Thaumaturge. Vous connaissez un sort mineur supplémentaire issu de la liste du Clerc. De plus, votre lien mystique vous octroie un bonus aux tests d’Intelligence (Arcanes et Religion). Ce bonus est égal à votre modificateur de Sagesse (minimum +1)."
+   ]
+  ],
+  "druide": [
+   [
+    "Druidique",
+    "Vous connaissez le druidique, la langue secrète des Druides. En apprenant cette langue ancestrale, vous avez aussi percé les mystères magiques de la conversation animale ; le sort communication avec les animaux est toujours préparé en ce qui vous concerne. Vous pouvez recourir au druidique pour laisser des messages cachés. Vous et tous ceux qui connaissent cet idiome repérez automatiquement de tels messages. D’autres peuvent aussi détecter la présence de tels signes en réussissant un test d’Intelligence (Investigation) DD 15, mais sont incapables d’en déchiffrer le sens."
+   ],
+   [
+    "Ordre primitif",
+    "Vous consacrez votre existence à l’un des rôles sacrés suivants, au choix. Mage. Vous connaissez un sort mineur supplémentaire tiré de la liste du Druide. De plus, votre lien mystique vous octroie un bonus aux tests d’Intelligence (Arcanes et Nature). Ce bonus est égal à votre modificateur de Sagesse (minimum +1). Gardien. Combattant chevronné, vous recevez la maîtrise des armes de guerre et la formation aux armures intermédiaires."
+   ]
+  ],
+  "ensorceleur": [
+   [
+    "Sorcellerie innée",
+    "Un événement de votre passé a laissé une marque indélébile sur vous, faisant éclore une magie bouillonnante. Par une action Bonus, vous pouvez libérer cette magie pendant 1 minute, au cours de laquelle vous recevez les bénéfices suivants : • Le DD de sauvegarde de vos sorts d’Ensorceleur augmente de 1. • Vous avez l’Avantage aux jets d’attaque des sorts d’Ensorceleur que vous lancez. Vous pouvez recourir à cette aptitude deux fois, et récupérez ce quota en terminant un Repos long."
+   ]
+  ],
+  "guerrier": [
+   [
+    "Style de combat",
+    "Vous avez affûté vos techniques martiales et recevez le don de Style de combat de votre choix (cf. « Dons »). Défense est recommandé. Chaque fois que vous recevez un niveau de Guerrier, vous pouvez remplacer le don choisi par un don différent de Style de combat."
+   ],
+   [
+    "Second souffle",
+    "Vous disposez d’une réserve limitée d’endurance mentale et physique dans laquelle puiser. Par une action Bonus, vous pouvez y recourir pour récupérer des points de vie égaux à 1d10 + votre niveau de Guerrier. Vous pouvez recourir deux fois à cette aptitude. Vous en regagnez une utilisation lorsque vous terminez un Repos court, et récupérez tout le quota en terminant un Repos long."
+   ],
+   [
+    "Bottes d’arme",
+    "Votre entraînement martial vous permet de recourir à la botte de trois types d’arme courante ou de guerre de votre choix. Chaque fois que vous terminez un Repos long, vous pouvez accomplir des exercices martiaux pour changer l’un de ces choix."
+   ]
+  ],
+  "magicien": [
+   [
+    "Savoir rituel",
+    "Vous pouvez lancer comme rituel un sort qui porte la mention « rituel » et figure dans votre grimoire. Il n’est pas nécessaire d’avoir préparé ce sort, mais vous devez le lire depuis votre grimoire pour lancer un sort ainsi."
+   ],
+   [
+    "Restauration magique",
+    "Vous pouvez récupérer une partie de votre énergie magique en étudiant votre grimoire. En terminant un Repos court, désignez si vous le souhaitez les emplacements de sort dépensés que vous souhaitez récupérer. ¶ La somme des niveaux de ces emplacements ne doit pas excéder la moitié de votre niveau de Magicien (arrondie au supérieur), et aucun de ces emplacements de sort ne doit être du 6e niveau ou plus. En tant que Magicien de niveau 4, par exemple, vous pouvez récupérer jusqu’à deux niveaux d’emplacements de sort, soit un emplacement de sort du 2e niveau ou deux emplacements de sort du 1er niveau. Une fois cette aptitude utilisée, vous devez terminer un Repos long pour pouvoir y recourir de nouveau."
+   ]
+  ],
+  "moine": [
+   [
+    "Arts martiaux",
+    "Votre pratique des arts martiaux vous permet de maîtriser des styles de combat axés sur vos attaques à mains nues et vos armes de Moine, à savoir : • Les armes courantes de corps à corps • Les armes de guerre de corps à corps dotées de la propriété Légère ¶ Tant que vous combattez à mains nues ou avec des armes de Moine et que vous ne portez ni armure ni bouclier, vous recevez les bénéfices suivants. Attaque à mains nues supplémentaire. Vous pouvez effectuer une attaque à mains nues par une action Bonus. Dé d’Arts martiaux. Vous pouvez lancer 1d6 à la place des dégâts normaux de votre attaque à mains nues et de vos armes de Moine. Ce dé évolue à mesure que vous gagnez des niveaux de Moine, comme indiqué dans la colonne Arts martiaux de la table « Aptitudes du Moine ». Attaques lestes. Vous pouvez appliquer votre modificateur de Dextérité au lieu de celui de Force pour les jets d’attaque et de dégâts si vous attaquez à mains nues ou avec des armes de Moine. De plus, lorsque vous recourez à l’option Bousculade ou Lutte de votre attaque à mains nues, vous pouvez appliquer votre modificateur de Dextérité au lieu de celui de Force pour en déterminer le DD de sauvegarde."
+   ],
+   [
+    "Défense sans armure",
+    "Tant que vous ne portez ni armure ni bouclier, votre classe d’armure de base est égale à 10 + vos modificateurs de Dextérité et de Sagesse."
+   ]
+  ],
+  "occultiste": [
+   [
+    "Manifestations occultes",
+    "Vos recherches ésotériques vous ont permis de dénicher des Manifestations occultes, fragments de savoir interdit qui vous octroient divers pouvoirs magiques. Vous recevez une manifestation de votre choix, comme Pacte du grimoire. Ces manifestations sont décrites en section « Options de Manifestation occulte », plus loin dans le descriptif de cette classe."
+   ]
+  ],
+  "paladin": [
+   [
+    "Imposition des mains",
+    "Votre contact béni peut soigner les blessures. Vous disposez d’une réserve de puissance curatrice qui se reconstitue lorsque vous terminez un Repos long. Cette réserve vous permet de restituer un total de points de vie égal à cinq fois votre niveau de Paladin. Par une action Bonus, vous pouvez puiser tout ou partie de cette réserve et, d’un simple contact, restituer autant de points de vie à une créature (qui peut être vous-même) à concurrence du maximum de cette réserve. Vous pouvez également dépenser 5 points de vie de la réserve de puissance curatrice pour supprimer l’état Empoisonné affectant la créature ; ces points ne font pas récupérer de pv à la créature."
+   ],
+   [
+    "Bottes d’arme",
+    "Votre entraînement martial vous permet de recourir à la propriété Botte de deux types d’arme de votre choix parmi celles dont vous avez la maîtrise, par exemple l’épée longue et la javeline. Chaque fois que vous terminez un Repos long, vous pouvez changer le type d’arme que vous avez choisi. Vous pourriez par exemple décider d’opter pour les propriétés Bottes de la hallebarde et du fléau d’armes."
+   ]
+  ],
+  "rodeur": [
+   [
+    "Ennemi juré",
+    "Le sort marque du chasseur est toujours préparé pour vous. Vous pouvez le lancer deux fois sans dépenser d’emplacement de sort, et vous récupérez toutes les utilisations de cette aptitude en terminant un Repos long. Le nombre de fois où vous pouvez lancer ce sort sans dépenser d’emplacement de sort augmente à mesure que vous gagnez des niveaux de Rôdeur, comme spécifié dans la colonne Ennemi juré de la table « Aptitudes du Rôdeur »."
+   ],
+   [
+    "Bottes d’arme",
+    "Votre entraînement martial vous permet de recourir à la propriété Botte de deux types d’arme de votre choix parmi celles dont vous avez la maîtrise, par exemple l’arc long et l’épée courte. Chaque fois que vous terminez un Repos long, vous pouvez changer le type d’arme que vous avez choisi. Vous pourriez par exemple décider d’opter pour les propriétés Bottes du cimeterre et de l’épée longue."
+   ]
+  ],
+  "roublard": [
+   [
+    "Expertise",
+    "Vous recevez l’Expertise dans deux de vos maîtrises de compétence au choix. Escamotage et Discrétion sont recommandés si vous en avez la maîtrise. Au niveau 6 de Roublard, vous recevez l’Expertise dans deux maîtrises de compétences supplémentaires au choix."
+   ],
+   [
+    "Attaque sournoise",
+    "Vous savez porter des attaques qui exploitent subtilement les baisses d’attention de l’adversaire. Une fois par tour et à condition que l’attaque soit portée avec une arme dotée de la propriété Finesse ou À distance, vous pouvez infliger 1d6 dégâts supplémentaires à une créature que vous touchez avec un jet d’attaque pour lequel vous avez l’Avantage. Ces dégâts supplémentaires sont du même type que celui de l’arme. Vous n’avez pas besoin d’avoir l’Avantage au jet d’attaque si au moins l’un de vos alliés se trouve dans un rayon de 1,50 m de la cible, à condition que cet allié ne subisse pas l’état Neutralisé et que vous ne soyez pas désavantagé au jet d’attaque. Ces dégâts supplémentaires augmentent à mesure que vous gagnez des niveaux de Roublard, comme l’indique la colonne Attaque sournoise de la table « Aptitudes du Roublard »."
+   ],
+   [
+    "Argot des voleurs",
+    "Vous avez appris diverses langues auprès des communautés dans lesquelles vous avez fait vos armes de Roublard. Vous connaissez l’argot des voleurs et une autre langue, que vous choisissez dans les tables des langues de la section « Création de personnage »."
+   ],
+   [
+    "Bottes d’arme",
+    "Votre entraînement martial vous permet de recourir à la propriété Botte de deux types d’arme de votre choix parmi celles dont vous avez la maîtrise, par exemple la dague et l’arc court. Chaque fois que vous terminez un Repos long, vous pouvez changer le type d’arme que vous avez choisi. Vous pourriez par exemple décider d’opter pour les propriétés Bottes du cimeterre et de l’épée courte."
+   ]
+  ]
+ },
+ "invocations": {
+  "Armure d’ombres": "Vous pouvez lancer armure du mage sur vous-même sans dépenser d’emplacement de sort.",
+  "Esprit occulte": "Vous avez l’Avantage aux jets de sauvegarde de Constitution visant à maintenir la Concentration.",
+  "Pacte de la chaîne": "Vous apprenez le sort appel de familier que vous pouvez lancer au prix de l’action Magie sans dépenser d’emplacement de sort. À l’incantation du sort, vous pouvez choisir l’une des formes normales pour votre familier ou l’une des formes spéciales suivantes : Diablotin, esprit follet, pseudodragon, quasit, sphinx merveilleux, serpent venimeux ou squelette (cf. « Monstres » pour le profil du familier). En outre, lorsque vous entreprenez l’action Attaque, vous pouvez renoncer à l’une de vos attaques pour permettre à votre familier d’effectuer l’une de ses attaques en jouant sa Réaction.",
+  "Pacte de la lame": "Par une action Bonus, vous pouvez invoquer une arme de pacte dans votre main (arme de corps à corps courante ou de guerre de votre choix) avec laquelle vous créez un lien, ou créer un lien avec une arme magique que vous touchez ; créer un tel lien est impossible avec une arme magique si une autre créature est harmonisée avec celle-ci, ou si un autre Occultiste a déjà créé un lien avec cette arme. Jusqu’à ce que le lien prenne fin, vous avez la maîtrise de l’arme et pouvez l’utiliser comme focaliseur d’incantation. Chaque fois que vous attaquez avec l’arme à laquelle vous êtes lié, vous pouvez utiliser votre modificateur de Charisme pour les jets d’attaque et de dégâts à la place du modificateur de Force ou de Dextérité ; vous pouvez en outre utiliser l’arme pour infliger des dégâts nécrotiques, psychiques ou radiants au lieu de son type de dégâts normal. Votre lien avec l’arme prend fin si vous recourez de nouveau à l’action Bonus de cette aptitude, si l’arme se retrouve à plus de 1,50 m de vous pendant 1 minute ou plus, ou si vous mourez. Une arme invoquée disparaît lorsque le lien prend fin.",
+  "Pacte du grimoire": "En cousant ensemble des filaments d’ombre, vous invoquez un grimoire qui apparaît dans votre main à la fin d’un Repos court ou long. Ce Codex des Ombres (il vous appartient d’en déterminer l’apparence) renferme une magie occulte à laquelle vous seul avez accès, et qui vous octroie les bénéfices suivants. Le grimoire disparaît si vous en invoquez un autre par le biais de cette aptitude ou si vous mourez. Sorts mineurs et rituels. Lorsque le grimoire apparaît, choisissez trois sorts mineurs, puis deux sorts du 1er niveau portant la mention « rituel ». Ces sorts peuvent appartenir à la liste de sorts de n’importe quelle classe, et doivent être des sorts que vous n’avez pas déjà préparés. Tant que le grimoire est sur vous, les sorts choisis sont préparés et fonctionnent pour vous comme des sorts d’Occultiste. Focaliseur d’incantation. Vous pouvez vous servir du grimoire comme focaliseur d’incantation."
+ }
+}

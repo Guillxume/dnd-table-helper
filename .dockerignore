@@ -1,0 +1,17 @@
+# Seuls package*.json, tsconfig.json, src/ et scripts/backup.ts entrent dans l'image (voir Dockerfile).
+.git
+.github
+.env
+node_modules
+data
+backups
+ref
+tests
+deploy
+*.md
+scripts/srd
+scripts/guide
+**/__pycache__
+
+# Site web (web/) : construit par sa propre image, hors de celle du bot.
+web

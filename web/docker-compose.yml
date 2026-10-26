@@ -1,0 +1,38 @@
+# Services de DÉVELOPPEMENT : base de données et stockage objet.
+# L'application tourne sur l'hôte avec `pnpm dev`.
+# Production : compose.yaml à la racine du dépôt (profil « web »), voir deploy/INSTALL.md.
+name: jdr-library-dev
+
+services:
+  db:
+    image: postgres:17.11-bookworm
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-jdr}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?définir POSTGRES_PASSWORD dans .env}
+      POSTGRES_DB: ${POSTGRES_DB:-jdr_library}
+    ports:
+      - "127.0.0.1:${POSTGRES_HOST_PORT:-5434}:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+      - ./docker/postgres/init-test-db.sh:/docker-entrypoint-initdb.d/10-init-test-db.sh:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  storage:
+    image: chrislusf/seaweedfs:4.48
+    entrypoint: ["/bin/sh", "/start-seaweedfs.sh"]
+    environment:
+      S3_ACCESS_KEY_ID: ${S3_ACCESS_KEY_ID:?définir S3_ACCESS_KEY_ID dans .env}
+      S3_SECRET_ACCESS_KEY: ${S3_SECRET_ACCESS_KEY:?définir S3_SECRET_ACCESS_KEY dans .env}
+    ports:
+      - "127.0.0.1:${S3_HOST_PORT:-8334}:8333"
+    volumes:
+      - storage-data:/data
+      - ./docker/storage/start-seaweedfs.sh:/start-seaweedfs.sh:ro
+
+volumes:
+  db-data:
+  storage-data:

@@ -1,0 +1,14 @@
+# Ancrés à la racine : src/srd/data/ doit rester versionné.
+/node_modules/
+/.env
+/data/
+/backups/
+/ref/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

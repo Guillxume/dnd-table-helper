@@ -1,0 +1,145 @@
+[
+ {
+  "name": "Armure matelassée",
+  "category": "légère",
+  "baseAc": 11,
+  "addDex": true,
+  "dexMax": null,
+  "minStrength": null,
+  "stealthDisadvantage": true,
+  "weight": "4 kg",
+  "price": "5 po"
+ },
+ {
+  "name": "Armure de cuir",
+  "category": "légère",
+  "baseAc": 11,
+  "addDex": true,
+  "dexMax": null,
+  "minStrength": null,
+  "stealthDisadvantage": false,
+  "weight": "5 kg",
+  "price": "10 po"
+ },
+ {
+  "name": "Armure de cuir clouté",
+  "category": "légère",
+  "baseAc": 12,
+  "addDex": true,
+  "dexMax": null,
+  "minStrength": null,
+  "stealthDisadvantage": false,
+  "weight": "6,5 kg",
+  "price": "45 po"
+ },
+ {
+  "name": "Armure de peaux",
+  "category": "intermédiaire",
+  "baseAc": 12,
+  "addDex": true,
+  "dexMax": 2,
+  "minStrength": null,
+  "stealthDisadvantage": false,
+  "weight": "6 kg",
+  "price": "10 po"
+ },
+ {
+  "name": "Chemise de mailles",
+  "category": "intermédiaire",
+  "baseAc": 13,
+  "addDex": true,
+  "dexMax": 2,
+  "minStrength": null,
+  "stealthDisadvantage": false,
+  "weight": "10 kg",
+  "price": "50 po"
+ },
+ {
+  "name": "Armure d’écailles",
+  "category": "intermédiaire",
+  "baseAc": 14,
+  "addDex": true,
+  "dexMax": 2,
+  "minStrength": null,
+  "stealthDisadvantage": true,
+  "weight": "22,5 kg",
+  "price": "50 po"
+ },
+ {
+  "name": "Cuirasse",
+  "category": "intermédiaire",
+  "baseAc": 14,
+  "addDex": true,
+  "dexMax": 2,
+  "minStrength": null,
+  "stealthDisadvantage": false,
+  "weight": "10 kg",
+  "price": "400 po"
+ },
+ {
+  "name": "Demi-plate",
+  "category": "intermédiaire",
+  "baseAc": 15,
+  "addDex": true,
+  "dexMax": 2,
+  "minStrength": null,
+  "stealthDisadvantage": true,
+  "weight": "20 kg",
+  "price": "750 po"
+ },
+ {
+  "name": "Broigne",
+  "category": "lourde",
+  "baseAc": 14,
+  "addDex": false,
+  "dexMax": null,
+  "minStrength": null,
+  "stealthDisadvantage": true,
+  "weight": "20 kg",
+  "price": "30 po"
+ },
+ {
+  "name": "Cotte de mailles",
+  "category": "lourde",
+  "baseAc": 16,
+  "addDex": false,
+  "dexMax": null,
+  "minStrength": 13,
+  "stealthDisadvantage": true,
+  "weight": "27,5 kg",
+  "price": "75 po"
+ },
+ {
+  "name": "Clibanion",
+  "category": "lourde",
+  "baseAc": 17,
+  "addDex": false,
+  "dexMax": null,
+  "minStrength": 15,
+  "stealthDisadvantage": true,
+  "weight": "30 kg",
+  "price": "200 po"
+ },
+ {
+  "name": "Harnois",
+  "category": "lourde",
+  "baseAc": 18,
+  "addDex": false,
+  "dexMax": null,
+  "minStrength": 15,
+  "stealthDisadvantage": true,
+  "weight": "32,5 kg",
+  "price": "1 500 po"
+ },
+ {
+  "name": "Bouclier",
+  "category": "bouclier",
+  "baseAc": 2,
+  "addDex": false,
+  "dexMax": null,
+  "minStrength": null,
+  "stealthDisadvantage": false,
+  "weight": "3 kg",
+  "price": "10 po"
+ }
+]

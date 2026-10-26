@@ -1,0 +1,30 @@
+# Contrôle des données de jeu contre le PDF officiel du SRD 5.2.1 en français (CC-BY-4.0, D&D Beyond).
+# Lancé quand les données ou les scripts d'extraction changent, et à la main. Ne bloque pas le déploiement.
+name: SRD
+
+on:
+  push:
+    branches: [main]
+    paths: ["src/srd/**", "scripts/srd/**", ".github/workflows/srd.yml"]
+  pull_request:
+    paths: ["src/srd/**", "scripts/srd/**", ".github/workflows/srd.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  srd:
+    name: Données contre le SRD 5.2.1
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - run: curl -fsSL -o srd.pdf https://media.dndbeyond.com/compendium-images/srd/5.2/FR_SRD_CC_v5.2.1.pdf
+      - run: SRD_PDF=srd.pdf npm run srd:verify

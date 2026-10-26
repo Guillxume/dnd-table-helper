@@ -1,0 +1,98 @@
+# Intégration continue : typage et tests. Le déploiement (deploy.yml) attend que ce workflow soit vert sur main.
+# Le contrôle des données contre le PDF du SRD est à part (srd.yml) : il dépend d'un téléchargement externe
+# et ne doit pas bloquer une mise en ligne.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+
+  web:
+    name: Site (lint, typage, tests)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: corepack enable && corepack prepare pnpm@10.28.1 --activate
+      # Secrets jetables, propres à ce job : base et stockage de test lancés par docker compose.
+      - name: Configuration de test
+        run: |
+          pw=$(openssl rand -hex 16)
+          cat > .env <<ENV
+          POSTGRES_PASSWORD=$pw
+          DATABASE_URL=postgresql://jdr:$pw@127.0.0.1:5434/jdr_library
+          TEST_DATABASE_URL=postgresql://jdr:$pw@127.0.0.1:5434/jdr_library_test
+          BETTER_AUTH_SECRET=$(openssl rand -hex 32)
+          BETTER_AUTH_URL=http://localhost:3000
+          S3_ENDPOINT=http://127.0.0.1:8334
+          S3_BUCKET=jdr-library
+          S3_TEST_BUCKET=jdr-library-test
+          S3_ACCESS_KEY_ID=$(openssl rand -hex 10)
+          S3_SECRET_ACCESS_KEY=$(openssl rand -hex 20)
+          JDR_DB_PATH=/tmp/jdr-ci.sqlite
+          DISCORD_GUILD_ID=424242424242424242
+          ENV
+          sed -i 's/^ *//' .env
+      - run: docker compose up -d --wait
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm typecheck
+      - run: pnpm test
+      # Parcours complets dans un navigateur, sur le build autonome (comme en production).
+      # Sans ref/ (feuille officielle, hors dépôt), les PDF utilisent la fiche maison.
+      # Le script de préparation des E2E (tsx) charge le code du bot, qui résout ses paquets
+      # (better-sqlite3…) depuis node_modules à la racine du dépôt.
+      - run: npm ci
+        working-directory: .
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm test:e2e
+
+  image:
+    name: Image Docker
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: docker/setup-buildx-action@v4
+      # Construction seule (sans publication) : une erreur de Dockerfile se voit dès la PR, pas au déploiement.
+      - uses: docker/build-push-action@v7
+        with:
+          context: .
+          platforms: linux/amd64
+          push: false
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+      - uses: docker/build-push-action@v7
+        with:
+          context: .
+          file: web/Dockerfile
+          target: runner
+          platforms: linux/amd64
+          push: false
+          cache-from: type=gha,scope=web
+          cache-to: type=gha,mode=max,scope=web

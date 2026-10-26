@@ -1,0 +1,122 @@
+# Déploiement continu : après une CI verte sur un push dans main, construit l'image Docker du bot, la publie sur
+# ghcr.io (paquet privé), puis met à jour le conteneur sur le VPS. Lançable aussi à la main (workflow_dispatch).
+# Activé seulement quand la variable de dépôt DEPLOY_ENABLED vaut "true" (voir deploy/INSTALL.md).
+name: Deploy
+
+on:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+env:
+  IMAGE: ghcr.io/guillxume/dnd-table-helper
+  WEB_IMAGE: ghcr.io/guillxume/dnd-table-helper-web
+  WEB_TOOLS_IMAGE: ghcr.io/guillxume/dnd-table-helper-web-tools
+
+jobs:
+  image:
+    # workflow_run filtre sur le nom de la branche : on exige en plus un push dans ce dépôt,
+    # pour qu'une PR venue d'une branche « main » d'un fork ne soit jamais déployée.
+    if: >-
+      vars.DEPLOY_ENABLED == 'true' && (
+        (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main') ||
+        (github.event.workflow_run.conclusion == 'success' &&
+         github.event.workflow_run.event == 'push' &&
+         github.event.workflow_run.head_repository.full_name == github.repository)
+      )
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      packages: write
+    outputs:
+      tag: ${{ steps.tag.outputs.tag }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - id: tag
+        run: echo "tag=$(git rev-parse --short=12 HEAD)" >> "$GITHUB_OUTPUT"
+      - uses: docker/setup-buildx-action@v4
+      - uses: docker/login-action@v4
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: docker/build-push-action@v7
+        with:
+          context: .
+          platforms: linux/amd64
+          push: true
+          tags: |
+            ${{ env.IMAGE }}:${{ steps.tag.outputs.tag }}
+            ${{ env.IMAGE }}:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+      # Site : image du serveur et image d'outils (migrations, création de compte), même commit que le bot.
+      - uses: docker/build-push-action@v7
+        with:
+          context: .
+          file: web/Dockerfile
+          target: runner
+          platforms: linux/amd64
+          push: true
+          tags: |
+            ${{ env.WEB_IMAGE }}:${{ steps.tag.outputs.tag }}
+            ${{ env.WEB_IMAGE }}:latest
+          cache-from: type=gha,scope=web
+          cache-to: type=gha,mode=max,scope=web
+      - uses: docker/build-push-action@v7
+        with:
+          context: .
+          file: web/Dockerfile
+          target: tools
+          platforms: linux/amd64
+          push: true
+          tags: |
+            ${{ env.WEB_TOOLS_IMAGE }}:${{ steps.tag.outputs.tag }}
+            ${{ env.WEB_TOOLS_IMAGE }}:latest
+          cache-from: type=gha,scope=web
+          cache-to: type=gha,mode=max,scope=web
+
+  deploy:
+    needs: image
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment: production
+    permissions:
+      contents: read
+      packages: read
+    env:
+      VPS: ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}
+      TAG: ${{ needs.image.outputs.tag }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - name: Clé SSH
+        env:
+          SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+          KNOWN_HOSTS: ${{ secrets.VPS_KNOWN_HOSTS }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+      - name: Envoi de compose.yaml, du script de mise à jour et des fichiers du site
+        run: scp compose.yaml deploy/update.sh deploy/web/Caddyfile web/docker/storage/start-seaweedfs.sh deploy/web/backup-site.sh deploy/web/restore-site.sh "$VPS:/srv/jdr-helper/"
+      - name: Mise à jour du conteneur
+        # Le jeton GitHub (valable le temps du job) passe par l'entrée standard : il n'apparaît ni dans la
+        # ligne de commande du serveur ni dans un fichier, et la session Docker est fermée après le pull.
+        env:
+          GHCR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: printf '%s' "$GHCR_TOKEN" | ssh "$VPS" "GHCR_USER=${{ github.actor }} bash /srv/jdr-helper/update.sh $TAG"

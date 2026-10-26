@@ -1,0 +1,1901 @@
+[
+ {
+  "class": "barde",
+  "level": 0,
+  "name": "Coup au but",
+  "school": "Divination",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 0,
+  "name": "Illusion mineure",
+  "school": "Illusion",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 0,
+  "name": "Lumière",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 0,
+  "name": "Lumières dansantes",
+  "school": "Illusion",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 0,
+  "name": "Main du mage",
+  "school": "Invocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 0,
+  "name": "Message",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 0,
+  "name": "Moquerie cruelle",
+  "school": "Enchantement",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 0,
+  "name": "Poussière d’étoile",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 0,
+  "name": "Prestidigitation",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 0,
+  "name": "Réparation",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Amitié avec les animaux",
+  "school": "Enchantement",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Charme-personne",
+  "school": "Enchantement",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Compréhension des langues",
+  "school": "Divination",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Communication avec les animaux",
+  "school": "Divination",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Couleurs dansantes",
+  "school": "Illusion",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Déguisement",
+  "school": "Illusion",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Détection de la magie",
+  "school": "Divination",
+  "concentration": true,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Feuille morte",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Fou rire",
+  "school": "Enchantement",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Grande foulée",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Héroïsme",
+  "school": "Enchantement",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Image silencieuse",
+  "school": "Illusion",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Imprécation",
+  "school": "Enchantement",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Identification",
+  "school": "Divination",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": true
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Injonction",
+  "school": "Enchantement",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Lueurs féeriques",
+  "school": "Évocation",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Mot de guérison",
+  "school": "Abjuration",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Murmures dissonants",
+  "school": "Enchantement",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Serviteur invisible",
+  "school": "Invocation",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Soins",
+  "school": "Abjuration",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Sommeil",
+  "school": "Enchantement",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Texte illusoire",
+  "school": "Illusion",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": true
+ },
+ {
+  "class": "barde",
+  "level": 1,
+  "name": "Vague tonnante",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "clerc",
+  "level": 0,
+  "name": "Assistance",
+  "school": "Divination",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "clerc",
+  "level": 0,
+  "name": "Flamme sacrée",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "clerc",
+  "level": 0,
+  "name": "Lumière",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "clerc",
+  "level": 0,
+  "name": "Réparation",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "clerc",
+  "level": 0,
+  "name": "Résistance",
+  "school": "Abjuration",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "clerc",
+  "level": 0,
+  "name": "Stabilisation",
+  "school": "Nécromancie",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "clerc",
+  "level": 0,
+  "name": "Thaumaturgie",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "clerc",
+  "level": 1,
+  "name": "Bénédiction",
+  "school": "Enchantement",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": true
+ },
+ {
+  "class": "clerc",
+  "level": 1,
+  "name": "Blessure",
+  "school": "Nécromancie",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "clerc",
+  "level": 1,
+  "name": "Bouclier de la foi",
+  "school": "Abjuration",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "clerc",
+  "level": 1,
+  "name": "Création ou destruction d’eau",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "clerc",
+  "level": 1,
+  "name": "Détection de la magie",
+  "school": "Divination",
+  "concentration": true,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "clerc",
+  "level": 1,
+  "name": "Détection du mal et du bien",
+  "school": "Divination",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "clerc",
+  "level": 1,
+  "name": "Détection du poison et des maladies",
+  "school": "Divination",
+  "concentration": true,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "clerc",
+  "level": 1,
+  "name": "Imprécation",
+  "school": "Enchantement",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "clerc",
+  "level": 1,
+  "name": "Injonction",
+  "school": "Enchantement",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "clerc",
+  "level": 1,
+  "name": "Mot de guérison",
+  "school": "Abjuration",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "clerc",
+  "level": 1,
+  "name": "Protection contre le mal et le bien",
+  "school": "Abjuration",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": true
+ },
+ {
+  "class": "clerc",
+  "level": 1,
+  "name": "Purification de la nourriture et de l’eau",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "clerc",
+  "level": 1,
+  "name": "Rayon traçant",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "clerc",
+  "level": 1,
+  "name": "Sanctuaire",
+  "school": "Abjuration",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "clerc",
+  "level": 1,
+  "name": "Soins",
+  "school": "Abjuration",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 0,
+  "name": "Assistance",
+  "school": "Divination",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 0,
+  "name": "Bouffée de poison",
+  "school": "Nécromancie",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 0,
+  "name": "Crosse des druides",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 0,
+  "name": "Druidisme",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 0,
+  "name": "Élémentalisme",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 0,
+  "name": "Flammes",
+  "school": "Invocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 0,
+  "name": "Réparation",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 0,
+  "name": "Message",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 0,
+  "name": "Poussière d’étoile",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 0,
+  "name": "Résistance",
+  "school": "Abjuration",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 0,
+  "name": "Stabilisation",
+  "school": "Nécromancie",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 1,
+  "name": "Amitié avec les animaux",
+  "school": "Enchantement",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 1,
+  "name": "Baies nourricières",
+  "school": "Invocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 1,
+  "name": "Charme-personne",
+  "school": "Enchantement",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 1,
+  "name": "Communication avec les animaux",
+  "school": "Divination",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 1,
+  "name": "Couteau de glace",
+  "school": "Invocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 1,
+  "name": "Création ou destruction d’eau",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 1,
+  "name": "Détection de la magie",
+  "school": "Divination",
+  "concentration": true,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 1,
+  "name": "Détection du poison et des maladies",
+  "school": "Divination",
+  "concentration": true,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 1,
+  "name": "Enchevêtrement",
+  "school": "Invocation",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 1,
+  "name": "Grande foulée",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 1,
+  "name": "Lueurs féeriques",
+  "school": "Évocation",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 1,
+  "name": "Mot de guérison",
+  "school": "Abjuration",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 1,
+  "name": "Nappe de brouillard",
+  "school": "Invocation",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 1,
+  "name": "Protection contre le mal et le bien",
+  "school": "Abjuration",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": true
+ },
+ {
+  "class": "druide",
+  "level": 1,
+  "name": "Purification de la nourriture et de l’eau",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 1,
+  "name": "Saut",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 1,
+  "name": "Soins",
+  "school": "Abjuration",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "druide",
+  "level": 1,
+  "name": "Vague tonnante",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 0,
+  "name": "Aspersion acide",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 0,
+  "name": "Bouffée de poison",
+  "school": "Nécromancie",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 0,
+  "name": "Contact glacial",
+  "school": "Nécromancie",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 0,
+  "name": "Coup au but",
+  "school": "Divination",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 0,
+  "name": "Élémentalisme",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 0,
+  "name": "Éruption ensorcelée",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 0,
+  "name": "Illusion mineure",
+  "school": "Illusion",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 0,
+  "name": "Lumière",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 0,
+  "name": "Lumières dansantes",
+  "school": "Illusion",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 0,
+  "name": "Main du mage",
+  "school": "Invocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 0,
+  "name": "Message",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 0,
+  "name": "Poigne électrique",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 0,
+  "name": "Prestidigitation",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 0,
+  "name": "Rayon de givre",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 0,
+  "name": "Réparation",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 0,
+  "name": "Trait de feu",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Armure du mage",
+  "school": "Abjuration",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Bouclier",
+  "school": "Abjuration",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Charme-personne",
+  "school": "Enchantement",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Compréhension des langues",
+  "school": "Divination",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Couleurs dansantes",
+  "school": "Illusion",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Couteau de glace",
+  "school": "Invocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Déguisement",
+  "school": "Illusion",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Détection de la magie",
+  "school": "Divination",
+  "concentration": true,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Feuille morte",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Graisse",
+  "school": "Invocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Image silencieuse",
+  "school": "Illusion",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Mains brûlantes",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Nappe de brouillard",
+  "school": "Invocation",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Orbe chromatique",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": true
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Projectile magique",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Rayon empoisonné",
+  "school": "Nécromancie",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Repli expéditif",
+  "school": "Transmutation",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Saut",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Simulacre de vie",
+  "school": "Nécromancie",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Sommeil",
+  "school": "Enchantement",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "ensorceleur",
+  "level": 1,
+  "name": "Vague tonnante",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 0,
+  "name": "Aspersion acide",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 0,
+  "name": "Bouffée de poison",
+  "school": "Nécromancie",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 0,
+  "name": "Contact glacial",
+  "school": "Nécromancie",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 0,
+  "name": "Coup au but",
+  "school": "Divination",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 0,
+  "name": "Élémentalisme",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 0,
+  "name": "Illusion mineure",
+  "school": "Illusion",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 0,
+  "name": "Lumière",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 0,
+  "name": "Lumières dansantes",
+  "school": "Illusion",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 0,
+  "name": "Main du mage",
+  "school": "Invocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 0,
+  "name": "Message",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 0,
+  "name": "Poigne électrique",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 0,
+  "name": "Prestidigitation",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 0,
+  "name": "Rayon de givre",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 0,
+  "name": "Réparation",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 0,
+  "name": "Trait de feu",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Alarme",
+  "school": "Abjuration",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Appel de familier",
+  "school": "Invocation",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": true
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Armure du mage",
+  "school": "Abjuration",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Bouclier",
+  "school": "Abjuration",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Charme-personne",
+  "school": "Enchantement",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Compréhension des langues",
+  "school": "Divination",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Couleurs dansantes",
+  "school": "Illusion",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Couteau de glace",
+  "school": "Invocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Déguisement",
+  "school": "Illusion",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Détection de la magie",
+  "school": "Divination",
+  "concentration": true,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Disque flottant",
+  "school": "Invocation",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Feuille morte",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Fou rire",
+  "school": "Enchantement",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Graisse",
+  "school": "Invocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Grande foulée",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Identification",
+  "school": "Divination",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": true
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Image silencieuse",
+  "school": "Illusion",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Mains brûlantes",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Nappe de brouillard",
+  "school": "Invocation",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Orbe chromatique",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": true
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Projectile magique",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Protection contre le mal et le bien",
+  "school": "Abjuration",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": true
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Rayon empoisonné",
+  "school": "Nécromancie",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Repli expéditif",
+  "school": "Transmutation",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Saut",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Serviteur invisible",
+  "school": "Invocation",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Simulacre de vie",
+  "school": "Nécromancie",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Sommeil",
+  "school": "Enchantement",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Texte illusoire",
+  "school": "Illusion",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": true
+ },
+ {
+  "class": "magicien",
+  "level": 1,
+  "name": "Vague tonnante",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "occultiste",
+  "level": 0,
+  "name": "Bouffée de poison",
+  "school": "Nécromancie",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "occultiste",
+  "level": 0,
+  "name": "Contact glacial",
+  "school": "Nécromancie",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "occultiste",
+  "level": 0,
+  "name": "Coup au but",
+  "school": "Divination",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "occultiste",
+  "level": 0,
+  "name": "Décharge occulte",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "occultiste",
+  "level": 0,
+  "name": "Illusion mineure",
+  "school": "Illusion",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "occultiste",
+  "level": 0,
+  "name": "Main du mage",
+  "school": "Invocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "occultiste",
+  "level": 0,
+  "name": "Prestidigitation",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "occultiste",
+  "level": 1,
+  "name": "Charme-personne",
+  "school": "Enchantement",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "occultiste",
+  "level": 1,
+  "name": "Compréhension des langues",
+  "school": "Divination",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "occultiste",
+  "level": 1,
+  "name": "Communication avec les animaux",
+  "school": "Divination",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "occultiste",
+  "level": 1,
+  "name": "Détection de la magie",
+  "school": "Divination",
+  "concentration": true,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "occultiste",
+  "level": 1,
+  "name": "Fou rire",
+  "school": "Enchantement",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "occultiste",
+  "level": 1,
+  "name": "Imprécation",
+  "school": "Enchantement",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "occultiste",
+  "level": 1,
+  "name": "Maléfice",
+  "school": "Enchantement",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "occultiste",
+  "level": 1,
+  "name": "Protection contre le mal et le bien",
+  "school": "Abjuration",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": true
+ },
+ {
+  "class": "occultiste",
+  "level": 1,
+  "name": "Repli expéditif",
+  "school": "Transmutation",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "occultiste",
+  "level": 1,
+  "name": "Représailles infernales",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "occultiste",
+  "level": 1,
+  "name": "Serviteur invisible",
+  "school": "Invocation",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "occultiste",
+  "level": 1,
+  "name": "Texte illusoire",
+  "school": "Illusion",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": true
+ },
+ {
+  "class": "paladin",
+  "level": 1,
+  "name": "Bénédiction",
+  "school": "Enchantement",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": true
+ },
+ {
+  "class": "paladin",
+  "level": 1,
+  "name": "Bouclier de la foi",
+  "school": "Abjuration",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "paladin",
+  "level": 1,
+  "name": "Châtiment de fournaise",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "paladin",
+  "level": 1,
+  "name": "Châtiment divin",
+  "school": "Évocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "paladin",
+  "level": 1,
+  "name": "Détection de la magie",
+  "school": "Divination",
+  "concentration": true,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "paladin",
+  "level": 1,
+  "name": "Détection du mal et du bien",
+  "school": "Divination",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "paladin",
+  "level": 1,
+  "name": "Détection du poison et des maladies",
+  "school": "Divination",
+  "concentration": true,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "paladin",
+  "level": 1,
+  "name": "Faveur divine",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "paladin",
+  "level": 1,
+  "name": "Héroïsme",
+  "school": "Enchantement",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "paladin",
+  "level": 1,
+  "name": "Injonction",
+  "school": "Enchantement",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "paladin",
+  "level": 1,
+  "name": "Protection contre le mal et le bien",
+  "school": "Abjuration",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": true
+ },
+ {
+  "class": "paladin",
+  "level": 1,
+  "name": "Purification de la nourriture et de l’eau",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "paladin",
+  "level": 1,
+  "name": "Soins",
+  "school": "Abjuration",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "rodeur",
+  "level": 1,
+  "name": "Alarme",
+  "school": "Abjuration",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "rodeur",
+  "level": 1,
+  "name": "Amitié avec les animaux",
+  "school": "Enchantement",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "rodeur",
+  "level": 1,
+  "name": "Baies nourricières",
+  "school": "Invocation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "rodeur",
+  "level": 1,
+  "name": "Communication avec les animaux",
+  "school": "Divination",
+  "concentration": false,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "rodeur",
+  "level": 1,
+  "name": "Détection de la magie",
+  "school": "Divination",
+  "concentration": true,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "rodeur",
+  "level": 1,
+  "name": "Détection du poison et des maladies",
+  "school": "Divination",
+  "concentration": true,
+  "ritual": true,
+  "costlyMaterial": false
+ },
+ {
+  "class": "rodeur",
+  "level": 1,
+  "name": "Enchevêtrement",
+  "school": "Invocation",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "rodeur",
+  "level": 1,
+  "name": "Frappe piégeuse",
+  "school": "Invocation",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "rodeur",
+  "level": 1,
+  "name": "Grande foulée",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "rodeur",
+  "level": 1,
+  "name": "Marque du chasseur",
+  "school": "Divination",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "rodeur",
+  "level": 1,
+  "name": "Nappe de brouillard",
+  "school": "Invocation",
+  "concentration": true,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "rodeur",
+  "level": 1,
+  "name": "Saut",
+  "school": "Transmutation",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ },
+ {
+  "class": "rodeur",
+  "level": 1,
+  "name": "Soins",
+  "school": "Abjuration",
+  "concentration": false,
+  "ritual": false,
+  "costlyMaterial": false
+ }
+]

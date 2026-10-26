@@ -1,0 +1,17 @@
+# Contexte : racine du dépôt. Seuls src/ (code du bot réutilisé) et web/ sont utiles.
+**
+!src/**
+!web/**
+web/node_modules
+web/.next
+web/src/generated
+web/test-results
+web/playwright-report
+web/tests/e2e/.auth
+web/tests/e2e/.data
+web/.env
+# Sources du design system : seul le code généré (src/components/icons) et public/brand servent.
+web/design
+web/.env.*
+!web/.env.example
+**/*.sqlite*

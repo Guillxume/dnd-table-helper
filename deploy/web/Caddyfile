@@ -1,0 +1,10 @@
+# Proxy HTTPS du site (certificat Let's Encrypt automatique pour SITE_DOMAIN).
+# Seul service du serveur à publier des ports (80 et 443).
+{$SITE_DOMAIN} {
+	encode zstd gzip
+	# Imports d'images : 40 Mo par fichier côté site (UPLOAD_MAX_MB), plus l'enveloppe de la requête.
+	request_body {
+		max_size 50MB
+	}
+	reverse_proxy web:3000
+}

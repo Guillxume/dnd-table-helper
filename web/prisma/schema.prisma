@@ -1,0 +1,546 @@
+// Schéma de la bibliothèque d'inspiration artistique.
+//
+// Conventions :
+// - identifiants UUID (v7 pour l'ordre temporel des index) sur les tables métier ;
+//   les tables d'authentification suivent le format attendu par Better Auth ;
+// - les suppressions sont explicites : CASCADE pour les tables de liaison,
+//   SET NULL quand l'objet lié doit survivre (une image survit à sa catégorie) ;
+// - `searchText` est une colonne dénormalisée maintenue par l'application
+//   (cf. src/server/search/asset-search-text.ts), indexée en trigrammes.
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ─── Authentification (format Better Auth) ────────────────────────────────
+
+model User {
+  id            String         @id
+  name          String
+  email         String         @unique
+  emailVerified Boolean        @default(false)
+  image         String?
+  /// « admin » : le MJ, accès complet (atelier compris). « player » : joueur connecté par Discord,
+  /// limité à ses campagnes et à ses personnages. Contrainte CHECK dans la migration.
+  role          String         @default("player")
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+  sessions      Session[]
+  accounts      Account[]
+  discordMember DiscordMember?
+
+  @@map("user")
+}
+
+model Session {
+  id        String   @id
+  expiresAt DateTime
+  token     String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  ipAddress String?
+  userAgent String?
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("session")
+}
+
+model Account {
+  id                    String    @id
+  accountId             String
+  providerId            String
+  userId                String
+  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  accessToken           String?
+  refreshToken          String?
+  idToken               String?
+  accessTokenExpiresAt  DateTime?
+  refreshTokenExpiresAt DateTime?
+  scope                 String?
+  password              String?
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+
+  @@index([userId])
+  @@map("account")
+}
+
+model Verification {
+  id         String   @id
+  identifier String
+  value      String
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([identifier])
+  @@map("verification")
+}
+
+/// Informations Discord d'un utilisateur connecté par Discord, relues périodiquement :
+/// les rôles du serveur décident de l'accès aux campagnes, comme dans le bot.
+model DiscordMember {
+  userId      String   @id
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  discordId   String   @unique
+  guildId     String
+  roleIds     String[]
+  /// Pseudo sur le serveur (case « nom du joueur » de la fiche).
+  displayName String?
+  /// false si le compte Discord n'est pas (ou plus) membre du serveur.
+  inGuild     Boolean
+  fetchedAt   DateTime
+
+  @@map("discord_member")
+}
+
+// ─── Bibliothèque ─────────────────────────────────────────────────────────
+
+/// Provenance d'une illustration. UNKNOWN est un état légitime, pas une erreur.
+enum AssetOrigin {
+  EXTERNAL
+  GENERATED
+  OWN_WORK
+  UNKNOWN
+}
+
+model Category {
+  id          String   @id @default(uuid(7)) @db.Uuid
+  name        String
+  slug        String   @unique
+  description String?
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  assets      Asset[]
+
+  @@index([sortOrder, name])
+}
+
+model Asset {
+  id           String      @id @db.Uuid
+  title        String
+  description  String?
+  notes        String?
+  artistName   String?
+  sourceUrl    String?
+  origin       AssetOrigin @default(UNKNOWN)
+  isFavorite   Boolean     @default(false)
+  /// Date de création de l'œuvre, si connue (distincte de la date d'import).
+  creationDate DateTime?   @db.Date
+  categoryId   String?     @db.Uuid
+  category     Category?   @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+
+  originalFilename String
+  mimeType         String
+  byteSize         Int
+  width            Int
+  height           Int
+  /// Empreinte SHA-256 du fichier original : détection des doublons.
+  sha256           String  @unique
+  /// Couleur dominante (#rrggbb) affichée pendant le chargement de la miniature.
+  dominantColor    String?
+  originalKey      String
+  thumbnailKey     String
+  previewKey       String
+
+  /// Texte normalisé (minuscules, sans accents) agrégeant titre, description,
+  /// notes, artiste, tags, collections et personnages liés.
+  searchText String @default("")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  tags                 AssetTag[]
+  collections          CollectionAsset[]
+  characterLinks       CharacterAsset[]
+  styleGuideLinks      StyleGuideAsset[]
+  briefReferences      BriefReference[]
+  generationReferences GenerationReference[]
+  generationResult     GenerationRecord?     @relation("GenerationResult")
+  coverOfCollections   Collection[]          @relation("CollectionCover")
+  battleMaps           BattleMap[]
+
+  @@index([createdAt(sort: Desc)])
+  @@index([title])
+  @@index([creationDate])
+  @@index([categoryId])
+  @@index([origin])
+  @@index([isFavorite])
+  @@index([searchText(ops: raw("gin_trgm_ops"))], type: Gin)
+}
+
+model Tag {
+  id         String     @id @default(uuid(7)) @db.Uuid
+  name       String
+  /// Nom normalisé, garant de l'unicité insensible à la casse et aux accents.
+  normalized String     @unique
+  createdAt  DateTime   @default(now())
+  assets     AssetTag[]
+}
+
+model AssetTag {
+  assetId   String   @db.Uuid
+  tagId     String   @db.Uuid
+  asset     Asset    @relation(fields: [assetId], references: [id], onDelete: Cascade)
+  tag       Tag      @relation(fields: [tagId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  @@id([assetId, tagId])
+  @@index([tagId])
+}
+
+model Collection {
+  id           String            @id @default(uuid(7)) @db.Uuid
+  name         String
+  description  String?
+  coverAssetId String?           @db.Uuid
+  coverAsset   Asset?            @relation("CollectionCover", fields: [coverAssetId], references: [id], onDelete: SetNull)
+  lastViewedAt DateTime?
+  createdAt    DateTime          @default(now())
+  updatedAt    DateTime          @updatedAt
+  assets       CollectionAsset[]
+
+  @@index([lastViewedAt(sort: Desc)])
+  @@index([name])
+}
+
+model CollectionAsset {
+  collectionId String     @db.Uuid
+  assetId      String     @db.Uuid
+  collection   Collection @relation(fields: [collectionId], references: [id], onDelete: Cascade)
+  asset        Asset      @relation(fields: [assetId], references: [id], onDelete: Cascade)
+  addedAt      DateTime   @default(now())
+
+  @@id([collectionId, assetId])
+  @@index([assetId])
+}
+
+// ─── Personnages ──────────────────────────────────────────────────────────
+
+enum CharacterKind {
+  PLAYER_CHARACTER
+  NPC
+  CREATURE
+  OTHER
+}
+
+/// Statut épistémique d'une information sur un personnage.
+/// Une PROPOSAL ne devient CANON que par une action explicite de l'utilisateur.
+enum TraitStatus {
+  CANON
+  PREFERENCE
+  PROPOSAL
+  EXCLUDED
+  UNDETERMINED
+}
+
+model Character {
+  id             String        @id @default(uuid(7)) @db.Uuid
+  name           String
+  kind           CharacterKind @default(PLAYER_CHARACTER)
+  summary        String?
+  // Champs canoniques structurés. Vide = inconnu ; l'application ne les remplit jamais.
+  species        String?
+  characterClass String?
+  specialization String?
+  silhouette     String?
+  face           String?
+  hairSkin       String?
+  outfit         String?
+  equipment      String?
+  palette        String?
+  symbols        String?
+  personality    String?
+  visualHistory  String?
+  notes          String?
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+
+  traits      CharacterTrait[]
+  references  CharacterAsset[]
+  briefs      Brief[]
+  generations GenerationRecord[]
+
+  @@index([name])
+}
+
+model CharacterTrait {
+  id          String      @id @default(uuid(7)) @db.Uuid
+  characterId String      @db.Uuid
+  character   Character   @relation(fields: [characterId], references: [id], onDelete: Cascade)
+  status      TraitStatus
+  content     String
+  /// Uniquement pour CANON : élément qui ne doit jamais être modifié dans une illustration.
+  locked      Boolean     @default(false)
+  position    Int         @default(0)
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+
+  @@index([characterId, status, position])
+}
+
+model CharacterAsset {
+  characterId String    @db.Uuid
+  assetId     String    @db.Uuid
+  character   Character @relation(fields: [characterId], references: [id], onDelete: Cascade)
+  asset       Asset     @relation(fields: [assetId], references: [id], onDelete: Cascade)
+  /// Référence validée comme représentative du personnage.
+  validated   Boolean   @default(false)
+  note        String?
+  addedAt     DateTime  @default(now())
+
+  @@id([characterId, assetId])
+  @@index([assetId])
+}
+
+// ─── Direction artistique ─────────────────────────────────────────────────
+
+/// Aspects documentés par un guide ; servent aussi à qualifier le rôle d'une référence.
+enum StyleAspect {
+  PAINTING_STYLE
+  REALISM
+  SILHOUETTE
+  ANATOMY
+  SHAPES_DETAILS
+  PALETTE
+  SATURATION
+  CONTRAST
+  LIGHTING
+  SHADOWS
+  TEXTURES
+  MATERIALS
+  COSTUME_DESIGN
+  COMPOSITION
+  DEPTH_OF_FIELD
+  DETAIL_DENSITY
+  MAGIC_EFFECTS
+  BACKGROUNDS
+  READABILITY
+  AVOID
+}
+
+model StyleGuide {
+  id          String       @id @default(uuid(7)) @db.Uuid
+  name        String
+  description String?
+  /// Guide de base dont cette variante hérite les règles (un seul niveau).
+  parentId    String?      @db.Uuid
+  parent      StyleGuide?  @relation("StyleGuideVariants", fields: [parentId], references: [id], onDelete: Restrict)
+  variants    StyleGuide[] @relation("StyleGuideVariants")
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+
+  versions   StyleGuideVersion[]
+  references StyleGuideAsset[]
+
+  @@index([parentId])
+}
+
+/// Version immuable d'un guide : chaque enregistrement crée une nouvelle version.
+model StyleGuideVersion {
+  id           String     @id @default(uuid(7)) @db.Uuid
+  styleGuideId String     @db.Uuid
+  styleGuide   StyleGuide @relation(fields: [styleGuideId], references: [id], onDelete: Cascade)
+  number       Int
+  changeNote   String?
+  createdAt    DateTime   @default(now())
+
+  rules       StyleGuideRule[]
+  briefs      Brief[]
+  generations GenerationRecord[]
+
+  @@unique([styleGuideId, number])
+}
+
+model StyleGuideRule {
+  id        String            @id @default(uuid(7)) @db.Uuid
+  versionId String            @db.Uuid
+  version   StyleGuideVersion @relation(fields: [versionId], references: [id], onDelete: Cascade)
+  aspect    StyleAspect
+  content   String
+
+  @@unique([versionId, aspect])
+}
+
+model StyleGuideAsset {
+  styleGuideId String        @db.Uuid
+  assetId      String        @db.Uuid
+  styleGuide   StyleGuide    @relation(fields: [styleGuideId], references: [id], onDelete: Cascade)
+  asset        Asset         @relation(fields: [assetId], references: [id], onDelete: Cascade)
+  aspects      StyleAspect[]
+  note         String?
+  addedAt      DateTime      @default(now())
+
+  @@id([styleGuideId, assetId])
+  @@index([assetId])
+}
+
+// ─── Briefs et générations ────────────────────────────────────────────────
+
+enum SubjectType {
+  CHARACTER
+  NPC
+  CREATURE
+  ITEM
+  ENVIRONMENT
+  MAP
+  OTHER
+}
+
+/// Ce qu'une référence apporte : le style seul, le contenu seul, ou les deux.
+enum ReferenceRole {
+  STYLE
+  CONTENT
+  STYLE_AND_CONTENT
+}
+
+enum GenerationStatus {
+  DRAFT
+  TO_REVIEW
+  VALIDATED
+  REJECTED
+}
+
+model Brief {
+  id                  String             @id @default(uuid(7)) @db.Uuid
+  title               String
+  subjectType         SubjectType
+  characterId         String?            @db.Uuid
+  character           Character?         @relation(fields: [characterId], references: [id], onDelete: SetNull)
+  styleGuideVersionId String?            @db.Uuid
+  styleGuideVersion   StyleGuideVersion? @relation(fields: [styleGuideVersionId], references: [id], onDelete: SetNull)
+
+  // Paramètres saisis dans l'atelier.
+  objective      String
+  imageType      String
+  subjectDetails String?
+  framing        String?
+  aspectRatio    String?
+  highlights     String?
+  constraints    String?
+  exclusions     String?
+
+  // Les dix sections du brief, générées puis librement modifiables.
+  sectionObjective    String
+  sectionSubject      String
+  sectionArtDirection String
+  sectionReferences   String
+  sectionComposition  String
+  sectionLighting     String
+  sectionMaterials    String
+  sectionConsistency  String
+  sectionForbidden    String
+  sectionOutput       String
+  prompt              String
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  references  BriefReference[]
+  generations GenerationRecord[]
+
+  @@index([updatedAt(sort: Desc)])
+  @@index([characterId])
+}
+
+model BriefReference {
+  briefId  String        @db.Uuid
+  assetId  String        @db.Uuid
+  brief    Brief         @relation(fields: [briefId], references: [id], onDelete: Cascade)
+  asset    Asset         @relation(fields: [assetId], references: [id], onDelete: Cascade)
+  role     ReferenceRole
+  aspects  StyleAspect[]
+  note     String?
+  position Int
+
+  @@id([briefId, assetId])
+  @@index([assetId])
+}
+
+model GenerationRecord {
+  id                  String             @id @default(uuid(7)) @db.Uuid
+  title               String
+  status              GenerationStatus   @default(TO_REVIEW)
+  /// Image obtenue, importée dans la bibliothèque avec l'origine GENERATED.
+  assetId             String?            @unique @db.Uuid
+  asset               Asset?             @relation("GenerationResult", fields: [assetId], references: [id], onDelete: SetNull)
+  briefId             String?            @db.Uuid
+  brief               Brief?             @relation(fields: [briefId], references: [id], onDelete: SetNull)
+  characterId         String?            @db.Uuid
+  character           Character?         @relation(fields: [characterId], references: [id], onDelete: SetNull)
+  styleGuideVersionId String?            @db.Uuid
+  styleGuideVersion   StyleGuideVersion? @relation(fields: [styleGuideVersionId], references: [id], onDelete: SetNull)
+  previousId          String?            @db.Uuid
+  previous            GenerationRecord?  @relation("GenerationVersions", fields: [previousId], references: [id], onDelete: SetNull)
+  nextVersions        GenerationRecord[] @relation("GenerationVersions")
+
+  prompt        String
+  /// Instantané texte du brief au moment de la génération (le brief vivant peut évoluer ensuite).
+  briefSnapshot String?
+  tool          String?
+  sourceUrl     String?
+  revisionNotes String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  references GenerationReference[]
+
+  @@index([createdAt(sort: Desc)])
+  @@index([status])
+  @@index([characterId])
+  @@index([briefId])
+  @@index([previousId])
+}
+
+model GenerationReference {
+  generationId String           @db.Uuid
+  assetId      String           @db.Uuid
+  generation   GenerationRecord @relation(fields: [generationId], references: [id], onDelete: Cascade)
+  asset        Asset            @relation(fields: [assetId], references: [id], onDelete: Cascade)
+  role         ReferenceRole
+  aspects      StyleAspect[]
+  note         String?
+  position     Int
+
+  @@id([generationId, assetId])
+  @@index([assetId])
+}
+
+// ─── Cartes de bataille ───────────────────────────────────────────────────
+
+enum GridStyle {
+  DARK
+  LIGHT
+}
+
+/// Carte vue du dessus, quadrillée par le site et imprimée à l'échelle sur des feuilles A4.
+/// L'image est recadrée au centre pour remplir exactement colonnes × rangées cases.
+model BattleMap {
+  id          String    @id @default(uuid(7)) @db.Uuid
+  title       String
+  assetId     String    @db.Uuid
+  asset       Asset     @relation(fields: [assetId], references: [id], onDelete: Cascade)
+  columns     Int
+  rows        Int
+  /// Côté d'une case en dixièmes de millimètre : 250 (2,5 cm) ou 254 (un pouce).
+  cellTenthMm Int       @default(250)
+  gridStyle   GridStyle @default(DARK)
+  /// Opacité des traits du quadrillage, de 10 à 100.
+  gridOpacity Int       @default(60)
+  /// Repères de cases (A, B, C… / 1, 2, 3…) dans les marges des feuilles.
+  showLabels  Boolean   @default(true)
+  notes       String?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@index([assetId])
+  @@index([updatedAt(sort: Desc)])
+}
