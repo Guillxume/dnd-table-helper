@@ -16,7 +16,9 @@ permissions:
 jobs:
   srd:
     name: Données contre le SRD 5.2.1
-    runs-on: ubuntu-latest
+    # Ubuntu 24.04 fixé : le poppler 26 d'Ubuntu 26.04 (nouveau ubuntu-latest) découpe autrement le texte du PDF
+    # et fait échouer les contrôles d'en-tête et de nombre de sorts, sans que les données aient changé.
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v7
